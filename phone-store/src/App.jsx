@@ -1,3 +1,4 @@
-function App() {}
-
-export default App;
+import "./App.css";
+export default function App() {
+  return <div></div>;
+}
