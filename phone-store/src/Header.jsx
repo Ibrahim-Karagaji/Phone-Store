@@ -17,7 +17,7 @@ export default function Header() {
           <i className="fa-solid log-in fa-right-to-bracket !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1 relative"></i>
           <i className="option fa-solid fa-bars left-[0px] absolute opacity-0 !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1"></i>
 
-          <div className="list-option absolute opacity-0 grid bg-[#eeeeeed1] text-[#063447] !p-[2px] text-[2px] top-[-30px] right-[180px] rounded-[5px] duration-500">
+          <div className="list-option absolute opacity-0 grid bg-[#eeeeeed1] text-[#063447] !p-[2px] text-[2px] top-[-30px] right-[15px] rounded-[5px] duration-500">
             <p className=" !p-[5px] border-b-[solid] border-b-[2px] border-b-[#063447] duration-500 hover:-translate-y-1">
               Cart shopping
             </p>

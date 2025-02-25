@@ -26,6 +26,8 @@
   .shopping {
     opacity: 0%;
     position: absolute;
+    left: 10px;
+    top: -100px;
   }
 }
 
@@ -54,6 +56,8 @@
   .heart {
     opacity: 0%;
     position: absolute;
+    left: 10px;
+    top: -100px;
   }
 }
 
@@ -83,6 +87,8 @@
   .log-in {
     opacity: 0%;
     position: absolute;
+    left: 10px;
+    top: -100px;
   }
 }
 
@@ -97,6 +103,6 @@
     opacity: 100%;
     font-size: 13px;
     top: 55px;
-    right: 160px;
+    right: 5px;
   }
 }
