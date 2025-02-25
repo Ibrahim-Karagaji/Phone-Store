@@ -8,9 +8,9 @@ export default function Header() {
           className="focus:outline-none w-[93%]"
         />
         <div className="choices flex items-center gap-[10px] !m-[0px_10px]">
-          <i className="fa-solid shopping fa-cart-shopping !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1"></i>
-          <i className="fa-solid heart fa-heart !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1"></i>
-          <i className="fa-solid log-in fa-right-to-bracket !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1"></i>
+          <i className="fa-solid shopping fa-cart-shopping !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1 relative"></i>
+          <i className="fa-solid heart fa-heart !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1 relative"></i>
+          <i className="fa-solid log-in fa-right-to-bracket !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1 relative"></i>
           <i className="option fa-solid fa-bars left-[0px] absolute opacity-0 !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1"></i>
 
           <div className="list-option absolute opacity-0 grid bg-[#eeeeeed1] text-[#063447] !p-[2px] text-[2px] top-[-30px] right-[180px] rounded-[5px] duration-500">
