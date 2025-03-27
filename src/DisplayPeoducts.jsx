@@ -1,5 +1,5 @@
-export default function DisplayPeoducts(props) {
-  const newProducts = props.products.map((p, index) => {
+export default function DisplayPeoducts(products) {
+  const newProducts = products.map((p, index) => {
     return (
       <div
         key={index}

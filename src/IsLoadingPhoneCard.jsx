@@ -9,7 +9,7 @@ export default function IsLoadingPhoneCard() {
       <div className="flex justify-between !p-[5px] text-[#031c27] bg-[#031c27] items-center">
         <i className="fa-solid heart fa-heart"></i>
         <button className="flex items-center gap-[8px]">
-          <i className="fa-solid heart fa-heart"></i> <p>Add To Cart</p>
+          <p>Add To Cart</p>
         </button>
       </div>
     </div>
