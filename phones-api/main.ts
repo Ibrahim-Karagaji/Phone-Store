@@ -6,7 +6,7 @@ import corsHandler from "./lib/corsHandler.ts";
 
 const router = new Router();
 
-router.get("/phones", (ctx) => {
+router.get("/phones", async (ctx) => {
   const limit = Number(ctx.request.url.searchParams.get("limit")) || 15;
   const brand = ctx.request.url.searchParams.get("brand");
   const storage = ctx.request.url.searchParams.get("storage");
@@ -16,6 +16,8 @@ router.get("/phones", (ctx) => {
   const productionDateStart = ctx.request.url.searchParams.get("productionDateStart");
   const productionDateEnd = ctx.request.url.searchParams.get("productionDateEnd");
   const category = ctx.request.url.searchParams.get("category");
+
+  await new Promise((res) => setTimeout(res, 2000))
 
   ctx.response.body = filterPhones(phones, {
     brand,
@@ -29,7 +31,8 @@ router.get("/phones", (ctx) => {
   }).slice(0, limit);
 });
 
-router.get("/phones/:id", (ctx) => {
+router.get("/phones/:id", async (ctx) => {
+  await new Promise((res) => setTimeout(res, 2000))
   ctx.response.body = phones[Number(ctx.params.id)]
 });
 
@@ -39,5 +42,7 @@ app.use(router.allowedMethods());
 app.use(corsHandler);
 app.use(router.routes());
 
-await app.listen({ port: 8080 })
+app.listen({ port: 7777 })
+
+console.log("the server is running on http://localhost:7777");
 
