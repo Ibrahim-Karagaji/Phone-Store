@@ -1,10 +1,11 @@
-import ProductsList from "./ProductsList";
-
+import DisplayPeoducts from "./DisplayPeoducts"
+import { products } from "./App";
+import { useContext } from "react";
 export default function PhoneCards() {
   return (
     <div className="flex flex-col gap-5">
-      <ProductsList title="Flagship" filterBy="Flagship" />
-      <ProductsList title="Mid Range" filterBy="Mid-range" />
+      <DisplayPeoducts />
+      <DisplayPeoducts />
     </div>
   );
 }
