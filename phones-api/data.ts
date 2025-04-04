@@ -655,4 +655,216 @@ export const phones: Phone[] = [
     storage: "64GB / 256GB / 512GB",
     ram: "4GB",
   },
+
+  //   Honor Phones
+
+  {
+    name: "Honor Magic5 Pro",
+    description:
+      "Flagship with Snapdragon 8 Gen 2, 6.81-inch OLED, 120Hz, 50MP+50MP+50MP cameras, 5100mAh battery, 66W charging.",
+    price: 1099,
+    brand: "Honor",
+    category: "Flagship",
+    production: "February 2023",
+    storage: "256GB / 512GB",
+    ram: "12GB",
+  },
+  {
+    name: "Honor Magic5",
+    description:
+      "Snapdragon 8 Gen 2, 6.73-inch OLED, 120Hz, 54MP+50MP+50MP cameras, 4800mAh battery, 66W charging.",
+    price: 999,
+    brand: "Honor",
+    category: "Flagship",
+    production: "February 2023",
+    storage: "256GB / 512GB",
+    ram: "12GB",
+  },
+  {
+    name: "Honor 90 5G",
+    description:
+      "Snapdragon 7 Gen 1, 6.7-inch OLED, 120Hz, 200MP+12MP+2MP cameras, 5000mAh battery, 66W charging.",
+    price: 549,
+    brand: "Honor",
+    category: "Mid-range",
+    production: "May 2023",
+    storage: "256GB / 512GB",
+    ram: "8GB / 12GB",
+  },
+  {
+    name: "Honor 70 5G",
+    description:
+      "Snapdragon 778G, 6.67-inch OLED, 120Hz, 54MP+50MP+2MP cameras, 4800mAh battery, 66W charging.",
+    price: 499,
+    brand: "Honor",
+    category: "Mid-range",
+    production: "May 2022",
+    storage: "128GB / 256GB",
+    ram: "8GB / 12GB",
+  },
+  {
+    name: "Honor X9a 5G",
+    description:
+      "Snapdragon 695, 6.67-inch AMOLED, 120Hz, 48MP+2MP+2MP cameras, 5100mAh battery, 40W charging.",
+    price: 299,
+    brand: "Honor",
+    category: "Mid-range",
+    production: "January 2023",
+    storage: "128GB / 256GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Honor Magic4 Pro",
+    description:
+      "Snapdragon 8 Gen 1, 6.81-inch OLED, 120Hz, 50MP+64MP+50MP cameras, 4600mAh battery, 100W charging.",
+    price: 1099,
+    brand: "Honor",
+    category: "Flagship",
+    production: "March 2022",
+    storage: "256GB / 512GB",
+    ram: "12GB",
+  },
+  {
+    name: "Honor Magic4",
+    description:
+      "Snapdragon 8 Gen 1, 6.81-inch OLED, 120Hz, 50MP+50MP+8MP cameras, 4600mAh battery, 66W charging.",
+    price: 899,
+    brand: "Honor",
+    category: "Flagship",
+    production: "March 2022",
+    storage: "256GB / 512GB",
+    ram: "8GB / 12GB",
+  },
+  {
+    name: "Honor 50",
+    description:
+      "Snapdragon 778G, 6.57-inch OLED, 120Hz, 108MP+8MP+2MP+2MP cameras, 4300mAh battery, 66W charging.",
+    price: 499,
+    brand: "Honor",
+    category: "Mid-range",
+    production: "June 2021",
+    storage: "128GB / 256GB",
+    ram: "8GB / 12GB",
+  },
+  {
+    name: "Honor X8 5G",
+    description:
+      "Snapdragon 480 5G, 6.5-inch IPS LCD, 90Hz, 48MP+2MP+2MP cameras, 4000mAh battery, 22.5W charging.",
+    price: 249,
+    brand: "Honor",
+    category: "Budget",
+    production: "March 2022",
+    storage: "128GB",
+    ram: "6GB",
+  },
+  {
+    name: "Honor X7 5G",
+    description:
+      "Snapdragon 695, 6.74-inch IPS LCD, 90Hz, 48MP+5MP+2MP cameras, 5000mAh battery, 22.5W charging.",
+    price: 229,
+    brand: "Honor",
+    category: "Budget",
+    production: "April 2022",
+    storage: "128GB",
+    ram: "4GB / 6GB",
+  },
+  {
+    name: "Honor Magic5 Lite",
+    description:
+      "Snapdragon 695, 6.67-inch OLED, 120Hz, 64MP+5MP+2MP cameras, 5100mAh battery, 40W charging.",
+    price: 299,
+    brand: "Honor",
+    category: "Mid-range",
+    production: "February 2023",
+    storage: "128GB",
+    ram: "6GB",
+  },
+  {
+    name: "Honor 10X Lite",
+    description:
+      "Kirin 710A, 6.67-inch IPS LCD, 60Hz, 48MP+8MP+2MP cameras, 5000mAh battery, 22.5W charging.",
+    price: 199,
+    brand: "Honor",
+    category: "Budget",
+    production: "November 2020",
+    storage: "128GB",
+    ram: "4GB",
+  },
+  {
+    name: "Honor View 20",
+    description:
+      "Kirin 980, 6.4-inch IPS LCD, 60Hz, 48MP+3D camera, 4000mAh battery, 40W charging.",
+    price: 499,
+    brand: "Honor",
+    category: "Flagship",
+    production: "January 2019",
+    storage: "128GB / 256GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Honor 9X Pro",
+    description:
+      "Kirin 810, 6.59-inch IPS LCD, 60Hz, 48MP+2MP cameras, 4000mAh battery, 10W charging.",
+    price: 399,
+    brand: "Honor",
+    category: "Mid-range",
+    production: "January 2020",
+    storage: "128GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Honor 8X",
+    description:
+      "Kirin 710, 6.5-inch IPS LCD, 60Hz, 20MP+2MP cameras, 3750mAh battery, 10W charging.",
+    price: 249,
+    brand: "Honor",
+    category: "Budget",
+    production: "September 2018",
+    storage: "64GB / 128GB",
+    ram: "4GB / 6GB",
+  },
+  {
+    name: "Honor 20 Pro",
+    description:
+      "Kirin 980, 6.26-inch IPS LCD, 60Hz, 48MP+16MP+2MP+2MP cameras, 4000mAh battery, 22.5W charging.",
+    price: 399,
+    brand: "Honor",
+    category: "Flagship",
+    production: "June 2019",
+    storage: "128GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Honor 8",
+    description:
+      "Kirin 950, 5.2-inch IPS LCD, 60Hz, 12MP+8MP cameras, 3000mAh battery, 9V/2A charging.",
+    price: 299,
+    brand: "Honor",
+    category: "Mid-range",
+    production: "May 2016",
+    storage: "32GB / 64GB",
+    ram: "3GB / 4GB",
+  },
+  {
+    name: "Honor Play 4 Pro",
+    description:
+      "Kirin 990, 6.57-inch OLED, 60Hz, 48MP+8MP cameras, 4200mAh battery, 40W charging.",
+    price: 549,
+    brand: "Honor",
+    category: "Mid-range",
+    production: "July 2020",
+    storage: "128GB",
+    ram: "8GB",
+  },
+  {
+    name: "Honor 7X",
+    description:
+      "Kirin 659, 5.93-inch IPS LCD, 60Hz, 16MP+2MP cameras, 3340mAh battery, 5V/2A charging.",
+    price: 199,
+    brand: "Honor",
+    category: "Budget",
+    production: "October 2017",
+    storage: "32GB / 64GB",
+    ram: "3GB / 4GB",
+  },
 ];
