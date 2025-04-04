@@ -1079,4 +1079,95 @@ export const phones: Phone[] = [
     storage: "32GB / 64GB",
     ram: "3GB / 4GB",
   },
+
+  //   oppo phones
+
+  {
+    name: "Oppo Find X5 Pro",
+    description:
+      "Snapdragon 8 Gen 1, 6.7-inch AMOLED, 120Hz, 50MP+50MP+13MP cameras, 5000mAh battery, 80W charging.",
+    price: 1199,
+    brand: "Oppo",
+    category: "Flagship",
+    production: "February 2022",
+    storage: "256GB",
+    ram: "12GB",
+  },
+  {
+    name: "Oppo Reno8 Pro 5G",
+    description:
+      "MediaTek Dimensity 8100-Max, 6.7-inch AMOLED, 120Hz, 50MP+8MP+2MP cameras, 4500mAh battery, 80W charging.",
+    price: 599,
+    brand: "Oppo",
+    category: "Mid-range",
+    production: "July 2022",
+    storage: "128GB / 256GB",
+    ram: "8GB / 12GB",
+  },
+  {
+    name: "Oppo Find X3 Pro",
+    description:
+      "Snapdragon 888, 6.7-inch AMOLED, 120Hz, 50MP+50MP+13MP+3MP cameras, 4500mAh battery, 65W charging.",
+    price: 999,
+    brand: "Oppo",
+    category: "Flagship",
+    production: "March 2021",
+    storage: "256GB",
+    ram: "12GB",
+  },
+  {
+    name: "Oppo Reno7 Pro 5G",
+    description:
+      "MediaTek Dimensity 1200, 6.55-inch AMOLED, 90Hz, 50MP+8MP+2MP cameras, 4500mAh battery, 65W charging.",
+    price: 499,
+    brand: "Oppo",
+    category: "Mid-range",
+    production: "December 2021",
+    storage: "128GB / 256GB",
+    ram: "8GB / 12GB",
+  },
+  {
+    name: "Oppo A95 5G",
+    description:
+      "Snapdragon 480, 6.43-inch AMOLED, 60Hz, 48MP+8MP+2MP cameras, 5000mAh battery, 33W charging.",
+    price: 299,
+    brand: "Oppo",
+    category: "Mid-range",
+    production: "November 2021",
+    storage: "128GB",
+    ram: "8GB",
+  },
+  {
+    name: "Oppo F19 Pro+ 5G",
+    description:
+      "MediaTek Dimensity 800U, 6.4-inch AMOLED, 60Hz, 48MP+8MP+2MP+2MP cameras, 4310mAh battery, 50W charging.",
+    price: 399,
+    brand: "Oppo",
+    category: "Mid-range",
+    production: "March 2021",
+    storage: "128GB",
+    ram: "8GB",
+  },
+  {
+    name: "Oppo A74 5G",
+    description:
+      "Snapdragon 480, 6.5-inch IPS LCD, 90Hz, 48MP+8MP+2MP cameras, 5000mAh battery, 18W charging.",
+    price: 249,
+    brand: "Oppo",
+    category: "Budget",
+    production: "April 2021",
+    storage: "128GB",
+    ram: "6GB",
+  },
+  {
+    name: "Oppo Reno6 5G",
+    description:
+      "MediaTek Dimensity 900, 6.43-inch AMOLED, 90Hz, 64MP+8MP+2MP cameras, 4300mAh battery, 65W charging.",
+    price: 399,
+    brand: "Oppo",
+    category: "Mid-range",
+    production: "June 2021",
+    storage: "128GB",
+    ram: "8GB",
+  },
 ];
