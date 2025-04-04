@@ -1283,4 +1283,161 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "4GB",
   },
+
+  //   xiamoi phones
+
+  {
+    name: "Xiaomi 13 Pro",
+    description:
+      "Snapdragon 8 Gen 2, 6.73-inch AMOLED, 120Hz, 50MP+50MP+50MP cameras, 4820mAh battery, 120W charging.",
+    price: 1199,
+    brand: "Xiaomi",
+    category: "Flagship",
+    production: "December 2022",
+    storage: "256GB / 512GB",
+    ram: "12GB",
+  },
+  {
+    name: "Xiaomi 12 Pro",
+    description:
+      "Snapdragon 8 Gen 1, 6.73-inch AMOLED, 120Hz, 50MP+50MP+50MP cameras, 4600mAh battery, 120W charging.",
+    price: 999,
+    brand: "Xiaomi",
+    category: "Flagship",
+    production: "March 2022",
+    storage: "256GB",
+    ram: "12GB",
+  },
+  {
+    name: "Xiaomi Redmi Note 12 Pro+",
+    description:
+      "MediaTek Dimensity 1080, 6.67-inch AMOLED, 120Hz, 200MP+8MP+2MP cameras, 5000mAh battery, 120W charging.",
+    price: 299,
+    brand: "Xiaomi",
+    category: "Mid-range",
+    production: "October 2022",
+    storage: "128GB / 256GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Xiaomi Mi 11 Ultra",
+    description:
+      "Snapdragon 888, 6.81-inch AMOLED, 120Hz, 50MP+48MP+48MP cameras, 5000mAh battery, 67W charging.",
+    price: 899,
+    brand: "Xiaomi",
+    category: "Flagship",
+    production: "March 2021",
+    storage: "256GB",
+    ram: "12GB",
+  },
+  {
+    name: "Xiaomi Redmi Note 11 Pro 5G",
+    description:
+      "Snapdragon 695, 6.67-inch AMOLED, 120Hz, 108MP+8MP+2MP cameras, 5000mAh battery, 67W charging.",
+    price: 249,
+    brand: "Xiaomi",
+    category: "Mid-range",
+    production: "January 2022",
+    storage: "64GB / 128GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Xiaomi Mi 11X Pro",
+    description:
+      "Snapdragon 888, 6.67-inch AMOLED, 120Hz, 108MP+8MP+5MP cameras, 4520mAh battery, 33W charging.",
+    price: 499,
+    brand: "Xiaomi",
+    category: "Mid-range",
+    production: "April 2021",
+    storage: "128GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Xiaomi Redmi K40 Pro",
+    description:
+      "Snapdragon 888, 6.67-inch AMOLED, 120Hz, 64MP+8MP+5MP cameras, 4520mAh battery, 33W charging.",
+    price: 499,
+    brand: "Xiaomi",
+    category: "Flagship",
+    production: "February 2021",
+    storage: "128GB / 256GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Xiaomi Redmi Note 10 Pro",
+    description:
+      "Snapdragon 732G, 6.67-inch AMOLED, 120Hz, 108MP+8MP+5MP+2MP cameras, 5020mAh battery, 33W charging.",
+    price: 249,
+    brand: "Xiaomi",
+    category: "Mid-range",
+    production: "March 2021",
+    storage: "64GB / 128GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Xiaomi 11T Pro",
+    description:
+      "Snapdragon 888, 6.67-inch AMOLED, 120Hz, 108MP+8MP+5MP cameras, 5000mAh battery, 120W charging.",
+    price: 649,
+    brand: "Xiaomi",
+    category: "Flagship",
+    production: "September 2021",
+    storage: "128GB / 256GB",
+    ram: "8GB / 12GB",
+  },
+  {
+    name: "Xiaomi Mi 10T Pro",
+    description:
+      "Snapdragon 865, 6.67-inch IPS LCD, 144Hz, 108MP+13MP+5MP cameras, 5000mAh battery, 33W charging.",
+    price: 599,
+    brand: "Xiaomi",
+    category: "Flagship",
+    production: "October 2020",
+    storage: "128GB / 256GB",
+    ram: "8GB",
+  },
+  {
+    name: "Xiaomi Mi 10 5G",
+    description:
+      "Snapdragon 865, 6.67-inch AMOLED, 90Hz, 108MP+13MP+2MP+2MP cameras, 4780mAh battery, 30W charging.",
+    price: 699,
+    brand: "Xiaomi",
+    category: "Flagship",
+    production: "February 2020",
+    storage: "128GB",
+    ram: "8GB",
+  },
+  {
+    name: "Xiaomi Redmi Note 9 Pro",
+    description:
+      "Snapdragon 720G, 6.67-inch IPS LCD, 60Hz, 48MP+8MP+5MP+2MP cameras, 5020mAh battery, 30W charging.",
+    price: 199,
+    brand: "Xiaomi",
+    category: "Mid-range",
+    production: "March 2020",
+    storage: "64GB / 128GB",
+    ram: "4GB / 6GB",
+  },
+  {
+    name: "Xiaomi Redmi Note 8 Pro",
+    description:
+      "Helio G90T, 6.53-inch IPS LCD, 60Hz, 64MP+8MP+2MP+2MP cameras, 4500mAh battery, 18W charging.",
+    price: 189,
+    brand: "Xiaomi",
+    category: "Mid-range",
+    production: "August 2019",
+    storage: "64GB / 128GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Xiaomi Mi A3",
+    description:
+      "Snapdragon 665, 6.088-inch AMOLED, 60Hz, 48MP+8MP+2MP cameras, 4030mAh battery, 18W charging.",
+    price: 249,
+    brand: "Xiaomi",
+    category: "Mid-range",
+    production: "July 2019",
+    storage: "64GB / 128GB",
+    ram: "4GB / 6GB",
+  },
 ];
