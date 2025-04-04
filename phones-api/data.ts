@@ -1440,4 +1440,62 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "4GB / 6GB",
   },
+
+  //   tecno phones
+
+  {
+    name: "Tecno Phantom X2 Pro",
+    description:
+      "Dimensity 9000, 6.8-inch AMOLED, 120Hz, 50MP+50MP+13MP cameras, 5160mAh battery, 45W charging.",
+    price: 799,
+    brand: "Tecno",
+    category: "Flagship",
+    production: "December 2022",
+    storage: "256GB",
+    ram: "12GB",
+  },
+  {
+    name: "Tecno Spark 9 Pro",
+    description:
+      "MediaTek Helio G85, 6.6-inch IPS LCD, 90Hz, 48MP+2MP+AI cameras, 5000mAh battery, 18W charging.",
+    price: 169,
+    brand: "Tecno",
+    category: "Budget",
+    production: "June 2022",
+    storage: "64GB / 128GB",
+    ram: "4GB / 6GB",
+  },
+  {
+    name: "Tecno Camon 18 Pro",
+    description:
+      "MediaTek Helio G95, 6.8-inch AMOLED, 90Hz, 64MP+8MP+2MP cameras, 4750mAh battery, 33W charging.",
+    price: 299,
+    brand: "Tecno",
+    category: "Mid-range",
+    production: "October 2021",
+    storage: "128GB",
+    ram: "8GB",
+  },
+  {
+    name: "Tecno Pova 4 Pro",
+    description:
+      "MediaTek Helio G99, 6.66-inch AMOLED, 120Hz, 50MP+2MP cameras, 4500mAh battery, 45W charging.",
+    price: 199,
+    brand: "Tecno",
+    category: "Budget",
+    production: "August 2022",
+    storage: "128GB",
+    ram: "8GB",
+  },
+  {
+    name: "Tecno Phantom X",
+    description:
+      "MediaTek Helio G95, 6.7-inch AMOLED, 90Hz, 50MP+13MP+8MP cameras, 4700mAh battery, 33W charging.",
+    price: 499,
+    brand: "Tecno",
+    category: "Flagship",
+    production: "July 2021",
+    storage: "128GB",
+    ram: "8GB",
+  },
 ];
