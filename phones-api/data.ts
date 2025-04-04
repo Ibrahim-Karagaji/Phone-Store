@@ -443,4 +443,216 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "4GB / 6GB",
   },
+
+  //   apple phones
+
+  {
+    name: "iPhone 15 Pro Max",
+    description:
+      "Flagship phone with A17 Pro chip, 6.7-inch Super Retina XDR OLED, 120Hz, 48MP+12MP+12MP cameras, 4422mAh battery, 20W charging.",
+    price: 1599,
+    brand: "Apple",
+    category: "Flagship",
+    production: "September 2023",
+    storage: "256GB / 512GB / 1TB",
+    ram: "8GB",
+  },
+  {
+    name: "iPhone 15 Pro",
+    description:
+      "Flagship phone with A17 Pro chip, 6.1-inch Super Retina XDR OLED, 120Hz, 48MP+12MP+12MP cameras, 3200mAh battery, 20W charging.",
+    price: 1299,
+    brand: "Apple",
+    category: "Flagship",
+    production: "September 2023",
+    storage: "256GB / 512GB / 1TB",
+    ram: "8GB",
+  },
+  {
+    name: "iPhone 15 Plus",
+    description:
+      "A16 Bionic chip, 6.7-inch Super Retina XDR OLED, 60Hz, 48MP+12MP+12MP cameras, 4383mAh battery, 20W charging.",
+    price: 899,
+    brand: "Apple",
+    category: "Flagship",
+    production: "September 2023",
+    storage: "128GB / 256GB / 512GB",
+    ram: "6GB",
+  },
+  {
+    name: "iPhone 15",
+    description:
+      "A16 Bionic chip, 6.1-inch Super Retina XDR OLED, 60Hz, 48MP+12MP+12MP cameras, 3274mAh battery, 20W charging.",
+    price: 799,
+    brand: "Apple",
+    category: "Flagship",
+    production: "September 2023",
+    storage: "128GB / 256GB / 512GB",
+    ram: "6GB",
+  },
+  {
+    name: "iPhone 14 Pro Max",
+    description:
+      "A16 Bionic chip, 6.7-inch Super Retina XDR OLED, 120Hz, 48MP+12MP+12MP cameras, 4323mAh battery, 20W charging.",
+    price: 1099,
+    brand: "Apple",
+    category: "Flagship",
+    production: "September 2022",
+    storage: "128GB / 256GB / 512GB / 1TB",
+    ram: "6GB",
+  },
+  {
+    name: "iPhone 14 Pro",
+    description:
+      "A16 Bionic chip, 6.1-inch Super Retina XDR OLED, 120Hz, 48MP+12MP+12MP cameras, 3200mAh battery, 20W charging.",
+    price: 999,
+    brand: "Apple",
+    category: "Flagship",
+    production: "September 2022",
+    storage: "128GB / 256GB / 512GB / 1TB",
+    ram: "6GB",
+  },
+  {
+    name: "iPhone 14 Plus",
+    description:
+      "A15 Bionic chip, 6.7-inch Super Retina XDR OLED, 60Hz, 12MP+12MP cameras, 4325mAh battery, 20W charging.",
+    price: 899,
+    brand: "Apple",
+    category: "Flagship",
+    production: "September 2022",
+    storage: "128GB / 256GB / 512GB",
+    ram: "6GB",
+  },
+  {
+    name: "iPhone 14",
+    description:
+      "A15 Bionic chip, 6.1-inch Super Retina XDR OLED, 60Hz, 12MP+12MP cameras, 3279mAh battery, 20W charging.",
+    price: 799,
+    brand: "Apple",
+    category: "Flagship",
+    production: "September 2022",
+    storage: "128GB / 256GB / 512GB",
+    ram: "6GB",
+  },
+  {
+    name: "iPhone 13 Pro Max",
+    description:
+      "A15 Bionic chip, 6.7-inch Super Retina XDR OLED, 120Hz, 12MP+12MP+12MP cameras, 4352mAh battery, 20W charging.",
+    price: 1099,
+    brand: "Apple",
+    category: "Flagship",
+    production: "September 2021",
+    storage: "128GB / 256GB / 512GB / 1TB",
+    ram: "6GB",
+  },
+  {
+    name: "iPhone 13 Pro",
+    description:
+      "A15 Bionic chip, 6.1-inch Super Retina XDR OLED, 120Hz, 12MP+12MP+12MP cameras, 3095mAh battery, 20W charging.",
+    price: 999,
+    brand: "Apple",
+    category: "Flagship",
+    production: "September 2021",
+    storage: "128GB / 256GB / 512GB / 1TB",
+    ram: "6GB",
+  },
+  {
+    name: "iPhone 13",
+    description:
+      "A15 Bionic chip, 6.1-inch Super Retina XDR OLED, 60Hz, 12MP+12MP cameras, 3240mAh battery, 20W charging.",
+    price: 799,
+    brand: "Apple",
+    category: "Flagship",
+    production: "September 2021",
+    storage: "128GB / 256GB / 512GB",
+    ram: "4GB",
+  },
+  {
+    name: "iPhone 13 Mini",
+    description:
+      "A15 Bionic chip, 5.4-inch Super Retina XDR OLED, 60Hz, 12MP+12MP cameras, 2438mAh battery, 20W charging.",
+    price: 699,
+    brand: "Apple",
+    category: "Flagship",
+    production: "September 2021",
+    storage: "128GB / 256GB / 512GB",
+    ram: "4GB",
+  },
+  {
+    name: "iPhone SE 3 (2022)",
+    description:
+      "A15 Bionic chip, 4.7-inch Retina HD display, 60Hz, 12MP camera, 2018mAh battery, 20W charging.",
+    price: 429,
+    brand: "Apple",
+    category: "Budget",
+    production: "March 2022",
+    storage: "64GB / 128GB / 256GB",
+    ram: "4GB",
+  },
+  {
+    name: "iPhone 12 Pro Max",
+    description:
+      "A14 Bionic chip, 6.7-inch Super Retina XDR OLED, 60Hz, 12MP+12MP+12MP cameras, 3687mAh battery, 20W charging.",
+    price: 1099,
+    brand: "Apple",
+    category: "Flagship",
+    production: "October 2020",
+    storage: "128GB / 256GB / 512GB",
+    ram: "6GB",
+  },
+  {
+    name: "iPhone 12 Pro",
+    description:
+      "A14 Bionic chip, 6.1-inch Super Retina XDR OLED, 60Hz, 12MP+12MP+12MP cameras, 2815mAh battery, 20W charging.",
+    price: 999,
+    brand: "Apple",
+    category: "Flagship",
+    production: "October 2020",
+    storage: "128GB / 256GB / 512GB",
+    ram: "6GB",
+  },
+  {
+    name: "iPhone 12",
+    description:
+      "A14 Bionic chip, 6.1-inch Super Retina XDR OLED, 60Hz, 12MP+12MP cameras, 2815mAh battery, 20W charging.",
+    price: 799,
+    brand: "Apple",
+    category: "Flagship",
+    production: "October 2020",
+    storage: "64GB / 128GB / 256GB",
+    ram: "4GB",
+  },
+  {
+    name: "iPhone 12 Mini",
+    description:
+      "A14 Bionic chip, 5.4-inch Super Retina XDR OLED, 60Hz, 12MP+12MP cameras, 2227mAh battery, 20W charging.",
+    price: 699,
+    brand: "Apple",
+    category: "Flagship",
+    production: "October 2020",
+    storage: "64GB / 128GB / 256GB",
+    ram: "4GB",
+  },
+  {
+    name: "iPhone 11 Pro Max",
+    description:
+      "A13 Bionic chip, 6.5-inch Super Retina XDR OLED, 60Hz, 12MP+12MP+12MP cameras, 3969mAh battery, 18W charging.",
+    price: 1099,
+    brand: "Apple",
+    category: "Flagship",
+    production: "September 2019",
+    storage: "64GB / 256GB / 512GB",
+    ram: "4GB",
+  },
+  {
+    name: "iPhone 11 Pro",
+    description:
+      "A13 Bionic chip, 5.8-inch Super Retina XDR OLED, 60Hz, 12MP+12MP+12MP cameras, 3046mAh battery, 18W charging.",
+    price: 999,
+    brand: "Apple",
+    category: "Flagship",
+    production: "September 2019",
+    storage: "64GB / 256GB / 512GB",
+    ram: "4GB",
+  },
 ];
