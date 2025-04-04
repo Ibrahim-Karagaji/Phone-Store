@@ -1170,4 +1170,117 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "8GB",
   },
+
+  //   vivo phones
+
+  {
+    name: "Vivo X90 Pro",
+    description:
+      "Snapdragon 8 Gen 2, 6.78-inch AMOLED, 120Hz, 50MP+50MP+12MP cameras, 4870mAh battery, 120W charging.",
+    price: 999,
+    brand: "Vivo",
+    category: "Flagship",
+    production: "December 2022",
+    storage: "256GB / 512GB",
+    ram: "12GB",
+  },
+  {
+    name: "Vivo V23 Pro 5G",
+    description:
+      "MediaTek Dimensity 1200, 6.56-inch AMOLED, 90Hz, 108MP+8MP+2MP cameras, 4300mAh battery, 44W charging.",
+    price: 499,
+    brand: "Vivo",
+    category: "Mid-range",
+    production: "January 2022",
+    storage: "128GB / 256GB",
+    ram: "8GB / 12GB",
+  },
+  {
+    name: "Vivo V21 5G",
+    description:
+      "MediaTek Dimensity 800U, 6.44-inch AMOLED, 90Hz, 64MP+8MP+2MP cameras, 4000mAh battery, 33W charging.",
+    price: 349,
+    brand: "Vivo",
+    category: "Mid-range",
+    production: "May 2021",
+    storage: "128GB / 256GB",
+    ram: "8GB",
+  },
+  {
+    name: "Vivo X60 Pro",
+    description:
+      "Snapdragon 870, 6.56-inch AMOLED, 120Hz, 48MP+13MP+13MP cameras, 4200mAh battery, 33W charging.",
+    price: 749,
+    brand: "Vivo",
+    category: "Flagship",
+    production: "March 2021",
+    storage: "128GB / 256GB",
+    ram: "12GB",
+  },
+  {
+    name: "Vivo V20 Pro",
+    description:
+      "Snapdragon 765G, 6.44-inch AMOLED, 90Hz, 64MP+8MP+2MP cameras, 4000mAh battery, 33W charging.",
+    price: 499,
+    brand: "Vivo",
+    category: "Mid-range",
+    production: "September 2020",
+    storage: "128GB",
+    ram: "8GB",
+  },
+  {
+    name: "Vivo Y73",
+    description:
+      "MediaTek Helio G95, 6.44-inch AMOLED, 60Hz, 64MP+2MP+2MP cameras, 4000mAh battery, 33W charging.",
+    price: 249,
+    brand: "Vivo",
+    category: "Mid-range",
+    production: "June 2021",
+    storage: "128GB",
+    ram: "8GB",
+  },
+  {
+    name: "Vivo Y53s",
+    description:
+      "MediaTek Helio G80, 6.58-inch IPS LCD, 60Hz, 64MP+2MP+2MP cameras, 5000mAh battery, 18W charging.",
+    price: 199,
+    brand: "Vivo",
+    category: "Budget",
+    production: "June 2021",
+    storage: "128GB",
+    ram: "8GB",
+  },
+  {
+    name: "Vivo T1 Pro 5G",
+    description:
+      "Snapdragon 695, 6.44-inch AMOLED, 90Hz, 64MP+8MP+2MP cameras, 5000mAh battery, 44W charging.",
+    price: 249,
+    brand: "Vivo",
+    category: "Mid-range",
+    production: "May 2022",
+    storage: "128GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Vivo X70 Pro",
+    description:
+      "MediaTek Dimensity 1200, 6.56-inch AMOLED, 120Hz, 50MP+12MP+12MP cameras, 4450mAh battery, 44W charging.",
+    price: 849,
+    brand: "Vivo",
+    category: "Flagship",
+    production: "September 2021",
+    storage: "256GB",
+    ram: "12GB",
+  },
+  {
+    name: "Vivo Y21",
+    description:
+      "MediaTek Helio P35, 6.51-inch IPS LCD, 60Hz, 13MP+2MP cameras, 5000mAh battery, 18W charging.",
+    price: 159,
+    brand: "Vivo",
+    category: "Budget",
+    production: "August 2021",
+    storage: "64GB / 128GB",
+    ram: "4GB",
+  },
 ];
