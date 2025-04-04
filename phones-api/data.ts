@@ -231,4 +231,216 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
   },
+
+  //   Samsung phones
+
+  {
+    name: "Samsung Galaxy S23 Ultra",
+    description:
+      "Flagship phone with Snapdragon 8 Gen 2, 6.8-inch Dynamic AMOLED, 120Hz, 200MP+12MP+10MP+10MP cameras, 5000mAh battery, 45W charging.",
+    price: 1199,
+    brand: "Samsung",
+    category: "Flagship",
+    production: "February 2023",
+    storage: "256GB / 512GB / 1TB",
+    ram: "12GB",
+  },
+  {
+    name: "Samsung Galaxy S23+",
+    description:
+      "Snapdragon 8 Gen 2, 6.6-inch Dynamic AMOLED, 120Hz, 50MP+12MP+10MP cameras, 4700mAh battery, 45W charging.",
+    price: 999,
+    brand: "Samsung",
+    category: "Flagship",
+    production: "February 2023",
+    storage: "256GB / 512GB",
+    ram: "8GB",
+  },
+  {
+    name: "Samsung Galaxy S23",
+    description:
+      "Snapdragon 8 Gen 2, 6.1-inch Dynamic AMOLED, 120Hz, 50MP+12MP+10MP cameras, 3900mAh battery, 25W charging.",
+    price: 799,
+    brand: "Samsung",
+    category: "Flagship",
+    production: "February 2023",
+    storage: "128GB / 256GB",
+    ram: "8GB",
+  },
+  {
+    name: "Samsung Galaxy Z Fold 5",
+    description:
+      "Foldable phone with Snapdragon 8 Gen 2, 7.6-inch Dynamic AMOLED 2X, 120Hz, 50MP+12MP+10MP cameras, 4400mAh battery, 25W charging.",
+    price: 1799,
+    brand: "Samsung",
+    category: "Foldable",
+    production: "July 2023",
+    storage: "256GB / 512GB / 1TB",
+    ram: "12GB",
+  },
+  {
+    name: "Samsung Galaxy Z Flip 5",
+    description:
+      "Compact foldable with Snapdragon 8 Gen 2, 6.7-inch Dynamic AMOLED, 120Hz, 12MP+12MP cameras, 3700mAh battery, 25W charging.",
+    price: 999,
+    brand: "Samsung",
+    category: "Foldable",
+    production: "July 2023",
+    storage: "256GB / 512GB",
+    ram: "8GB",
+  },
+  {
+    name: "Samsung Galaxy A54 5G",
+    description:
+      "Mid-range with Exynos 1380, 6.4-inch Super AMOLED, 120Hz, 50MP+12MP+5MP cameras, 5000mAh battery, 25W charging.",
+    price: 449,
+    brand: "Samsung",
+    category: "Mid-range",
+    production: "March 2023",
+    storage: "128GB / 256GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Samsung Galaxy A34 5G",
+    description:
+      "Mid-range with MediaTek Dimensity 1080, 6.6-inch Super AMOLED, 120Hz, 48MP+8MP+5MP cameras, 5000mAh battery, 25W charging.",
+    price: 349,
+    brand: "Samsung",
+    category: "Mid-range",
+    production: "March 2023",
+    storage: "128GB / 256GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Samsung Galaxy S22 Ultra",
+    description:
+      "Snapdragon 8 Gen 1, 6.8-inch Dynamic AMOLED, 120Hz, 108MP+12MP+10MP+10MP cameras, 5000mAh battery, 45W charging.",
+    price: 1099,
+    brand: "Samsung",
+    category: "Flagship",
+    production: "February 2022",
+    storage: "128GB / 256GB / 512GB",
+    ram: "12GB",
+  },
+  {
+    name: "Samsung Galaxy S22+",
+    description:
+      "Snapdragon 8 Gen 1, 6.6-inch Dynamic AMOLED, 120Hz, 50MP+10MP+12MP cameras, 4500mAh battery, 25W charging.",
+    price: 999,
+    brand: "Samsung",
+    category: "Flagship",
+    production: "February 2022",
+    storage: "128GB / 256GB",
+    ram: "8GB",
+  },
+  {
+    name: "Samsung Galaxy S22",
+    description:
+      "Snapdragon 8 Gen 1, 6.1-inch Dynamic AMOLED, 120Hz, 50MP+10MP+12MP cameras, 3700mAh battery, 25W charging.",
+    price: 799,
+    brand: "Samsung",
+    category: "Flagship",
+    production: "February 2022",
+    storage: "128GB / 256GB",
+    ram: "8GB",
+  },
+  {
+    name: "Samsung Galaxy Note 20 Ultra",
+    description:
+      "Snapdragon 865+, 6.9-inch Dynamic AMOLED, 120Hz, 108MP+12MP+12MP cameras, 4500mAh battery, 25W charging.",
+    price: 1299,
+    brand: "Samsung",
+    category: "Flagship",
+    production: "August 2020",
+    storage: "128GB / 256GB / 512GB",
+    ram: "8GB / 12GB",
+  },
+  {
+    name: "Samsung Galaxy Note 20",
+    description:
+      "Snapdragon 865+, 6.7-inch Dynamic AMOLED, 60Hz, 108MP+12MP+64MP cameras, 4300mAh battery, 25W charging.",
+    price: 999,
+    brand: "Samsung",
+    category: "Flagship",
+    production: "August 2020",
+    storage: "128GB / 256GB",
+    ram: "8GB",
+  },
+  {
+    name: "Samsung Galaxy A73 5G",
+    description:
+      "Mid-range with Snapdragon 778G, 6.7-inch Super AMOLED, 120Hz, 108MP+12MP+5MP+5MP cameras, 5000mAh battery, 25W charging.",
+    price: 499,
+    brand: "Samsung",
+    category: "Mid-range",
+    production: "March 2022",
+    storage: "128GB / 256GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Samsung Galaxy A72",
+    description:
+      "Mid-range with Snapdragon 720G, 6.7-inch Super AMOLED, 90Hz, 64MP+12MP+8MP+5MP cameras, 5000mAh battery, 25W charging.",
+    price: 449,
+    brand: "Samsung",
+    category: "Mid-range",
+    production: "March 2021",
+    storage: "128GB / 256GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Samsung Galaxy A52s 5G",
+    description:
+      "Mid-range with Snapdragon 778G, 6.5-inch Super AMOLED, 120Hz, 64MP+12MP+5MP+5MP cameras, 4500mAh battery, 25W charging.",
+    price: 429,
+    brand: "Samsung",
+    category: "Mid-range",
+    production: "August 2021",
+    storage: "128GB / 256GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Samsung Galaxy M54 5G",
+    description:
+      "Mid-range with Exynos 1380, 6.7-inch Super AMOLED, 120Hz, 108MP+8MP+2MP cameras, 6000mAh battery, 25W charging.",
+    price: 399,
+    brand: "Samsung",
+    category: "Mid-range",
+    production: "March 2023",
+    storage: "128GB / 256GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Samsung Galaxy M33 5G",
+    description:
+      "Mid-range with Exynos 1280, 6.6-inch PLS LCD, 120Hz, 50MP+5MP+2MP+2MP cameras, 6000mAh battery, 25W charging.",
+    price: 299,
+    brand: "Samsung",
+    category: "Mid-range",
+    production: "March 2022",
+    storage: "128GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Samsung Galaxy A32 5G",
+    description:
+      "Budget phone with MediaTek Dimensity 720, 6.5-inch PLS LCD, 90Hz, 48MP+8MP+5MP+2MP cameras, 5000mAh battery, 15W charging.",
+    price: 279,
+    brand: "Samsung",
+    category: "Budget",
+    production: "January 2021",
+    storage: "64GB / 128GB",
+    ram: "4GB / 6GB",
+  },
+  {
+    name: "Samsung Galaxy A12",
+    description:
+      "Budget phone with MediaTek Helio P35, 6.5-inch PLS LCD, 60Hz, 48MP+5MP+2MP+2MP cameras, 5000mAh battery, 15W charging.",
+    price: 199,
+    brand: "Samsung",
+    category: "Budget",
+    production: "November 2020",
+    storage: "64GB / 128GB",
+    ram: "4GB / 6GB",
+  },
 ];
