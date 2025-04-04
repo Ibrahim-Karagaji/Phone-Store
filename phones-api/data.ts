@@ -867,4 +867,216 @@ export const phones: Phone[] = [
     storage: "32GB / 64GB",
     ram: "3GB / 4GB",
   },
+
+  //   realme phones
+
+  {
+    name: "Realme GT 2 Pro",
+    description:
+      "Snapdragon 8 Gen 1, 6.7-inch AMOLED, 120Hz, 50MP+50MP+3MP cameras, 5000mAh battery, 65W charging.",
+    price: 899,
+    brand: "Realme",
+    category: "Flagship",
+    production: "January 2022",
+    storage: "128GB / 256GB",
+    ram: "8GB / 12GB",
+  },
+  {
+    name: "Realme GT 2",
+    description:
+      "Snapdragon 870, 6.62-inch AMOLED, 120Hz, 50MP+8MP+2MP cameras, 5000mAh battery, 65W charging.",
+    price: 499,
+    brand: "Realme",
+    category: "Flagship",
+    production: "January 2022",
+    storage: "128GB / 256GB",
+    ram: "8GB / 12GB",
+  },
+  {
+    name: "Realme 9 Pro+",
+    description:
+      "MediaTek Dimensity 920, 6.4-inch AMOLED, 90Hz, 50MP+8MP+2MP cameras, 4500mAh battery, 60W charging.",
+    price: 319,
+    brand: "Realme",
+    category: "Mid-range",
+    production: "February 2022",
+    storage: "128GB / 256GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Realme 9 Pro",
+    description:
+      "Snapdragon 695, 6.6-inch IPS LCD, 120Hz, 64MP+8MP+2MP cameras, 5000mAh battery, 33W charging.",
+    price: 249,
+    brand: "Realme",
+    category: "Mid-range",
+    production: "February 2022",
+    storage: "128GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Realme GT Master Edition",
+    description:
+      "Snapdragon 778G, 6.43-inch AMOLED, 120Hz, 64MP+8MP+2MP cameras, 4300mAh battery, 65W charging.",
+    price: 399,
+    brand: "Realme",
+    category: "Mid-range",
+    production: "July 2021",
+    storage: "128GB / 256GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Realme X7 Max 5G",
+    description:
+      "MediaTek Dimensity 1200, 6.43-inch Super AMOLED, 120Hz, 64MP+8MP+2MP cameras, 4500mAh battery, 50W charging.",
+    price: 349,
+    brand: "Realme",
+    category: "Mid-range",
+    production: "May 2021",
+    storage: "128GB / 256GB",
+    ram: "8GB / 12GB",
+  },
+  {
+    name: "Realme Narzo 50 Pro 5G",
+    description:
+      "MediaTek Dimensity 920, 6.4-inch AMOLED, 90Hz, 48MP+8MP+2MP cameras, 5000mAh battery, 33W charging.",
+    price: 249,
+    brand: "Realme",
+    category: "Mid-range",
+    production: "May 2022",
+    storage: "128GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Realme 8 Pro",
+    description:
+      "Snapdragon 720G, 6.4-inch Super AMOLED, 60Hz, 108MP+8MP+2MP+2MP cameras, 4500mAh battery, 50W charging.",
+    price: 279,
+    brand: "Realme",
+    category: "Mid-range",
+    production: "March 2021",
+    storage: "128GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Realme 8 5G",
+    description:
+      "MediaTek Dimensity 700, 6.5-inch IPS LCD, 90Hz, 48MP+2MP+2MP cameras, 5000mAh battery, 18W charging.",
+    price: 199,
+    brand: "Realme",
+    category: "Budget",
+    production: "April 2021",
+    storage: "128GB",
+    ram: "4GB / 6GB",
+  },
+  {
+    name: "Realme X50 Pro 5G",
+    description:
+      "Snapdragon 865, 6.44-inch Super AMOLED, 90Hz, 64MP+12MP+8MP+2MP cameras, 4200mAh battery, 65W charging.",
+    price: 649,
+    brand: "Realme",
+    category: "Flagship",
+    production: "February 2020",
+    storage: "128GB / 256GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Realme Narzo 30 Pro 5G",
+    description:
+      "MediaTek Dimensity 800U, 6.5-inch IPS LCD, 120Hz, 48MP+8MP+2MP cameras, 5000mAh battery, 30W charging.",
+    price: 219,
+    brand: "Realme",
+    category: "Budget",
+    production: "February 2021",
+    storage: "64GB / 128GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Realme C25Y",
+    description:
+      "Unisoc T610, 6.5-inch IPS LCD, 60Hz, 50MP+2MP+2MP cameras, 5000mAh battery, 18W charging.",
+    price: 159,
+    brand: "Realme",
+    category: "Budget",
+    production: "September 2021",
+    storage: "64GB / 128GB",
+    ram: "4GB",
+  },
+  {
+    name: "Realme Narzo 30A",
+    description:
+      "MediaTek Helio G85, 6.5-inch IPS LCD, 60Hz, 13MP+2MP cameras, 6000mAh battery, 18W charging.",
+    price: 139,
+    brand: "Realme",
+    category: "Budget",
+    production: "February 2021",
+    storage: "32GB / 64GB",
+    ram: "3GB / 4GB",
+  },
+  {
+    name: "Realme C12",
+    description:
+      "MediaTek Helio G35, 6.5-inch IPS LCD, 60Hz, 13MP+2MP+2MP cameras, 6000mAh battery, 10W charging.",
+    price: 139,
+    brand: "Realme",
+    category: "Budget",
+    production: "August 2020",
+    storage: "32GB / 64GB",
+    ram: "3GB / 4GB",
+  },
+  {
+    name: "Realme C15",
+    description:
+      "MediaTek Helio G35, 6.5-inch IPS LCD, 60Hz, 13MP+8MP+2MP+2MP cameras, 6000mAh battery, 18W charging.",
+    price: 149,
+    brand: "Realme",
+    category: "Budget",
+    production: "August 2020",
+    storage: "32GB / 64GB",
+    ram: "3GB / 4GB",
+  },
+  {
+    name: "Realme X2 Pro",
+    description:
+      "Snapdragon 855+, 6.5-inch Super AMOLED, 90Hz, 64MP+13MP+8MP+2MP cameras, 4000mAh battery, 50W charging.",
+    price: 499,
+    brand: "Realme",
+    category: "Flagship",
+    production: "October 2019",
+    storage: "64GB / 128GB / 256GB",
+    ram: "8GB / 12GB",
+  },
+  {
+    name: "Realme 6 Pro",
+    description:
+      "Snapdragon 720G, 6.6-inch IPS LCD, 90Hz, 64MP+8MP+12MP+2MP cameras, 4300mAh battery, 30W charging.",
+    price: 249,
+    brand: "Realme",
+    category: "Mid-range",
+    production: "March 2020",
+    storage: "64GB / 128GB",
+    ram: "6GB / 8GB",
+  },
+  {
+    name: "Realme 6",
+    description:
+      "MediaTek Helio G90T, 6.5-inch IPS LCD, 90Hz, 64MP+8MP+2MP+2MP cameras, 4300mAh battery, 30W charging.",
+    price: 199,
+    brand: "Realme",
+    category: "Mid-range",
+    production: "March 2020",
+    storage: "64GB / 128GB",
+    ram: "4GB / 6GB",
+  },
+  {
+    name: "Realme C3",
+    description:
+      "MediaTek Helio G70, 6.5-inch IPS LCD, 60Hz, 12MP+2MP+2MP cameras, 5000mAh battery, 10W charging.",
+    price: 119,
+    brand: "Realme",
+    category: "Budget",
+    production: "February 2020",
+    storage: "32GB / 64GB",
+    ram: "3GB / 4GB",
+  },
 ];
