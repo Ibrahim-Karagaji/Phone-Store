@@ -3,7 +3,7 @@ export default function DisplayPeoducts(products) {
     return (
       <div
         key={index}
-        className="DisplayPeoducts text-[16px] text-[#eeeeeed4] rounded-[5px] shadow-[0px_0px_10px_0px_black] grid gap-[3px] w-[fit-content] duration-500 hover:-translate-y-1"
+        className="DisplayPeoducts text-[15px] text-[#eeeeeed4] rounded-[5px] shadow-[0px_0px_10px_0px_black] grid gap-[3px] w-[fit-content] duration-500 hover:-translate-y-1"
       >
         <div className="peoductsImg w-[240px] h-[170px] ">
           <img

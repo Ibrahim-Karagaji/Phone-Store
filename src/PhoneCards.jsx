@@ -6,7 +6,7 @@ export default function PhoneCards() {
   const pro = useContext(products);
 
   function getRandomBrand() {
-    const brand = ['OnePlus', 'Samsung', 'Apple', 'Honor', 'Realme', 'Oppo', 'Vivo', 'Xiaomi', 'Tecno'];
+    const brand = ['OnePlus', 'Samsung', 'Apple', 'Honor'];
 
     const randomBrand = brand[Math.floor(Math.random() * brand.length)];
 
@@ -20,7 +20,7 @@ export default function PhoneCards() {
           <h1>Best Selaing</h1>
         </div>
         <div className="flex gap-10 ">
-          {DisplayPeoducts(pro.products.filter((p) => p.price <= 900 && p.price >= 400).slice(0, 6))}
+          {DisplayPeoducts(pro.products.filter((p) => p.price <= 900 && p.price >= 400 && p.brand == getRandomBrand()).slice(0, 6))}
         </div>
       </div>
       <div className="grid gap-5 !p-[10px] shadow-[0px_0px_5px_0px_black] overflow-auto">
@@ -28,7 +28,7 @@ export default function PhoneCards() {
           <h1>Flagship</h1>
         </div>
         <div className="flex gap-10 ">
-          {DisplayPeoducts(pro.products.filter((p) => p.category == "Flagship").slice(0, 6))}
+          {DisplayPeoducts(pro.products.filter((p) => p.category == "Flagship" && p.brand == getRandomBrand()).slice(0, 6))}
         </div>
       </div>
       <div className="grid gap-5 !p-[10px] shadow-[0px_0px_5px_0px_black] overflow-auto">
@@ -36,7 +36,7 @@ export default function PhoneCards() {
           <h1>Flagship Killer</h1>
         </div>
         <div className="flex gap-10 ">
-          {DisplayPeoducts(pro.products.filter((p) => p.price <= 900 && p.price >= 600).slice(0, 6))}
+          {DisplayPeoducts(pro.products.filter((p) => p.price <= 900 && p.price >= 500 && p.brand == getRandomBrand()).slice(0, 6))}
         </div>
       </div>
       <div className="grid gap-5 !p-[10px] shadow-[0px_0px_5px_0px_black] overflow-auto">
