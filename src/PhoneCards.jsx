@@ -63,6 +63,9 @@ export default function PhoneCards() {
           </div>
         </div>
       </div> :
-      console.log("CXVb")
+      <div className="grid justify-center gap-10 content-center w-[100%]">
+        <i class="fa-solid fa-face-sad-tear text-[200px]"></i>
+        <h1 className="text-[30px]">404 Not Found</h1>
+      </div>
   );
 }

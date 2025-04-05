@@ -3,7 +3,7 @@ export default function DisplayPeoducts(products) {
     return (
       <div
         key={index}
-        className="DisplayPeoducts text-[#eeeeeed4] rounded-[5px] shadow-[0px_0px_10px_0px_black] grid gap-[3px] w-[fit-content] duration-500 hover:-translate-y-1"
+        className="DisplayPeoducts text-[16px] text-[#eeeeeed4] rounded-[5px] shadow-[0px_0px_10px_0px_black] grid gap-[3px] w-[fit-content] duration-500 hover:-translate-y-1"
       >
         <div className="peoductsImg w-[240px] h-[170px] ">
           <img
@@ -16,11 +16,11 @@ export default function DisplayPeoducts(products) {
           <p className="text-[#063447] bg-[#eeeeeed4] !p-[3px] rounded-[5px] font-semibold ms:text-[17px]">
             {p.description}
           </p>
-          <p className="rounded-[5px]">{p.price + "$"}</p>
+          <p className="rounded-[5px] font-bold">Price: {p.price + "$"}</p>
         </div>
         <div className="flex justify-between !p-[5px] items-center">
           <i className="fa-regular fa-heart text-[20px] hover:text-[red] duration-300"></i>
-          <button className="flex items-center gap-[8px] hover:bg-[#eeeeee96] bg-[#eeeeeed4] rounded-[5px] !pl-[3px] !pr-[3px] text-[#063447] duration-500 ">
+          <button className="flex items-center gap-[8px] hover:bg-[#eeeeee96] bg-[#eeeeeed4] rounded-[3px] !pl-[8px] !pr-[5px] text-[#063447] duration-500 ">
             <p className="font-semibold">Add To Cart</p>
             <i className="fa-solid fa-basket-shopping"></i>
           </button>
