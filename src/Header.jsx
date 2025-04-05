@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="flex items-center !mb-[10px] gap-[20px] text-[#eeeeeed1] !p-[3px] min-w-[480px]">
+    <div className="flex items-center !mb-[10px] gap-[20px] text-[#eeeeeed1] !p-[3px]">
       <img
         src="images-folder\site-Logo.png"
         className="shadow-[0px_0px_5px_0px_black] basis-[5%] w-[150px] h-[78px] rounded-[5px]"
