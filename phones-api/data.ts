@@ -1493,7 +1493,7 @@ export const phones: Phone[] = [
       "MediaTek Helio G95, 6.7-inch AMOLED, 90Hz, 50MP+13MP+8MP cameras, 4700mAh battery, 33W charging.",
     price: 499,
     brand: "Tecno",
-    category: "Flagship",
+    category: "Budget",
     production: "July 2021",
     storage: "128GB",
     ram: "8GB",
