@@ -4,6 +4,15 @@ import { products } from "./App";
 import { useContext } from "react";
 export default function PhoneCards() {
   const pro = useContext(products);
+
+  function getRandomBrand() {
+    const brand = ['OnePlus', 'Samsung', 'Apple', 'Honor', 'Realme', 'Oppo', 'Vivo', 'Xiaomi', 'Tecno'];
+
+    const randomBrand = brand[Math.floor(Math.random() * brand.length)];
+
+    return randomBrand;
+  }
+
   return (pro.isLoading == false ?
     <div className="grid gap-5">
       <div className="grid gap-5 !p-[10px] shadow-[0px_0px_5px_0px_black] overflow-auto">
