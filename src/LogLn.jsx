@@ -1,18 +1,31 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import { useRef } from "react";
 
 export default function LogIn() {
-    const [userInfo, setUserInfo] = useState({ email: "", password: "" })
+    const emailInput = useRef(null)
+    const passwordInput = useRef(null)
+    const [userInfo, setUserInfo] = useState({ email: "", password: "" });
+    const exactEmailRegex = /\w+@gmail.com/;
 
     function handleEmailInout(value) {
+        if (!(exactEmailRegex.test(userInfo.email) == true)) {
+            emailInput.current.style.border = "red 2px solid";
+        }
+        else {
+            emailInput.current.style.border = "green 2px solid";
+        }
         setUserInfo((prev) => { return { ...prev, email: value } });
-        console.log(userInfo)
     }
 
     function handlePasswordInout(value) {
+        if (userInfo.password.length <= 8) {
+            passwordInput.current.style.border = "red 2px solid";
+        }
+        else {
+            passwordInput.current.style.border = "green 2px solid";
+        }
         setUserInfo((prev) => { return { ...prev, password: value } });
-        console.log(userInfo)
     }
 
     return (
@@ -27,9 +40,9 @@ export default function LogIn() {
                         <i className="fa-solid fa-arrow-right-to-bracket !mt-[10px]"></i>
                     </div>
                     <form className="grid gap-4 !mt-[15px]">
-                        <input onChange={(event) => { handleEmailInout(event.target.value) }} className="rounded-[5px] bg-[#063447] text-[#eeeeeed1] !p-[8px] w-[350px]" placeholder="Email Address" />
-                        <input onChange={(event) => { handlePasswordInout(event.target.value) }} className="rounded-[5px] bg-[#063447] text-[#eeeeeed1] !p-[8px] w-[350px]" placeholder="Password" />
-                        <button disabled={true} className="!p-[5px] bg-[#063447] rounded-[5px] text-[#eeeeeed1] text-[20px] hover:bg-[#042431] duration-500">Log in</button>
+                        <input ref={emailInput} onChange={(event) => { handleEmailInout(event.target.value) }} className="rounded-[5px] bg-[#063447] text-[#eeeeeed1] !p-[8px] w-[350px]" placeholder="example@gmail.com" />
+                        <input ref={passwordInput} onChange={(event) => { handlePasswordInout(event.target.value) }} className="rounded-[5px] bg-[#063447] text-[#eeeeeed1] !p-[8px] w-[350px]" placeholder="Password" />
+                        <button disabled={!(exactEmailRegex.test(userInfo.email) == true && userInfo.password.length >= 8)} className="!p-[5px] bg-[#063447] rounded-[5px] text-[#eeeeeed1] text-[20px] hover:bg-[#042431] duration-500">Log in</button>
                     </form>
                 </div>
             </div>
