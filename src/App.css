@@ -134,3 +134,7 @@
   height: 10px;
   border: solid 2px #ffffff;
 }
+
+input:focus-visible{
+outline: none;
+}
