@@ -25,9 +25,9 @@ export default function Header() {
             <p className="!p-[5px] border-b-[2px] duration-500 hover:-translate-y-1">
               Favorite
             </p>
-            <p className="!p-[5px] border-b-[2px]  duration-500 hover:-translate-y-1">
+            <Link to="/Login"> <p className="!p-[5px] border-b-[2px]  duration-500 hover:-translate-y-1">
               Log In
-            </p>
+            </p> </Link>
           </div>
         </div>
       </div>
