@@ -6,6 +6,7 @@ import { createContext } from "react";
 import Footer from "./Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LogIn from "./LogLn";
+import Favorite from "./Favorite";
 
 export const products = createContext();
 
@@ -22,6 +23,7 @@ export default function App() {
             </div>
           </products.Provider>} />
         <Route path="/Login" element={<LogIn />} />
+        <Route path="/favorite" element={<LogIn />} />
       </Routes>
     </BrowserRouter>
   );
