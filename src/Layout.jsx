@@ -1,3 +1,23 @@
+import "./App.css";
+import Header from "./Header";
+import useProducts from "./useProducts";
+import Footer from "./Footer";
+import { Outlet } from "react-router-dom";
+import FavoritesProductsState from "./FavoritesProductsState";
+import { createContext } from "react";
+
+export const products = createContext();
+
 export default function Layout() {
-  return <div></div>;
+  return (
+    <products.Provider value={useProducts()}>
+      <FavoritesProductsState>
+        <div id="App" className="h-screen min-w-[640px]">
+          <Header />
+          <Outlet />
+          <Footer />
+        </div>
+      </FavoritesProductsState>
+    </products.Provider>
+  );
 }
