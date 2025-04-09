@@ -1,29 +1,20 @@
 import "./App.css";
-import Header from "./Header";
 import Content from "./Content";
-import useProducts from "./useProducts";
-import { createContext } from "react";
-import Footer from "./Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LogIn from "./LogLn";
 import Favorite from "./Favorite";
-
-export const products = createContext();
+import Layout from "./Layout";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={
-          <products.Provider value={useProducts()}>
-            <div id="App" className="h-screen min-w-[640px]">
-              <Header />
-              <Content />
-              <Footer />
-            </div>
-          </products.Provider>} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Content />} />
+          <Route path="/favorite" element={<Favorite />} />
+          {/* <Route path="/shopping-cart" element={<ShoppingCart products />} /> */}
+        </Route>
         <Route path="/Login" element={<LogIn />} />
-        <Route path="/favorite" element={<LogIn />} />
       </Routes>
     </BrowserRouter>
   );
