@@ -1,3 +1,5 @@
+import { favoritesProductsContext } from "./FavoritesProductsState";
+import { useContext } from "react";
 export default function DisplayPeoducts(products) {
   const newProducts = products.map((p, index) => {
     return (
@@ -19,7 +21,9 @@ export default function DisplayPeoducts(products) {
           <p className="rounded-[5px] font-bold">Price: {p.price + "$"}</p>
         </div>
         <div className="flex justify-between !p-[5px] items-center">
-          <i className="fa-regular fa-heart text-[20px] hover:text-[red] duration-300"></i>
+          <i
+            className={`fa-regular fa-heart text-[20px] hover:text-[red] duration-300`}
+          ></i>
           <button className="flex items-center gap-[8px] hover:bg-[#eeeeee96] bg-[#eeeeeed4] rounded-[3px] !pl-[8px] !pr-[5px] text-[#063447] duration-500 ">
             <p className="font-semibold">Add To Cart</p>
             <i className="fa-solid fa-basket-shopping"></i>
