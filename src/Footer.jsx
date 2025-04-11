@@ -15,7 +15,7 @@ export default function Footer() {
           </span>
         </div>
         <div className="flex items-center gap-3 justify-between basis-[40%]">
-          <div className="grid gap-3 text-[22px] text-center">
+          <div className="grid gap-1 text-[22px] text-center">
             <h1 className="font-bold">Categories</h1>
             <p className="font-normal">Flagship</p>
             <p className="font-normal">Flagship Killer</p>
