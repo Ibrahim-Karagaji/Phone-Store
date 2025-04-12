@@ -2,6 +2,7 @@ import { favoritesProductsContext } from "./FavoritesProductsState";
 import { useContext } from "react";
 export default function DisplayPeoducts(products) {
   const newProducts = products.map((p, index) => {
+    const favorites = useContext(favoritesProductsContext);
     return (
       <div
         key={index}
@@ -21,9 +22,17 @@ export default function DisplayPeoducts(products) {
           <p className="rounded-[5px] font-bold">Price: {p.price + "$"}</p>
         </div>
         <div className="flex justify-between !p-[5px] items-center">
-          <i
-            className={`fa-regular fa-heart text-[20px] hover:text-[red] duration-300`}
-          ></i>
+          <img
+            className={`w-[30px] rounded-[3px] !p-[3px] rounded-[5px] ${
+              favorites.favoritesState.some((fav) => fav.name == p.name) == true
+                ? `bg-[red]`
+                : `bg-[transparent]`
+            }`}
+            onClick={() => {
+              favorites.handleAddToFavorites(p);
+            }}
+            src="images-folder\wishlist-dark.svg"
+          />
           <button className="flex items-center gap-[8px] hover:bg-[#eeeeee96] bg-[#eeeeeed4] rounded-[3px] !pl-[8px] !pr-[5px] text-[#063447] duration-500 ">
             <p className="font-semibold">Add To Cart</p>
             <i className="fa-solid fa-basket-shopping"></i>
