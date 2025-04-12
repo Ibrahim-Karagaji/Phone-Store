@@ -23,6 +23,11 @@ export default function Header() {
           </Link>
 
           <div className="list-option absolute opacity-0 grid bg-[#eeeeeed1] text-[#063447] !p-[2px] text-[2px] top-[-30px] right-[15px] rounded-[5px] duration-500">
+            <Link to="/">
+              <p className="!p-[5px] border-b-[2px]  duration-500 hover:-translate-y-1">
+                Home
+              </p>
+            </Link>
             <p className=" !p-[5px] border-b-[2px] duration-500 hover:-translate-y-1">
               Cart shopping
             </p>

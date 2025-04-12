@@ -2,7 +2,7 @@ import "./App.css";
 import Content from "./Content";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LogIn from "./LogLn";
-import Favorite from "./Favorite";
+import Favorites from "./Favorites";
 import Layout from "./Layout";
 
 export default function App() {
@@ -11,7 +11,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Content />} />
-          <Route path="/favorite" element={<Favorite />} />
+          <Route path="/favorites" element={<Favorites />} />
           {/* <Route path="/shopping-cart" element={<ShoppingCart products />} /> */}
         </Route>
         <Route path="/Login" element={<LogIn />} />

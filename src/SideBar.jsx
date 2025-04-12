@@ -29,7 +29,7 @@ export default function SideBar() {
         </div>
         <div className="flex justify-end gap-[10px] items-center rounded-[2px] !pr-[10px]  !mb-2 !p-[3px] bg-[#063447] hover:bg-[#eeeeeed1] hover:text-[#063447] duration-500">
           <p>Settings</p>
-          <i class="fa-solid fa-gear"></i>
+          <i className="fa-solid fa-gear"></i>
         </div>
       </div>
     </div>
