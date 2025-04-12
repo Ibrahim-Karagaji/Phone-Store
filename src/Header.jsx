@@ -14,20 +14,28 @@ export default function Header() {
         />
         <div className="choices flex items-center gap-[10px] !m-[0px_10px]">
           <i className="fa-solid shopping fa-cart-shopping !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1 relative"></i>
-          <Link to="/favorite"><i className="fa-solid heart fa-heart !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1 relative"></i></Link>
-          <Link to="/Login"> <i className="fa-solid log-in fa-right-to-bracket !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1 relative"></i>
-            <i className="option fa-solid fa-bars left-[0px] absolute opacity-0 !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1"></i></Link>
+          <Link to="/favorites">
+            <i className="fa-solid heart fa-heart !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1 relative"></i>
+          </Link>
+          <Link to="/Login">
+            <i className="fa-solid log-in fa-right-to-bracket !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1 relative"></i>
+            <i className="option fa-solid fa-bars left-[0px] absolute opacity-0 !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1"></i>
+          </Link>
 
           <div className="list-option absolute opacity-0 grid bg-[#eeeeeed1] text-[#063447] !p-[2px] text-[2px] top-[-30px] right-[15px] rounded-[5px] duration-500">
             <p className=" !p-[5px] border-b-[2px] duration-500 hover:-translate-y-1">
               Cart shopping
             </p>
-            <p className="!p-[5px] border-b-[2px] duration-500 hover:-translate-y-1">
-              Favorite
-            </p>
-            <Link to="/Login"> <p className="!p-[5px] border-b-[2px]  duration-500 hover:-translate-y-1">
-              Log In
-            </p> </Link>
+            <Link to="/favorites">
+              <p className="!p-[5px] border-b-[2px] duration-500 hover:-translate-y-1">
+                Favorite
+              </p>
+            </Link>
+            <Link to="/Login">
+              <p className="!p-[5px] border-b-[2px]  duration-500 hover:-translate-y-1">
+                Log In
+              </p>
+            </Link>
           </div>
         </div>
       </div>
