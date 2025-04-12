@@ -17,7 +17,10 @@ export default function FavoritesProductsState({ children }) {
         });
     }
   }
-  function deleteFromFavorites() {}
+  function deleteFromFavorites(product) {
+    const fav = favoritesState.filter((p) => p.name != product.name);
+    setFavoritesState(fav);
+  }
   const state = {
     favoritesState: favoritesState,
     handleAddToFavorites,
