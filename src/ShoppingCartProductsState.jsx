@@ -9,7 +9,7 @@ export default function ShoppingCartProductsState({ children }) {
       });
     else {
       const cheekIfProudctAdded = shoppingCartState.some(
-        (Sc) => Sc.name == shoppingCart.name
+        (sc) => sc.name == shoppingCart.name
       );
       if (!cheekIfProudctAdded)
         setShoppingCartState((prev) => {
@@ -17,10 +17,7 @@ export default function ShoppingCartProductsState({ children }) {
         });
     }
   }
-  function handleDeleteFromShoppingCart(shoppingCart) {
-    const shop = shoppingCartState.filter((s) => s.name != shoppingCart.name);
-    setShoppingCartState(shop);
-  }
+
   const state = {
     shoppingCartState: shoppingCartState,
     handleAddToShoppingCart,
