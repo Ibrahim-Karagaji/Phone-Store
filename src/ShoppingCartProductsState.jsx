@@ -21,7 +21,6 @@ export default function ShoppingCartProductsState({ children }) {
   const state = {
     shoppingCartState: shoppingCartState,
     handleAddToShoppingCart,
-    handleDeleteFromShoppingCart,
   };
   return (
     <shoppingCartProductsContext.Provider value={state}>

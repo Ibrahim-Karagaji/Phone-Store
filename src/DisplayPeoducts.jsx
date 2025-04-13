@@ -1,7 +1,10 @@
 import { favoritesProductsContext } from "./FavoritesProductsState";
+import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 export default function DisplayPeoducts(products) {
   const favorites = useContext(favoritesProductsContext);
+  const shoppingCart = useContext(shoppingCartProductsContext);
   const newProducts = products.map((p, index) => {
     return (
       <div
@@ -16,7 +19,7 @@ export default function DisplayPeoducts(products) {
         </div>
         <div className="grid gap-[5px] !p-[5px]">
           <h1 className="rounded-[5px] font-bold">{p.name}</h1>
-          <p className="text-[#063447] bg-[#eeeeeed4] w-[230px] !p-[3px] rounded-[5px] font-semibold ms:text-[17px]">
+          <p className="text-[#063447] bg-[#eeeeeed4] w-[230px] !p-[3px] rounded-[5px] font-semibold text-[15px]">
             {p.description}
           </p>
           <p className="rounded-[5px] font-bold">Price: {p.price + "$"}</p>
@@ -38,9 +41,41 @@ export default function DisplayPeoducts(products) {
             }}
             src="images-folder\wishlist-dark.svg"
           />
-          <button className="flex items-center gap-[8px] hover:bg-[#eeeeee96] bg-[#eeeeeed4] rounded-[3px] !pl-[8px] !pr-[5px] text-[#063447] duration-500 ">
-            <p className="font-semibold">Add To Cart</p>
-            <i className="fa-solid fa-basket-shopping"></i>
+          <button
+            onClick={() => {
+              if (
+                !shoppingCart.shoppingCartState.some(
+                  (shop) => shop.name != p.name
+                )
+              );
+              shoppingCart.handleAddToShoppingCart(p);
+            }}
+            className={`flex items-center gap-[8px] rounded-[3px] !pl-[8px] !pr-[5px] duration-500 ${
+              shoppingCart.shoppingCartState.some(
+                (shop) => shop.name == p.name
+              ) == true
+                ? `!bg-[#002737] text-[#00b2ff] hover:bg-[#194d63]`
+                : `bg-[#eeeeeed4] hover:bg-[#eeeeee96] text-[#063447]`
+            }`}
+          >
+            <i
+              className={
+                shoppingCart.shoppingCartState.some(
+                  (shop) => shop.name == p.name
+                ) == true
+                  ? `fa-solid fa-cart-plus`
+                  : `fa-solid fa-cart-shopping`
+              }
+            ></i>
+            {shoppingCart.shoppingCartState.some(
+              (shop) => shop.name == p.name
+            ) == true ? (
+              <Link to="/shopping-cart">
+                <p className="font-semibold">Go To Cart</p>
+              </Link>
+            ) : (
+              <p className="font-semibold">Add To Cart</p>
+            )}
           </button>
         </div>
       </div>

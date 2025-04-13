@@ -12,7 +12,7 @@ export default function Favorites() {
       <img src="images-folder\empty.png" className="h-[400px] w-[480px] " />
     </div>
   ) : (
-    <div className="grid gap-2 text-[#eeeeeed1] !p-[3px] min-w-[640px] justify-center">
+    <div className="grid gap-2 text-[#eeeeeed1] !p-[3px] min-w-[640px] justify-center overflow-auto">
       <h1 className="text-center text-[23px]">Favorites</h1>
       <div className="!p-[5px] rounded-[5px]  flex gap-10 overflow-auto w-[fit-content] shadow-[0px_0px_5px_0px_black]">
         {DisplayPeoducts(favorites.favoritesState)}
