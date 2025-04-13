@@ -13,7 +13,9 @@ export default function Header() {
           className="focus:outline-none w-[93%]"
         />
         <div className="choices flex items-center gap-[10px] !m-[0px_10px]">
-          <i className="fa-solid shopping fa-cart-shopping !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1 relative"></i>
+          <Link to="/shopping-cart">
+            <i className="fa-solid shopping fa-cart-shopping !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1 relative"></i>
+          </Link>
           <Link to="/favorites">
             <i className="fa-solid heart fa-heart !p-[5px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[5px] duration-500 hover:-translate-y-1 relative"></i>
           </Link>
@@ -28,9 +30,12 @@ export default function Header() {
                 Home
               </p>
             </Link>
-            <p className=" !p-[5px] border-b-[2px] duration-500 hover:-translate-y-1">
-              Cart shopping
-            </p>
+            <Link to="/shopping-cart">
+              {" "}
+              <p className=" !p-[5px] border-b-[2px] duration-500 hover:-translate-y-1">
+                Cart shopping
+              </p>
+            </Link>
             <Link to="/favorites">
               <p className="!p-[5px] border-b-[2px] duration-500 hover:-translate-y-1">
                 Favorite
