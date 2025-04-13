@@ -1,8 +1,8 @@
 import { favoritesProductsContext } from "./FavoritesProductsState";
 import { useContext } from "react";
 export default function DisplayPeoducts(products) {
+  const favorites = useContext(favoritesProductsContext);
   const newProducts = products.map((p, index) => {
-    const favorites = useContext(favoritesProductsContext);
     return (
       <div
         key={index}
@@ -16,7 +16,7 @@ export default function DisplayPeoducts(products) {
         </div>
         <div className="grid gap-[5px] !p-[5px]">
           <h1 className="rounded-[5px] font-bold">{p.name}</h1>
-          <p className="text-[#063447] bg-[#eeeeeed4] !p-[3px] rounded-[5px] font-semibold ms:text-[17px]">
+          <p className="text-[#063447] bg-[#eeeeeed4] w-[230px] !p-[3px] rounded-[5px] font-semibold ms:text-[17px]">
             {p.description}
           </p>
           <p className="rounded-[5px] font-bold">Price: {p.price + "$"}</p>
@@ -29,7 +29,12 @@ export default function DisplayPeoducts(products) {
                 : `bg-[transparent]`
             }`}
             onClick={() => {
-              favorites.handleAddToFavorites(p);
+              if (
+                favorites.favoritesState.some((fav) => fav.name == p.name) ==
+                true
+              )
+                favorites.deleteFromFavorites(p);
+              else favorites.handleAddToFavorites(p);
             }}
             src="images-folder\wishlist-dark.svg"
           />
