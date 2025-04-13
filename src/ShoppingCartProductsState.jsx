@@ -17,7 +17,10 @@ export default function ShoppingCartProductsState({ children }) {
         });
     }
   }
-  function handleDeleteFromShoppingCart() {}
+  function handleDeleteFromShoppingCart(shoppingCart) {
+    const shop = shoppingCartState.filter((s) => s.name != shoppingCart.name);
+    setShoppingCartState(shop);
+  }
   const state = {
     shoppingCartState: shoppingCartState,
     handleAddToShoppingCart,
