@@ -17,10 +17,14 @@ export default function ShoppingCartProductsState({ children }) {
         });
     }
   }
-
+  const handleDeleteFromShoppingCart = (shoppingCart) => {
+    const shop = shoppingCartState.filter((s) => s.name != shoppingCart.name);
+    setShoppingCartState(shop);
+  };
   const state = {
     shoppingCartState: shoppingCartState,
     handleAddToShoppingCart,
+    handleDeleteFromShoppingCart,
   };
   return (
     <shoppingCartProductsContext.Provider value={state}>
