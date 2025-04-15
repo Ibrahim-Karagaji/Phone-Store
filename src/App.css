@@ -156,3 +156,20 @@
 input:focus-visible{
 outline: none;
 }
+select:focus-visible{
+outline: none;
+}
+.countOption::before{
+  content: "Count";
+  position: absolute;
+  color:#eeeeeed1;
+  font-size: 12px;
+  top:-17px;
+  left: 0px;
+}
+
+@media(max-width:1000px){
+.shoppingCart{
+display:grid
+}
+}
