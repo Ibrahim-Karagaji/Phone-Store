@@ -1,9 +1,7 @@
 import { favoritesProductsContext } from "./FavoritesProductsState";
-import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
 import { useContext } from "react";
-export default function ShoppingCartCard({ product, index }) {
+export default function ShoppingCartCard({ product, index, shoppingCart }) {
   const favorites = useContext(favoritesProductsContext);
-  const shoppingCart = useContext(shoppingCartProductsContext);
   return (
     <div
       key={index}

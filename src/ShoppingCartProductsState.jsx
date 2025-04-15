@@ -21,14 +21,15 @@ export default function ShoppingCartProductsState({ children }) {
     const shop = shoppingCartState.filter((s) => s.name != shoppingCart.name);
     setShoppingCartState(shop);
   };
+  function handleClearShoppingCart() {
+    setShoppingCartState([]);
+  }
   const state = {
     shoppingCartState: shoppingCartState,
     handleAddToShoppingCart,
     handleDeleteFromShoppingCart,
+    handleClearShoppingCart,
   };
-  function handleClearShoppingCart() {
-    ShoppingCartProductsState([]);
-  }
   return (
     <shoppingCartProductsContext.Provider value={state}>
       {children}
