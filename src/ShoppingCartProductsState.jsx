@@ -26,6 +26,9 @@ export default function ShoppingCartProductsState({ children }) {
     handleAddToShoppingCart,
     handleDeleteFromShoppingCart,
   };
+  function handleClearShoppingCart() {
+    ShoppingCartProductsState([]);
+  }
   return (
     <shoppingCartProductsContext.Provider value={state}>
       {children}
