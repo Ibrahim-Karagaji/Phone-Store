@@ -1,35 +1,6 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import { useRef } from "react";
 
 export default function LogIn() {
-  const emailInput = useRef(null);
-  const passwordInput = useRef(null);
-  const [userInfo, setUserInfo] = useState({ email: "", password: "" });
-  const exactEmailRegex = /\w+@gmail.com/;
-
-  function handleEmailInout(value) {
-    if (!(exactEmailRegex.test(userInfo.email) == true)) {
-      emailInput.current.style.border = "red 2px solid";
-    } else {
-      emailInput.current.style.border = "green 2px solid";
-    }
-    setUserInfo((prev) => {
-      return { ...prev, email: value };
-    });
-  }
-
-  function handlePasswordInout(value) {
-    if (userInfo.password.length <= 8) {
-      passwordInput.current.style.border = "red 2px solid";
-    } else {
-      passwordInput.current.style.border = "green 2px solid";
-    }
-    setUserInfo((prev) => {
-      return { ...prev, password: value };
-    });
-  }
-
   return (
     <div className="text-[#eeeeeed1] !p-[3px] min-w-[640px] min-h-[100vh]">
       <Link to="/">
@@ -44,30 +15,20 @@ export default function LogIn() {
           <form className="grid gap-4 !mt-[15px]">
             <input
               type="Email"
+              name="Email"
               required
-              ref={emailInput}
-              onChange={(event) => {
-                handleEmailInout(event.target.value);
-              }}
               className="rounded-[5px] bg-[#063447] text-[#eeeeeed1] !p-[8px] w-[350px]"
               placeholder="example@gmail.com"
             />
             <input
+              type="text"
+              name="password"
               required
-              ref={passwordInput}
-              onChange={(event) => {
-                handlePasswordInout(event.target.value);
-              }}
               className="rounded-[5px] bg-[#063447] text-[#eeeeeed1] !p-[8px] w-[350px]"
               placeholder="Password"
             />
             <button
-              disabled={
-                !(
-                  exactEmailRegex.test(userInfo.email) == true &&
-                  userInfo.password.length >= 8
-                )
-              }
+              disabled={true}
               className="!p-[5px] bg-[#063447] rounded-[5px] text-[#eeeeeed1] text-[20px] hover:bg-[#042431] duration-500"
             >
               Log in

@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+.SideBar{
+  margin-left: -125px !important;
+}
+
+.SideBar:hover{
+  margin-left: -3px !important;
+}
+
+@media(max-width:650px){
+.SideBar:hover{
+  margin-left: -125px !important;
+}}
+
 .shopping::after {
   content: "Shopping Cart";
   position: absolute;
