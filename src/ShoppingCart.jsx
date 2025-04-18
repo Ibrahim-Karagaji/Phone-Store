@@ -69,7 +69,7 @@ export default function ShoppingCart() {
           <ShoppingCartCard
             product={s}
             index={index}
-            shoppingCartt={shoppingCart}
+            shoppingCart={shoppingCart}
           />
         ))}
       </div>
