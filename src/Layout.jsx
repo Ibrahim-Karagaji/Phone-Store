@@ -14,7 +14,7 @@ export default function Layout() {
     <products.Provider value={useProducts()}>
       <ShoppingCartProductsState>
         <FavoritesProductsState>
-          <div id="App" className="h-screen min-w-[640px]">
+          <div id="App" className="h-screen min-w-[600px]">
             <Header />
             <Outlet />
             <Footer />
