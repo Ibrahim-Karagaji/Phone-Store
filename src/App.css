@@ -186,3 +186,7 @@ outline: none;
 display:grid
 }
 }
+
+@media(max-width:650px){
+.phones-list{grid-template-columns: 100%; gap:30px}
+.storg-ram{grid-template-columns: auto; gap:40px}}
