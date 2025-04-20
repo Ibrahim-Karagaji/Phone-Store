@@ -28,6 +28,12 @@ export default function FiltersState({ children }) {
     });
   }
 
+  function handleAddMinPriceState(filter) {
+    setFiltersState(() => {
+      return { ...prev, minPrice: filter };
+    });
+  }
+
   const state = { filtersState: filtersState };
 
   return (
