@@ -2,7 +2,19 @@ import { useState, createContext } from "react";
 
 export const filtersStateContext = createContext();
 export default function FiltersState({ children }) {
-  const [filtersState, setFiltersState] = useState([]);
+  const [filtersState, setFiltersState] = useState({
+    brand: "",
+    storage: "",
+    ram: "",
+    minPrice: 0,
+    maxPrice: 0,
+  });
+
+  function handleAddBrandState(filter) {
+    setFiltersState(() => {
+      return { ...prev, brand: filter };
+    });
+  }
 
   const state = { filtersState: filtersState };
 
