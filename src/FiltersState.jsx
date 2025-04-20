@@ -40,7 +40,14 @@ export default function FiltersState({ children }) {
     });
   }
 
-  const state = { filtersState: filtersState };
+  const state = {
+    filtersState: filtersState,
+    handleAddBrandState,
+    handleAddStorageState,
+    handleAddRamState,
+    handleAddMinPriceState,
+    handleAddMaxPriceState,
+  };
 
   return (
     <filtersStateContext.Provider value={state}>
