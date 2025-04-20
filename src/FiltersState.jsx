@@ -22,6 +22,12 @@ export default function FiltersState({ children }) {
     });
   }
 
+  function handleAddRamState(filter) {
+    setFiltersState(() => {
+      return { ...prev, ram: filter };
+    });
+  }
+
   const state = { filtersState: filtersState };
 
   return (
