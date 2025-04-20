@@ -16,6 +16,12 @@ export default function FiltersState({ children }) {
     });
   }
 
+  function handleAddStorageState(filter) {
+    setFiltersState(() => {
+      return { ...prev, storage: filter };
+    });
+  }
+
   const state = { filtersState: filtersState };
 
   return (
