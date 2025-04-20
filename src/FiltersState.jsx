@@ -34,6 +34,12 @@ export default function FiltersState({ children }) {
     });
   }
 
+  function handleAddMaxPriceState(filter) {
+    setFiltersState(() => {
+      return { ...prev, maxPrice: filter };
+    });
+  }
+
   const state = { filtersState: filtersState };
 
   return (
