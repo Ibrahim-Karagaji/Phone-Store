@@ -13,6 +13,10 @@ export default function ListPhones() {
     filters.handleAddStorageState(e.target.value);
   };
 
+  const handleCategoryState = (e) => {
+    filters.handleAddCategoryState(e.target.value);
+  };
+
   const handleMinPriceChange = (e) => {
     if (e.target.value <= filters.filtersState.maxPrice) {
       filters.handleAddMinPriceState(e.target.value);
@@ -74,6 +78,9 @@ export default function ListPhones() {
         </label>
         <label htmlFor="categoryFilter">
           <select
+            onClick={(e) => {
+              handleCategoryState(e);
+            }}
             id="categoryFilter"
             name="categoryFilter"
             className="text-[#063447] bg-[#eeeeeed1] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
