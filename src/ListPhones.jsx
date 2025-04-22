@@ -1,9 +1,13 @@
 import { filtersStateContext } from "./FiltersState";
-import { useContext, useRef } from "react";
+import { useEffect, useContext, useState } from "react";
 export default function ListPhones() {
   const filters = useContext(filtersStateContext);
-  const minPriceInputRef = useRef(null);
-  const maxPriceInputRef = useRef(null);
+
+  const [products, setProducts] = useState({
+    products: [],
+    isLoading: true,
+    error: false,
+  });
 
   const handleBrandState = (e) => {
     filters.handleAddBrandState(e.target.value);
@@ -22,20 +26,34 @@ export default function ListPhones() {
   };
 
   const handleMinPriceChange = (e) => {
-    if (e.target.value <= filters.filtersState.maxPrice) {
-      filters.handleAddMinPriceState(e.target.value);
-      minPriceInputRef.current.style.border = "transparent";
-    } else minPriceInputRef.current.style.border = "1px solid red";
+    filters.handleAddMinPriceState(e.target.value);
   };
 
   const handleMaxPriceChange = (e) => {
-    if (e.target.value <= 1300) {
-      filters.handleAddMaxPriceState(e.target.value);
-      maxPriceInputRef.current.style.border = "transparent";
-    } else maxPriceInputRef.current.style.border = "1px solid red";
+    filters.handleAddMaxPriceState(e.target.value);
   };
 
-  console.log(filters);
+  useEffect(() => {
+    fetch(
+      `http://localhost:7777/phones?brand=${filters.filtersState.brand}&storage=${filters.filtersState.storage}&category=${filters.filtersState.category}&ram=${filters.filtersState.ram}&minPrice=${filters.filtersState.minPrice}&maxPrice=${filters.filtersState.maxPrice}`
+    )
+      .then((response) => {
+        if (response.ok) return response.json();
+        else throw new Error("Network response was not ok");
+      })
+      .then((data) => {
+        setProducts((Prey) => ({ ...Prey, products: data }));
+      })
+      .catch((error) => {
+        setProducts((Prey) => ({ ...Prey, error: true }));
+        console.error("There was a problem with the fetch operation:", error);
+      })
+      .finally(() => {
+        setProducts((Prey) => ({ ...Prey, isLoading: false }));
+      });
+  }, [filters.filtersState]);
+
+  console.log(products);
 
   return (
     <div>
@@ -90,7 +108,6 @@ export default function ListPhones() {
             className="text-[#063447] bg-[#eeeeeed1] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
           >
             <option value="">category</option>
-            <option value="Best-Selaing">Best Selaing</option>
             <option value="Flagship">Flagship</option>
             <option value="Flagship-Killer">Flagship Killer</option>
             <option value="Foldable">Foldable</option>
@@ -118,21 +135,22 @@ export default function ListPhones() {
         </label>
         <label htmlFor="minAndMaxPriceFilter" className="flex gap-2">
           <input
-            placeholder="min price"
+            disabled={
+              filters.filtersState.maxPrice <= filters.filtersState.minPrice
+            }
+            step="50"
+            placeholder="min-price"
             onChange={(e) => handleMinPriceChange(e)}
-            ref={minPriceInputRef}
             name="minPrice"
-            min="0"
             max="1299"
             className="bg-[#eeeeeed1] text-[#063447] w-[93px] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
             type="number"
           />
           <input
-            placeholder="max price"
+            step="50"
+            placeholder="max-price"
             onChange={(e) => handleMaxPriceChange(e)}
-            ref={maxPriceInputRef}
             name="maxPrice"
-            min="1"
             max="1300"
             className="bg-[#eeeeeed1] text-[#063447] w-[93px] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
             type="number"
