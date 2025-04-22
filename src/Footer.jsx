@@ -26,7 +26,6 @@ export default function Footer() {
             <h1 className="font-bold text-[22px]">Contact Me</h1>
             <div className="flex gap-4 text-[25px]">
               <a href="https://github.com/Ibrahim-Karagaji">
-                {" "}
                 <i className="fa-brands fa-github !p-[5px] duration-500 hover:bg-[#ffffff4d] rounded-[100px]"></i>
               </a>
               <i className="fa-brands fa-linkedin text-[#007bff] !p-[5px] duration-500 rounded-[100px] hover:bg-[#ffffff4d]"></i>
@@ -42,7 +41,7 @@ export default function Footer() {
       </div>
       <div className="text-[15px] flex justify-between border-t-[#eeeeee7a] border-t-[soldi] border-t-[1px] !mt-[15px] text-[#eeeeeed1]">
         <p className="flex gap-1">
-          ©2025 <p className="text-[#00b2ff]">Mobile Phone Store</p>
+          ©2025 <span className="text-[#00b2ff]">Mobile Phone Store</span>
         </p>
         <div className="flex gap-3">
           <p className="hover:underline hover:text-[#00b2ff]">Terms of Use</p>

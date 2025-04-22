@@ -12,37 +12,37 @@ export default function FiltersState({ children }) {
   });
 
   function handleAddBrandState(filter) {
-    setFiltersState(() => {
+    setFiltersState((prev) => {
       return { ...prev, brand: filter };
     });
   }
 
   function handleAddStorageState(filter) {
-    setFiltersState(() => {
+    setFiltersState((prev) => {
       return { ...prev, storage: filter };
     });
   }
 
   function handleAddCategoryState(filter) {
-    setFiltersState(() => {
+    setFiltersState((prev) => {
       return { ...prev, category: filter };
     });
   }
 
   function handleAddRamState(filter) {
-    setFiltersState(() => {
+    setFiltersState((prev) => {
       return { ...prev, ram: filter };
     });
   }
 
   function handleAddMinPriceState(filter) {
-    setFiltersState(() => {
+    setFiltersState((prev) => {
       return { ...prev, minPrice: filter };
     });
   }
 
   function handleAddMaxPriceState(filter) {
-    setFiltersState(() => {
+    setFiltersState((prev) => {
       return { ...prev, maxPrice: filter };
     });
   }
@@ -52,6 +52,7 @@ export default function FiltersState({ children }) {
     handleAddBrandState,
     handleAddStorageState,
     handleAddRamState,
+    handleAddCategoryState,
     handleAddMinPriceState,
     handleAddMaxPriceState,
   };

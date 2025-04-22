@@ -6,7 +6,7 @@ export default function Header() {
         src="images-folder\site-Logo.png"
         className="shadow-[0px_0px_5px_0px_black] basis-[5%] w-[150px] h-[78px] rounded-[5px]"
       />
-      <div className="shadow-[0px_0px_5px_0px_black] text-[18px] h-[100%] w-[100%] basis-[95%] gap-[10px] flex items-center rounded-[5px]">
+      <div className="shadow-[0px_0px_5px_0px_black] text-[18px] h-[100%] basis-[95%] gap-[10px] flex items-center rounded-[5px]">
         <i className="fa-solid fa-magnifying-glass text-[#063447] bg-[#eeeeeed1] !p-[28px] rounded-[3px]"></i>
         <input
           placeholder="Search for a Phone"
