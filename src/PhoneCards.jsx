@@ -44,7 +44,7 @@ export default function PhoneCards() {
       </div>
       <div className="grid gap-5 !p-[10px] shadow-[0px_0px_5px_0px_black] overflow-auto">
         <div className="!p-[5px] bg-[#eeeeeed1] text-[#063447] rounded-[5px] w-[fit-content] font-bold">
-          <h1>Medium</h1>
+          <h1>Mid-range</h1>
         </div>
         <div className="flex gap-10 ">
           {DisplayPeoducts(
@@ -54,7 +54,7 @@ export default function PhoneCards() {
       </div>
       <div className="grid gap-5 !p-[10px] shadow-[0px_0px_5px_0px_black] overflow-auto">
         <div className="!p-[5px] bg-[#eeeeeed1] text-[#063447] rounded-[5px] w-[fit-content] font-bold">
-          <h1>Economy</h1>
+          <h1>Budget</h1>
         </div>
         <div className="flex gap-10 ">
           {DisplayPeoducts(
