@@ -3,7 +3,12 @@ import { useContext, useRef } from "react";
 export default function ListPhones() {
   const minPriceInputRef = useRef(null);
   const maxPriceInputRef = useRef(null);
-
+  const handleMinPriceChange = (e) => {
+    if (e.target.value <= 1299) {
+      filters.handleAddMinPriceState(e.target.value);
+      minPriceInputRef.current.style.border = "transparent";
+    } else minPriceInputRef.current.style.border = "1px solid red";
+  };
   const filters = useContext(filtersStateContext);
   console.log(filters);
   return (
@@ -76,6 +81,7 @@ export default function ListPhones() {
         <label htmlFor="minAndMaxPriceFilter" className="flex gap-2">
           <input
             placeholder="min price"
+            onChange={(e) => handleMinPriceChange(e)}
             ref={minPriceInputRef}
             name="minPrice"
             min="0"
