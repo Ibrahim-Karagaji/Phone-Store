@@ -9,6 +9,10 @@ export default function ListPhones() {
     filters.handleAddBrandState(e.target.value);
   };
 
+  const handleStorageState = (e) => {
+    filters.handleAddStorageState(e.target.value);
+  };
+
   const handleMinPriceChange = (e) => {
     if (e.target.value <= filters.filtersState.maxPrice) {
       filters.handleAddMinPriceState(e.target.value);
@@ -52,6 +56,9 @@ export default function ListPhones() {
         </label>
         <label htmlFor="storageFilter">
           <select
+            onClick={(e) => {
+              handleStorageState(e);
+            }}
             id="storageFilter"
             name="brandFilter"
             className="text-[#063447] bg-[#eeeeeed1] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
