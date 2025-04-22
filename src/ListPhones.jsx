@@ -17,6 +17,10 @@ export default function ListPhones() {
     filters.handleAddCategoryState(e.target.value);
   };
 
+  const handleRamState = (e) => {
+    filters.handleAddRamState(e.target.value);
+  };
+
   const handleMinPriceChange = (e) => {
     if (e.target.value <= filters.filtersState.maxPrice) {
       filters.handleAddMinPriceState(e.target.value);
@@ -96,6 +100,9 @@ export default function ListPhones() {
         </label>
         <label htmlFor="ramFilter">
           <select
+            onClick={(e) => {
+              handleRamState(e);
+            }}
             id="ramFilter"
             name="ramFilter"
             className="text-[#063447] bg-[#eeeeeed1] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
