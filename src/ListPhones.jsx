@@ -1,8 +1,13 @@
 import { filtersStateContext } from "./FiltersState";
 import { useContext, useRef } from "react";
 export default function ListPhones() {
+  const filters = useContext(filtersStateContext);
   const minPriceInputRef = useRef(null);
   const maxPriceInputRef = useRef(null);
+
+  const handleBrandState = (e) => {
+    filters.handleAddBrandState(e.target.value);
+  };
 
   const handleMinPriceChange = (e) => {
     if (e.target.value <= filters.filtersState.maxPrice) {
@@ -18,13 +23,16 @@ export default function ListPhones() {
     } else maxPriceInputRef.current.style.border = "1px solid red";
   };
 
-  const filters = useContext(filtersStateContext);
   console.log(filters);
+
   return (
     <div>
       <div className="flex gap-3 !mt-[10px] !mb-[10px] w-[fit-content] !m-[auto] bg-[#002737] !p-[10px] rounded-[4px] overflow-auto min-w-[300px] max-w-[100%]">
         <label htmlFor="brandFilter">
           <select
+            onClick={(e) => {
+              handleBrandState(e);
+            }}
             id="brandFilter"
             name="brandFilter"
             className="text-[#063447] bg-[#eeeeeed1] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
