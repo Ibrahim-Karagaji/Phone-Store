@@ -154,15 +154,13 @@
 *::-webkit-scrollbar {
   background-color: #ffffff;
   border-radius:5px;
-  width: 10px;
-  height: 10px;
+  width: 7px;
+  height: 7px;
 }
 
 *::-webkit-scrollbar-thumb {
   background-color: #063447;
   border-radius: 5px;
-  width: 10px;
-  height: 10px;
   border: solid 2px #ffffff;
 }
 
