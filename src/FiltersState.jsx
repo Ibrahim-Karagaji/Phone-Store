@@ -4,6 +4,7 @@ export const filtersStateContext = createContext();
 export default function FiltersState({ children }) {
   const [filtersState, setFiltersState] = useState({
     brand: "",
+    category: "",
     storage: "",
     ram: "",
     minPrice: 0,
@@ -19,6 +20,12 @@ export default function FiltersState({ children }) {
   function handleAddStorageState(filter) {
     setFiltersState(() => {
       return { ...prev, storage: filter };
+    });
+  }
+
+  function handleAddCategoryState(filter) {
+    setFiltersState(() => {
+      return { ...prev, category: filter };
     });
   }
 
