@@ -3,12 +3,21 @@ import { useContext, useRef } from "react";
 export default function ListPhones() {
   const minPriceInputRef = useRef(null);
   const maxPriceInputRef = useRef(null);
+
   const handleMinPriceChange = (e) => {
-    if (e.target.value <= 1299) {
+    if (e.target.value <= filters.filtersState.maxPrice) {
       filters.handleAddMinPriceState(e.target.value);
       minPriceInputRef.current.style.border = "transparent";
     } else minPriceInputRef.current.style.border = "1px solid red";
   };
+
+  const handleMaxPriceChange = (e) => {
+    if (e.target.value <= 1300) {
+      filters.handleAddMaxPriceState(e.target.value);
+      maxPriceInputRef.current.style.border = "transparent";
+    } else maxPriceInputRef.current.style.border = "1px solid red";
+  };
+
   const filters = useContext(filtersStateContext);
   console.log(filters);
   return (
@@ -91,6 +100,7 @@ export default function ListPhones() {
           />
           <input
             placeholder="max price"
+            onChange={(e) => handleMaxPriceChange(e)}
             ref={maxPriceInputRef}
             name="maxPrice"
             min="1"
