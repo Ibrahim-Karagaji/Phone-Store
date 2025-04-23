@@ -106,9 +106,13 @@ export default function ListPhones() {
             name="categoryFilter"
             className="text-[#063447] bg-[#eeeeeed1] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
           >
-            <option value="">category</option>
+            ''
+            <option value="">
+              {filters.filtersState.category != ""
+                ? filters.filtersState.category
+                : "brand"}
+            </option>
             <option value="Flagship">Flagship</option>
-            <option value="Flagship-Killer">Flagship Killer</option>
             <option value="Foldable">Foldable</option>
             <option value="Mid-range">Mid-range</option>
             <option value="Budget">Budget</option>
@@ -151,6 +155,7 @@ export default function ListPhones() {
             onChange={(e) => handleMaxPriceChange(e)}
             name="maxPrice"
             max="1300"
+            min="0"
             className="bg-[#eeeeeed1] text-[#063447] w-[93px] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
             type="number"
           />
@@ -160,7 +165,7 @@ export default function ListPhones() {
         {products.isLoading == false
           ? products.products
               .map((item, index) => (
-                <FiltersCards products={item} index={index} />
+                <FiltersCards key={index} products={item} index={index} />
               ))
               .slice(0, 10)
           : console.log("A'int")}
