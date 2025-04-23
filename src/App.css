@@ -188,3 +188,27 @@ display:grid
 @media(max-width:650px){
 .phones-list{grid-template-columns: 100%; gap:30px}
 .storg-ram{grid-template-columns: auto; gap:40px}}
+
+@media(max-width:850px){
+  .filters-pareant{
+    grid-template-columns: auto auto auto ;
+  }
+}
+
+@media(max-width:730px){
+  .filters-pareant{
+    grid-template-columns:  auto auto ;
+  }
+}
+
+@media(max-width:500px){
+  .filters-pareant{
+    grid-template-columns: auto ;
+  }
+}
+
+@media(max-width:850px){
+  .filter-card {
+    display: grid;
+  }
+}
