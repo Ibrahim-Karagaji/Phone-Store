@@ -7,10 +7,13 @@ export default function ShoppingCartCard({ product, index, shoppingCart }) {
       key={index}
       className="flex gap-3 shadow-[0px_0px_2px_0px_black] !p-[5px] "
     >
-      <img
-        className="w-[220px] h-[230px]"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUHB559_lpuhRggsf2SfA6nuCvsM_7zj8lg&s"
-      />
+      <div className="more-details">
+        <img
+          className="w-[220px] h-[230px]"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUHB559_lpuhRggsf2SfA6nuCvsM_7zj8lg&s"
+        />
+      </div>
+
       <div className="grid gap-1 !p-[3px] ">
         <p className="text-[19px]">{product.name}</p>
         <p className="!p-[5px] w-[350px] h-[fit-content] text-[#063447] bg-[#eeeeeed1] leading-[1.8] rounded-[3px]">

@@ -212,3 +212,29 @@ display:grid
     display: grid;
   }
 }
+
+.more-details{
+  position: relative;
+}
+
+.more-details::before{
+  content: "More Details";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:transparent;
+  font-weight: 500;
+  text-align: center;
+  font-size: 18px;
+  width: 0%;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.DisplayPeoducts:hover .more-details::before{
+  width:100%;
+  color:yellow;
+  background-color: #0000004d;
+
+}

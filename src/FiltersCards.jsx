@@ -8,13 +8,16 @@ export default function FiltersCards({ products, index }) {
 
   return (
     <div
-      className="filter-card flex gap-2 text-[#eeeeeed1] shadow-[0px_0px_5px_0px_black] !p-[3px] rounded-[4px]"
+      className="filter-card flex gap-2 text-[#eeeeeed1] shadow-[0px_0px_5px_0px_black] !p-[3px] rounded-[4px] duration-500 hover:shadow-[0px_0px_10px_0px_black] hover:-translate-y-1"
       key={index}
     >
-      <img
-        className="min-w-[180px] max-w-[220px]  min-h-[180px] max-h-[190px] rounded-[4px]"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUHB559_lpuhRggsf2SfA6nuCvsM_7zj8lg&s"
-      />
+      <div className="more-details">
+        <img
+          className="min-w-[180px] max-w-[220px]  min-h-[180px] max-h-[190px] rounded-[4px]"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUHB559_lpuhRggsf2SfA6nuCvsM_7zj8lg&s"
+        />
+      </div>
+
       <div className="grid gap-2">
         <h1 className="text-[20px] font-normal">{products.name}</h1>
         <p className="text-[#063447] bg-[#eeeeeed1] rounded-[4px] !p-[5px] min-w-[190px] max-w-[220px]">

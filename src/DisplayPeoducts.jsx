@@ -11,7 +11,7 @@ export default function DisplayPeoducts(products) {
         key={index}
         className="DisplayPeoducts text-[15px] text-[#eeeeeed4] rounded-[5px] shadow-[0px_0px_10px_0px_black] grid gap-[3px] w-[fit-content] duration-500 hover:-translate-y-1"
       >
-        <div className="peoductsImg w-[240px] h-[170px] ">
+        <div className="more-details w-[240px] h-[170px] ">
           <img
             className="h-full rounded-[5px]"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUHB559_lpuhRggsf2SfA6nuCvsM_7zj8lg&s"
