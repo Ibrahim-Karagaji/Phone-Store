@@ -1,5 +1,6 @@
 import { filtersStateContext } from "./FiltersState";
 import { useEffect, useContext, useState } from "react";
+import FiltersCards from "./FiltersCards";
 export default function ListPhones() {
   const filters = useContext(filtersStateContext);
 
@@ -52,8 +53,6 @@ export default function ListPhones() {
         setProducts((Prey) => ({ ...Prey, isLoading: false }));
       });
   }, [filters.filtersState]);
-
-  console.log(products);
 
   return (
     <div>
@@ -156,6 +155,15 @@ export default function ListPhones() {
             type="number"
           />
         </label>
+      </div>
+      <div className="filters-pareant grid gap-5 grid-cols-2 justify-center items-center w-[fit-content] !m-[auto] !p-[10px] rounded-[4px] min-w-[300px] max-w-[100%]">
+        {products.isLoading == false
+          ? products.products
+              .map((item, index) => (
+                <FiltersCards products={item} index={index} />
+              ))
+              .slice(0, 10)
+          : console.log("A'int")}
       </div>
     </div>
   );
