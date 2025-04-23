@@ -19,12 +19,8 @@ export default function SideBar() {
           <i className="fa-solid fa-rocket"></i>
         </div>
         <div className="flex justify-end gap-[10px] items-center rounded-[2px] !pr-[10px]  !mb-2 !p-[3px] bg-[#063447] hover:bg-[#eeeeeed1] hover:text-[#063447] duration-500">
-          <p>Flagship Killer</p>
-          <i className="fa-solid fa-star"></i>
-        </div>
-        <div className="flex justify-end gap-[10px] items-center rounded-[2px] !pr-[10px]  !mb-2 !p-[3px] bg-[#063447] hover:bg-[#eeeeeed1] hover:text-[#063447] duration-500">
           <p>Mid-range</p>
-          <i className="fa-solid fa-star-half"></i>
+          <i className="fa-solid fa-star"></i>
         </div>
         <div className="flex justify-end gap-[10px] items-center rounded-[2px] !pr-[10px]  !mb-2 !p-[3px] bg-[#063447] hover:bg-[#eeeeeed1] hover:text-[#063447] duration-500">
           <p>Budget</p>
