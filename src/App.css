@@ -189,7 +189,7 @@ display:grid
 .phones-list{grid-template-columns: 100%; gap:30px}
 .storg-ram{grid-template-columns: auto; gap:40px}}
 
-@media(max-width:850px){
+@media(max-width:985px){
   .filters-pareant{
     grid-template-columns: auto auto auto ;
   }
@@ -207,7 +207,7 @@ display:grid
   }
 }
 
-@media(max-width:850px){
+@media(max-width:985px){
   .filter-card {
     display: grid;
   }
@@ -230,11 +230,18 @@ display:grid
   width: 0%;
   height: 100%;
   transition: 0.3s;
+  text-decoration: underline;
 }
 
-.DisplayPeoducts:hover .more-details::before{
+.more-details:hover::before{
   width:100%;
   color:yellow;
   background-color: #0000004d;
 
+}
+
+@media(max-width:700px){
+  .moreDetailsCard{
+    display: grid;
+  }
 }
