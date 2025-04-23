@@ -11,12 +11,15 @@ export default function DisplayPeoducts(products) {
         key={index}
         className="DisplayPeoducts text-[15px] text-[#eeeeeed4] rounded-[5px] shadow-[0px_0px_10px_0px_black] grid gap-[3px] w-[fit-content] duration-500 hover:-translate-y-1"
       >
-        <div className="more-details w-[240px] h-[170px] ">
-          <img
-            className="h-full rounded-[5px]"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUHB559_lpuhRggsf2SfA6nuCvsM_7zj8lg&s"
-          />
-        </div>
+        <Link to="/More-Details">
+          <div className="more-details w-[240px] h-[170px] ">
+            <img
+              className="h-full rounded-[5px]"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUHB559_lpuhRggsf2SfA6nuCvsM_7zj8lg&s"
+            />
+          </div>
+        </Link>
+
         <div className="grid gap-[5px] !p-[5px]">
           <h1 className="rounded-[5px] font-bold">{p.name}</h1>
           <p className="text-[#063447] bg-[#eeeeeed4] w-[230px] !p-[3px] rounded-[5px] font-semibold text-[15px]">

@@ -1,5 +1,6 @@
 import { favoritesProductsContext } from "./FavoritesProductsState";
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 export default function ShoppingCartCard({ product, index, shoppingCart }) {
   const favorites = useContext(favoritesProductsContext);
   return (
@@ -7,12 +8,14 @@ export default function ShoppingCartCard({ product, index, shoppingCart }) {
       key={index}
       className="flex gap-3 shadow-[0px_0px_2px_0px_black] !p-[5px] DisplayPeoducts"
     >
-      <div className="more-details">
-        <img
-          className="w-[220px] h-[230px]"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUHB559_lpuhRggsf2SfA6nuCvsM_7zj8lg&s"
-        />
-      </div>
+      <Link to="/More-Details">
+        <div className="more-details">
+          <img
+            className="w-[220px] h-[230px]"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUHB559_lpuhRggsf2SfA6nuCvsM_7zj8lg&s"
+          />
+        </div>
+      </Link>
 
       <div className="grid gap-1 !p-[3px] ">
         <p className="text-[19px]">{product.name}</p>

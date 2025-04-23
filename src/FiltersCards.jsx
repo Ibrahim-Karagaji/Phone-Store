@@ -11,12 +11,14 @@ export default function FiltersCards({ products, index }) {
       className="filter-card DisplayPeoducts flex gap-2 text-[#eeeeeed1] shadow-[0px_0px_5px_0px_black] !p-[3px] rounded-[4px] duration-500 hover:shadow-[0px_0px_10px_0px_black] hover:-translate-y-1"
       key={index}
     >
-      <div className="more-details">
-        <img
-          className="min-w-[180px] max-w-[220px]  min-h-[180px] max-h-[190px] rounded-[4px]"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUHB559_lpuhRggsf2SfA6nuCvsM_7zj8lg&s"
-        />
-      </div>
+      <Link to="/More-Details">
+        <div className="more-details">
+          <img
+            className="min-w-[180px] max-w-[220px]  min-h-[180px] max-h-[190px] rounded-[4px]"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUHB559_lpuhRggsf2SfA6nuCvsM_7zj8lg&s"
+          />
+        </div>
+      </Link>
 
       <div className="grid gap-2">
         <h1 className="text-[20px] font-normal">{products.name}</h1>
