@@ -1,17 +1,24 @@
 import { Link } from "react-router-dom";
 import { favoritesProductsContext } from "./FavoritesProductsState";
 import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
+import { productDetailsContext } from "./ProductDetailsState";
 import { useContext } from "react";
 export default function FiltersCards({ products, index }) {
   const favorites = useContext(favoritesProductsContext);
   const shoppingCart = useContext(shoppingCartProductsContext);
+  const productDetails = useContext(productDetailsContext);
 
   return (
     <div
       className="filter-card DisplayPeoducts flex gap-2 text-[#eeeeeed1] shadow-[0px_0px_5px_0px_black] !p-[3px] rounded-[4px] duration-500 hover:shadow-[0px_0px_10px_0px_black] hover:-translate-y-1"
       key={index}
     >
-      <Link to="/More-Details">
+      <Link
+        onClick={() => {
+          productDetails.addProduct(products);
+        }}
+        to="/More-Details"
+      >
         <div className="more-details">
           <img
             className="min-w-[180px] max-w-[220px]  min-h-[180px] max-h-[190px] rounded-[4px]"

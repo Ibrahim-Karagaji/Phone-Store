@@ -1,14 +1,21 @@
 import { favoritesProductsContext } from "./FavoritesProductsState";
+import { productDetailsContext } from "./ProductDetailsState";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 export default function ShoppingCartCard({ product, index, shoppingCart }) {
   const favorites = useContext(favoritesProductsContext);
+  const productDetails = useContext(productDetailsContext);
   return (
     <div
       key={index}
       className="flex gap-3 shadow-[0px_0px_2px_0px_black] !p-[5px] DisplayPeoducts"
     >
-      <Link to="/More-Details">
+      <Link
+        onClick={() => {
+          productDetails.addProduct(product);
+        }}
+        to="/More-Details"
+      >
         <div className="more-details">
           <img
             className="w-[220px] h-[230px]"

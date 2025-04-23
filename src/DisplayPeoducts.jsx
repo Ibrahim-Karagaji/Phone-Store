@@ -1,17 +1,24 @@
 import { favoritesProductsContext } from "./FavoritesProductsState";
 import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
+import { productDetailsContext } from "./ProductDetailsState";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 export default function DisplayPeoducts(products) {
   const favorites = useContext(favoritesProductsContext);
   const shoppingCart = useContext(shoppingCartProductsContext);
+  const productDetails = useContext(productDetailsContext);
   const newProducts = products.map((p, index) => {
     return (
       <div
         key={index}
         className="DisplayPeoducts text-[15px] text-[#eeeeeed4] rounded-[5px] shadow-[0px_0px_10px_0px_black] grid gap-[3px] w-[fit-content] duration-500 hover:-translate-y-1"
       >
-        <Link to="/More-Details">
+        <Link
+          onClick={() => {
+            productDetails.addProduct(p);
+          }}
+          to="/More-Details"
+        >
           <div className="more-details w-[240px] h-[170px] ">
             <img
               className="h-full rounded-[5px]"
