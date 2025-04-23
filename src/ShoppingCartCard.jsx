@@ -5,7 +5,7 @@ export default function ShoppingCartCard({ product, index, shoppingCart }) {
   return (
     <div
       key={index}
-      className="flex gap-3 shadow-[0px_0px_2px_0px_black] !p-[5px] "
+      className="flex gap-3 shadow-[0px_0px_2px_0px_black] !p-[5px] DisplayPeoducts"
     >
       <div className="more-details">
         <img
