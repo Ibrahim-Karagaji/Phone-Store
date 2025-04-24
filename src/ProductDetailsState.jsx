@@ -5,10 +5,13 @@ export default function ProductDetailsState({ children }) {
 
   const addProduct = (details) => {
     setProductDetails(details);
-    console.log(details);
   };
 
-  const state = { productDetails, setProductDetails, addProduct };
+  const state = {
+    productDetails: productDetails,
+    setProductDetails,
+    addProduct,
+  };
 
   return (
     <productDetailsContext.Provider value={state}>

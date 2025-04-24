@@ -8,7 +8,6 @@ import { createContext } from "react";
 import ShoppingCartProductsState from "./ShoppingCartProductsState";
 import FiltersState from "./FiltersState";
 import ProductDetailsState from "./ProductDetailsState";
-
 export const products = createContext();
 
 export default function Layout() {
