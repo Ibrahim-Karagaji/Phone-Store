@@ -245,3 +245,14 @@ display:grid
     display: grid;
   }
 }
+
+.empty-image{
+  margin-right: -280px ;
+}
+
+
+@media(max-width:985px){
+.empty-image{
+  margin-right: 0px;
+}
+}

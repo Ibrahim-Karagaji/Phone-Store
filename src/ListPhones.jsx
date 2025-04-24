@@ -54,7 +54,12 @@ export default function ListPhones() {
       });
   }, [filters.filtersState]);
 
-  return (
+  return products.isLoading == true ? (
+    <div className="grid w-[fit-content] !m-[auto] text-center bg-[#002737] text-[#eeeeeed1] rounded-[4px]">
+      <h1 className="text-[23px]">Loading...</h1>
+      <img src="images-folder\Waiting.png" />
+    </div>
+  ) : (
     <div>
       <div className="flex gap-3 !mt-[10px] !mb-[10px] w-[fit-content] !m-[auto] bg-[#002737] !p-[10px] rounded-[4px] overflow-auto min-w-[300px] max-w-[100%]">
         <label htmlFor="brandFilter">
@@ -162,13 +167,21 @@ export default function ListPhones() {
         </label>
       </div>
       <div className="filters-pareant grid gap-5 grid-cols-2 justify-center items-center w-[fit-content] !m-[auto] !p-[10px] rounded-[4px] min-w-[300px] max-w-[100%]">
-        {products.isLoading == false
-          ? products.products
-              .map((item, index) => (
-                <FiltersCards key={index} products={item} index={index} />
-              ))
-              .slice(0, 10)
-          : console.log("A'int")}
+        {products.products.length != 0 ? (
+          products.products
+            .map((item, index) => (
+              <FiltersCards key={index} products={item} index={index} />
+            ))
+            .slice(0, 10)
+        ) : (
+          <div className="empty-image grid justify-center text-center bg-[#002737] text-[#eeeeeed1] rounded-[4px]">
+            <h1 className="text-[23px]">Not Found</h1>
+            <img
+              src="images-folder\empty.png"
+              className="w-[500px] h-[500px] "
+            />
+          </div>
+        )}
       </div>
     </div>
   );
