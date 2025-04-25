@@ -170,16 +170,19 @@ export default function ListPhones() {
               type="number"
             />
           </div>
-          <input
-            step="50"
-            placeholder="max-price"
-            onChange={(e) => handleMaxPriceChange(e)}
-            name="maxPrice"
-            max="1300"
-            min="0"
-            className="bg-[#eeeeeed1] text-[#063447] w-[93px] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
-            type="number"
-          />
+          <div className="grid text-center text-[#eeeeeed1] gap-1">
+            <h1 className="font-normal">Max Price</h1>
+            <input
+              step="50"
+              placeholder="0"
+              onChange={(e) => handleMaxPriceChange(e)}
+              name="MaxPrice"
+              max="1300"
+              min="0"
+              className="bg-[#eeeeeed1] text-[#063447] w-[93px] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
+              type="number"
+            />
+          </div>
         </label>
       </div>
       <div className="filters-pareant grid gap-5 grid-cols-2 justify-center items-center w-[fit-content] !m-[auto] !p-[10px] rounded-[4px] min-w-[300px] max-w-[100%]">
