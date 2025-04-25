@@ -95,7 +95,11 @@ export default function ListPhones() {
             ))}
           </select>
         </label>
-        <label htmlFor="storageFilter">
+        <label
+          htmlFor="storageFilter"
+          className="grid text-center text-[#eeeeeed1] gap-1"
+        >
+          <h1 className="font-normal">Storge</h1>
           <select
             onClick={(e) => {
               handleStorageState(e);
@@ -104,13 +108,12 @@ export default function ListPhones() {
             name="brandFilter"
             className="text-[#063447] bg-[#eeeeeed1] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
           >
-            <option value="" selected>
-              storage
-            </option>
-            <option value="64GB">64GB</option>
-            <option value="128GB">128GB</option>
-            <option value="256GB">256GB</option>
-            <option value="512GB">512GB</option>
+            <option value="">All</option>
+            {["64GB", "128GB", "256GB", "512GB"].map((item, index) => (
+              <option key={index} value={item}>
+                {item}
+              </option>
+            ))}
           </select>
         </label>
         <label htmlFor="categoryFilter">
