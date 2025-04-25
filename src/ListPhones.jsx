@@ -33,8 +33,6 @@ export default function ListPhones() {
 
   const handleMaxPriceChange = (e) => {
     filters.handleAddMaxPriceState(e.target.value);
-    const c = document.getElementById("yf").getBoundingClientRect();
-    c;
   };
 
   useEffect(() => {
@@ -159,18 +157,19 @@ export default function ListPhones() {
           </select>
         </label>
         <label htmlFor="minAndMaxPriceFilter" className="flex gap-2">
-          <input
-            disabled={
-              filters.filtersState.maxPrice <= filters.filtersState.minPrice
-            }
-            step="50"
-            placeholder="min-price"
-            onChange={(e) => handleMinPriceChange(e)}
-            name="minPrice"
-            max="1299"
-            className="bg-[#eeeeeed1] text-[#063447] w-[93px] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
-            type="number"
-          />
+          <div className="grid text-center text-[#eeeeeed1] gap-1">
+            <h1 className="font-normal">Min Price</h1>
+            <input
+              step="50"
+              placeholder="0"
+              onChange={(e) => handleMinPriceChange(e)}
+              name="minPrice"
+              max="1299"
+              min="0"
+              className="bg-[#eeeeeed1] text-[#063447] w-[93px] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
+              type="number"
+            />
+          </div>
           <input
             step="50"
             placeholder="max-price"
