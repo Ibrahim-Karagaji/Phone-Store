@@ -1,6 +1,7 @@
 import { filtersStateContext } from "./FiltersState";
 import { useEffect, useContext, useState } from "react";
 import FiltersCards from "./FiltersCards";
+
 export default function ListPhones() {
   const filters = useContext(filtersStateContext);
 
@@ -32,6 +33,8 @@ export default function ListPhones() {
 
   const handleMaxPriceChange = (e) => {
     filters.handleAddMaxPriceState(e.target.value);
+    const c = document.getElementById("yf").getBoundingClientRect();
+    c;
   };
 
   useEffect(() => {
@@ -62,7 +65,11 @@ export default function ListPhones() {
   ) : (
     <div>
       <div className="flex gap-3 !mt-[10px] !mb-[10px] w-[fit-content] !m-[auto] bg-[#002737] !p-[10px] rounded-[4px] overflow-auto min-w-[300px] max-w-[100%]">
-        <label htmlFor="brandFilter">
+        <label
+          htmlFor="brandFilter"
+          className="grid text-center text-[#eeeeeed1] gap-1"
+        >
+          <h1 className="font-normal">Brand</h1>
           <select
             onClick={(e) => {
               handleBrandState(e);
@@ -71,17 +78,21 @@ export default function ListPhones() {
             name="brandFilter"
             className="text-[#063447] bg-[#eeeeeed1] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
           >
-            <option value="" selected>
-              brand
-            </option>
-            <option value="OnePlus">OnePlus</option>
-            <option value="Samsung">Samsung</option>
-            <option value="Apple">Apple</option>
-            <option value="Honor">Honor</option>
-            <option value="Realme">Realme</option>
-            <option value="Oppo">Oppo</option>
-            <option value="Vivo">Vivo</option>
-            <option value="Xiaomi">Xiaomi</option>
+            <option value="">All</option>
+            {[
+              "OnePlus",
+              "Samsung",
+              "Apple",
+              "Vivo",
+              "Xiaomi",
+              "Honor",
+              "Realme",
+              "Oppo",
+            ].map((item, index) => (
+              <option key={index} value={item}>
+                {item}
+              </option>
+            ))}
           </select>
         </label>
         <label htmlFor="storageFilter">
