@@ -11,7 +11,7 @@ export default function DisplayPeoducts(products) {
     return (
       <div
         key={index}
-        className="DisplayPeoducts text-[15px] text-[#eeeeeed4] rounded-[5px] shadow-[0px_0px_10px_0px_black] grid gap-[3px] w-[fit-content] duration-500 hover:-translate-y-1"
+        className="DisplayPeoducts text-[15px] text-[#eeeeeed4] rounded-[5px] shadow-[0px_0px_3px_0px_black] grid gap-[3px] w-[fit-content] duration-500 hover:-translate-y-1"
       >
         <Link
           onClick={() => {
@@ -36,7 +36,7 @@ export default function DisplayPeoducts(products) {
         </div>
         <div className="flex justify-between !p-[5px] items-center">
           <img
-            className={`w-[30px] rounded-[3px] !p-[3px] rounded-[5px] ${
+            className={`w-[30px] rounded-[3px] !p-[3px] ${
               favorites.favoritesState.some((fav) => fav.name == p.name) == true
                 ? `bg-[red]`
                 : `bg-[transparent]`
