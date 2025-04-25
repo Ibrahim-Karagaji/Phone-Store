@@ -18,9 +18,8 @@ export default function Footer() {
           <div className="grid gap-1 text-[22px] text-center">
             <h1 className="font-bold">Categories</h1>
             <p className="font-normal">Flagship</p>
-            <p className="font-normal">Flagship Killer</p>
-            <p className="font-normal">Medium</p>
-            <p className="font-normal">Economy</p>
+            <p className="font-normal">Med-Range</p>
+            <p className="font-normal">Budget</p>
           </div>
           <div className="grid gap-3 justify-center text-center">
             <h1 className="font-bold text-[22px]">Contact Me</h1>
