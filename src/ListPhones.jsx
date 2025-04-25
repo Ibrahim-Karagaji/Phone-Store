@@ -116,7 +116,11 @@ export default function ListPhones() {
             ))}
           </select>
         </label>
-        <label htmlFor="categoryFilter">
+        <label
+          htmlFor="categoryFilter"
+          className="grid text-center text-[#eeeeeed1] gap-1"
+        >
+          <h1 className="font-normal">category</h1>
           <select
             onClick={(e) => {
               handleCategoryState(e);
@@ -125,16 +129,12 @@ export default function ListPhones() {
             name="categoryFilter"
             className="text-[#063447] bg-[#eeeeeed1] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
           >
-            ''
-            <option value="">
-              {filters.filtersState.category != ""
-                ? filters.filtersState.category
-                : "brand"}
-            </option>
-            <option value="Flagship">Flagship</option>
-            <option value="Foldable">Foldable</option>
-            <option value="Mid-range">Mid-range</option>
-            <option value="Budget">Budget</option>
+            <option value="">All</option>
+            {["Flagship", "Mid-Range", "Budget"].map((item, index) => (
+              <option key={index} value={item}>
+                {item}
+              </option>
+            ))}
           </select>
         </label>
         <label htmlFor="ramFilter">
