@@ -107,7 +107,7 @@ export default function ListPhones() {
             className="text-[#063447] bg-[#eeeeeed1] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
           >
             <option value="">All</option>
-            {["64GB", "128GB", "256GB", "512GB"].map((item, index) => (
+            {["64GB", "128GB", "256GB"].map((item, index) => (
               <option key={index} value={item}>
                 {item}
               </option>
