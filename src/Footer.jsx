@@ -14,7 +14,7 @@ export default function Footer() {
             connected.
           </span>
         </div>
-        <div className="!mt-[10px] !mb-[10px] flex items-center gap-5 justify-center">
+        <div className="!mt-[10px] !mb-[10px] flex items-center gap-3 justify-center">
           <div className="grid text-[19px] text-center">
             <h1 className="font-bold">Categories</h1>
             <p className="font-normal">Flagship</p>
