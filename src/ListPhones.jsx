@@ -137,7 +137,11 @@ export default function ListPhones() {
             ))}
           </select>
         </label>
-        <label htmlFor="ramFilter">
+        <label
+          htmlFor="ramFilter"
+          className="grid text-center text-[#eeeeeed1] gap-1"
+        >
+          <h1 className="font-normal">Ram</h1>
           <select
             onClick={(e) => {
               handleRamState(e);
@@ -146,13 +150,12 @@ export default function ListPhones() {
             name="ramFilter"
             className="text-[#063447] bg-[#eeeeeed1] rounded-[4px] !pt-[3px] !pb-[3px] !pl-[5px] !pr-[5px]"
           >
-            <option value="" selected>
-              Ram
-            </option>
-            <option value="4GB">4GB</option>
-            <option value="6GB">6GB</option>
-            <option value="8GB">8GB</option>
-            <option value="12GB">12GB</option>
+            <option value="">All</option>
+            {["4GB", "6GB", "8GB", "12GB"].map((item, index) => (
+              <option key={index} value={item}>
+                {item}
+              </option>
+            ))}
           </select>
         </label>
         <label htmlFor="minAndMaxPriceFilter" className="flex gap-2">
