@@ -15,13 +15,13 @@ export default function ShoppingCart() {
 
   return shoppingCart.shoppingCartState.length == 0 ? (
     <div
-      className={`shadow-[0px_0px_5px_0px_black] grid gap-3 text-center justify-center rounded-[5px] !m-[auto] w-[fit-content] text-[23px] text-[#eeeeeed1] bg-[#002737]`}
+      className={`shadow-[0px_0px_5px_0px_black] grid gap-2 justify-self-center text-center rounded-[5px] !m-[15px] w-[fit-content] text-[23px] text-[#eeeeeed1] bg-[#002737]`}
     >
       <h1>shopping Cart is empty</h1>
       <img src="images-folder\empty.png" className="h-[400px] w-[500px] " />
     </div>
   ) : (
-    <div className="shoppingCart flex gap-4 !mt-[10px] !mb-[10px] !mt-[15px] !ml-[15px] justify-center leading-[1.8]">
+    <div className="shoppingCart flex gap-4 !mt-[10px] !mb-[10px] !ml-[15px] justify-center leading-[1.8]">
       <div className="grid !p-[5px] text-[#eeeeeed1] shadow-[0px_0px_2px_0px_black] font-medium rounded-[5px] h-[fit-content]">
         <h1 className="!-p[3px] !m-[4px] border-b-[1px] border-b-[#eeeeee40] text-[23px]">
           Summary
@@ -49,7 +49,7 @@ export default function ShoppingCart() {
             </p>
           </div>
         </div>
-        <button className="!mt-[3px] !mb-[3px] !p-[10px] flex gap-2 items-center justify-center !p-[5px] rounded-[5px] bg-[#00141c] text-[#eeeeee40]">
+        <button className="!mt-[3px] !mb-[3px] flex gap-2 items-center justify-center !p-[5px] rounded-[5px] bg-[#00141c] text-[#eeeeee40]">
           <i className="fa-solid fa-credit-card"></i>
           <p>CHEKOUT</p>
         </button>
@@ -65,13 +65,15 @@ export default function ShoppingCart() {
             <p>CLEAR CART</p>
           </button>
         </div>
-        {shoppingCart.shoppingCartState.map((s, index) => (
-          <ShoppingCartCard
-            product={s}
-            index={index}
-            shoppingCart={shoppingCart}
-          />
-        ))}
+        <div className="grid gap-2 ShoppingCartCardParant">
+          {shoppingCart.shoppingCartState.map((s, index) => (
+            <ShoppingCartCard
+              product={s}
+              index={index}
+              shoppingCart={shoppingCart}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ export default function ShoppingCartCard({ product, index, shoppingCart }) {
   return (
     <div
       key={index}
-      className="flex gap-3 shadow-[0px_0px_2px_0px_black] !p-[5px] DisplayPeoducts"
+      className="flex gap-1 shadow-[0px_0px_2px_0px_black] !p-[5px] ShoppingCartCard DisplayPeoducts"
     >
       <Link
         onClick={() => {
@@ -16,9 +16,9 @@ export default function ShoppingCartCard({ product, index, shoppingCart }) {
         }}
         to="/More-Details"
       >
-        <div className="more-details">
+        <div className="more-details shoppingCartImg w-[250px] h-[230px]">
           <img
-            className="w-[220px] h-[230px]"
+            className="w-[100%] h-[100%]"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUHB559_lpuhRggsf2SfA6nuCvsM_7zj8lg&s"
           />
         </div>
@@ -26,13 +26,13 @@ export default function ShoppingCartCard({ product, index, shoppingCart }) {
 
       <div className="grid gap-1 !p-[3px] ">
         <p className="text-[19px]">{product.name}</p>
-        <p className="!p-[5px] w-[350px] h-[fit-content] text-[#063447] bg-[#eeeeeed1] leading-[1.8] rounded-[3px]">
+        <p className="ShoppingCartCardDescription !p-[5px] w-[350px] h-[fit-content] text-[#063447] bg-[#eeeeeed1] leading-[1.8] rounded-[3px]">
           {product.description}
         </p>
         <div className="flex items-center justify-between border-b-[1px] border-b-[#eeeeee40]">
           <p>${product.price}</p>
           <img
-            className={`w-[30px] rounded-[3px] !p-[3px] rounded-[5px] ${
+            className={`w-[30px] rounded-[3px] !p-[3px] ${
               favorites.favoritesState.some(
                 (fav) => fav.name == product.name
               ) == true

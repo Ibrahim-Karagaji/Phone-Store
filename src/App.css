@@ -196,6 +196,39 @@
   }
 }
 
+@media(max-width:650px){
+  .ShoppingCartCardParant{
+    grid-template-columns: auto auto;
+    
+  }
+}
+
+@media(max-width:550px){
+  .ShoppingCartCardParant{
+    grid-template-columns: auto;
+    
+  }
+}
+
+@media(max-width:650px){
+  .ShoppingCartCard{
+    display: grid;  
+    
+  }
+}
+
+@media(max-width:650px){
+  .shoppingCartImg{
+    width:100%
+  }
+}
+
+@media(max-width:650px){
+  .ShoppingCartCardDescription{
+    width:100%    
+  }
+}
+
 input:focus-visible{
 outline: none;
 }
