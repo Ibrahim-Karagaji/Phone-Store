@@ -7,6 +7,7 @@ export type Phone = {
   production: string;
   storage: string;
   ram: string;
+  images: string[];
 };
 
 export const phones: Phone[] = [
@@ -21,6 +22,12 @@ export const phones: Phone[] = [
     production: "January 2025",
     storage: "128GB / 256GB",
     ram: "12GB / 16GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12r-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12r-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12r-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12r-4.jpg",
+    ],
   },
   {
     name: "OnePlus 13R",
@@ -32,6 +39,12 @@ export const phones: Phone[] = [
     production: "January 2025",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13r-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13r-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13r-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13r-4.jpg",
+    ],
   },
   {
     name: "OnePlus 12",
@@ -43,6 +56,12 @@ export const phones: Phone[] = [
     production: "Late 2024",
     storage: "128GB / 256GB",
     ram: "12GB / 16GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12-4.jpg",
+    ],
   },
   {
     name: "OnePlus Open",
@@ -54,6 +73,12 @@ export const phones: Phone[] = [
     production: "October 2023",
     storage: "256GB / 512GB",
     ram: "16GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-open-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-open-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-open-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-open-4.jpg",
+    ],
   },
   {
     name: "OnePlus Nord N30 5G",
@@ -65,6 +90,12 @@ export const phones: Phone[] = [
     production: "April 2024",
     storage: "128GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n30-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n30-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n30-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n30-4.jpg",
+    ],
   },
   {
     name: "OnePlus 11",
@@ -76,6 +107,12 @@ export const phones: Phone[] = [
     production: "February 2023",
     storage: "128GB / 256GB",
     ram: "8GB / 16GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11-4.jpg",
+    ],
   },
   {
     name: "OnePlus 11R",
@@ -87,6 +124,12 @@ export const phones: Phone[] = [
     production: "February 2023",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11r-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11r-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11r-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11r-4.jpg",
+    ],
   },
   {
     name: "OnePlus Nord 3",
@@ -98,6 +141,12 @@ export const phones: Phone[] = [
     production: "July 2023",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-3-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-3-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-3-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-3-4.jpg",
+    ],
   },
   {
     name: "OnePlus Nord CE 3 Lite",
@@ -109,6 +158,12 @@ export const phones: Phone[] = [
     production: "April 2024",
     storage: "128GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-ce-3-lite-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-ce-3-lite-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-ce-3-lite-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-ce-3-lite-4.jpg",
+    ],
   },
   {
     name: "OnePlus 10 Pro",
@@ -120,6 +175,12 @@ export const phones: Phone[] = [
     production: "March 2022",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-10-pro-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-10-pro-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-10-pro-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-10-pro-4.jpg",
+    ],
   },
   {
     name: "OnePlus 9 Pro",
@@ -131,6 +192,12 @@ export const phones: Phone[] = [
     production: "March 2021",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-pro-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-pro-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-pro-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-pro-4.jpg",
+    ],
   },
   {
     name: "OnePlus 8T",
@@ -142,6 +209,12 @@ export const phones: Phone[] = [
     production: "October 2020",
     storage: "128GB / 256GB",
     ram: "12GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-8t-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-8t-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-8t-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-8t-4.jpg",
+    ],
   },
   {
     name: "OnePlus Nord 2T",
@@ -153,6 +226,12 @@ export const phones: Phone[] = [
     production: "May 2022",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-2t-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-2t-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-2t-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-2t-4.jpg",
+    ],
   },
   {
     name: "OnePlus 9",
@@ -164,6 +243,12 @@ export const phones: Phone[] = [
     production: "March 2021",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-4.jpg",
+    ],
   },
   {
     name: "OnePlus Nord N100",
@@ -175,6 +260,12 @@ export const phones: Phone[] = [
     production: "October 2020",
     storage: "64GB",
     ram: "4GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n100-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n100-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n100-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n100-4.jpg",
+    ],
   },
   {
     name: "OnePlus 8",
@@ -186,6 +277,12 @@ export const phones: Phone[] = [
     production: "April 2020",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-8-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-8-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-8-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-8-4.jpg",
+    ],
   },
   {
     name: "OnePlus X",
@@ -197,6 +294,12 @@ export const phones: Phone[] = [
     production: "October 2015",
     storage: "16GB",
     ram: "3GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-x-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-x-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-x-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-x-4.jpg",
+    ],
   },
   {
     name: "OnePlus 7T Pro",
@@ -208,6 +311,12 @@ export const phones: Phone[] = [
     production: "October 2019",
     storage: "256GB",
     ram: "8GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7t-pro-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7t-pro-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7t-pro-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7t-pro-4.jpg",
+    ],
   },
   {
     name: "OnePlus 7 Pro",
@@ -219,6 +328,12 @@ export const phones: Phone[] = [
     production: "May 2019",
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7-pro-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7-pro-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7-pro-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7-pro-4.jpg",
+    ],
   },
   {
     name: "OnePlus 6T",
@@ -230,6 +345,12 @@ export const phones: Phone[] = [
     production: "November 2018",
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-6t-1.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-6t-2.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-6t-3.jpg",
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-6t-4.jpg",
+    ],
   },
 
   //   Samsung phones
