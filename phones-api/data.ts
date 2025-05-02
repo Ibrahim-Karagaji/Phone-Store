@@ -1218,7 +1218,7 @@ export const phones: Phone[] = [
     images: [
       "public/prodcuts-imgs/Honor-products-imgs/Honor-7X-1.jpeg",
       "public/prodcuts-imgs/Honor-products-imgs/Honor-7X-2.jpg",
-      "      public/prodcuts-imgs/Honor-products-imgs/Honor-9X-Pro-2.jpeg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-9X-Pro-2.jpeg",
     ],
   },
 
@@ -1235,10 +1235,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
     images: [
-      "https://www.realme.com/in/realme-gt-2-pro",
-      "https://cdn.mos.cms.futurecdn.net/SJ5Z6L2hbhbL6yThNGBu8h-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/FSbndgs2YF3aTttCRqzrQX-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/68TkdsEjxoiijNQL8WSz9w-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-GT-2-Pro-1.avif",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-GT-2-Pro-2.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-GT-2-Pro-4.jpeg",
     ],
   },
   {
@@ -1252,10 +1251,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
     images: [
-      "https://www.realme.com/in/realme-gt-2",
-      "https://cdn.mos.cms.futurecdn.net/4MwMbjsGnaBfgXBm8y8bTA-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/8bFhzYc5toG2fV4sb7bAyj-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/p5rsB6rfgt8zBrKZXbzV9k-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-GT-2-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-GT-2-3.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-GT-2-4.jpeg",
     ],
   },
   {
@@ -1269,10 +1267,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.realme.com/in/realme-9-pro-plus",
-      "https://cdn.mos.cms.futurecdn.net/fHKmLYgq9nFc5v7pnjp7Xc-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Qw33LPV7KbWsNSXkTmV6Hf-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/BF8YrRmVrTGGp2NY2hZ2a9-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-9-Pro+-1.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-9-Pro+-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-9-Pro+-4.jpg",
     ],
   },
   {
@@ -1286,10 +1283,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.realme.com/in/realme-9-pro",
-      "https://cdn.mos.cms.futurecdn.net/jGTG5WL9Xx8fNjF8Fubm76-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/xJe4FcF5zo8qvUszA5xKv7-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/YyQwv66E65nQ3bgHmuGcqR-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-9-Pro-1.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-9-Pro-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-9-Pro-4.jpg",
     ],
   },
   {
@@ -1303,10 +1299,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.realme.com/in/realme-gt-master-edition",
-      "https://cdn.mos.cms.futurecdn.net/USjRfM7mr6wbt9fsQ1t8Zf-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/9d3HgqeqcXcV2fb5ytjZYx-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/yYB84HtNjRG2f8Xhw7A4Sm-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-GT-Master-Edition-1.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-GT-Master-Edition-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-GT-Master-Edition-4.jpeg",
     ],
   },
   {
@@ -1320,10 +1315,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
     images: [
-      "https://www.realme.com/in/realme-x7-max",
-      "https://cdn.mos.cms.futurecdn.net/B3kPFrpfhaXxakmP2N2HMb-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/ywMKTyzA5z9S4rbM6d7Jpb-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/NeGG46b2Lf35UjmKrjqfu9-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-X7-Max-5G-1.webp",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-X7-Max-5G-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-X7-Max-5G-4.jpeg",
     ],
   },
   {
@@ -1337,10 +1331,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.realme.com/in/realme-narzo-50-pro-5g",
-      "https://cdn.mos.cms.futurecdn.net/Z7Rfkbj7NxZ9p4gLvdYj2R-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/dNH5FM6JVoP6ZT7WL5gUqZ-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/fP8r2Grtgsb8pEq4FyU7ZA-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme Narzo 50 Pro 5G-1.webp",
+      "public/prodcuts-imgs/realme-products-imgs/Realme Narzo 50 Pro 5G-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme Narzo 50 Pro 5G-4.jpeg",
     ],
   },
   {
@@ -1354,10 +1347,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.realme.com/in/realme-8-pro",
-      "https://cdn.mos.cms.futurecdn.net/dN7h4rFgD3n6pqerh5xb9c-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/dN7h4rFgD3n6pqerh5xb9c-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/9C8i8zCgyU9tYw8pzmNm36-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-8-Pro-1.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-8-Pro-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-8-Pro-4.jpeg",
     ],
   },
   {
@@ -1371,10 +1363,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "4GB / 6GB",
     images: [
-      "https://www.realme.com/in/realme-8-5g",
-      "https://cdn.mos.cms.futurecdn.net/mh2vS3Q8ReT9gGpVpVeYfk-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/sdj4p5zTQhb95jKZj9gHFk-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/v9a7q8jp4z9q8AzHLu4Vdh-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-8-5G-1.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-8-5G-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-8-5G-4.jpeg",
     ],
   },
   {
@@ -1388,10 +1379,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.realme.com/in/realme-x50-pro-5g",
-      "https://cdn.mos.cms.futurecdn.net/ghR3F6eRQxETc4TcbZTNRH-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/5wGtsHzx5ywj45jR44pKTn-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Tz9FnxW9ApNnyD8MvQLdP8-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-X50-Pro-5G-1.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-X50-Pro-5G-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-X50-Pro-5G-4.jpeg",
     ],
   },
   {
@@ -1405,10 +1395,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.realme.com/in/realme-narzo-30-pro-5g",
-      "https://cdn.mos.cms.futurecdn.net/z8nGSKy5vuwK7kfdh7KmL5-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/v24Xk6HBJS8XuwtG9khVhb-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/v9Wa5wqN8K2YBuaF8MPMGK-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-Narzo-30-Pro-5G-1.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-Narzo-30A-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-Narzo-30A-4.jpeg",
     ],
   },
   {
@@ -1422,10 +1411,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "4GB",
     images: [
-      "https://www.realme.com/in/realme-c25y",
-      "https://cdn.mos.cms.futurecdn.net/Zyjj9N2nx9a8L2V2t3pHAZ-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/dk9pxFdANjU6gXyk9f7A5C-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/w7dFy6Pt5fjhP8k9kxFJQ6-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-C25Y-1.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-C25Y-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-C25Y-4.jpeg",
     ],
   },
   {
@@ -1439,10 +1427,9 @@ export const phones: Phone[] = [
     storage: "32GB / 64GB",
     ram: "3GB / 4GB",
     images: [
-      "https://www.realme.com/in/realme-narzo-30a",
-      "https://cdn.mos.cms.futurecdn.net/w5S8MQhZ2Gh7taBqa6Hh5B-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/AjTTtt5gTzW93tce98gZGd-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/fDkqS5h62M3Kx3zTh7oT6X-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-Narzo-30A-1.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-Narzo-30A-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-Narzo-30A-4.jpeg",
     ],
   },
   {
@@ -1456,10 +1443,9 @@ export const phones: Phone[] = [
     storage: "32GB / 64GB",
     ram: "3GB / 4GB",
     images: [
-      "https://www.realme.com/in/realme-c12",
-      "https://cdn.mos.cms.futurecdn.net/zDd6Pv6mHh4Y8CwDsdqE2H-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/d61ft4rcjFwN9w6hryFhn8-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/gFgL2Yua9J9QBdqTHgwr3w-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-C12-1.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-C12-2.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-C12-4.webp",
     ],
   },
   {
@@ -1473,10 +1459,9 @@ export const phones: Phone[] = [
     storage: "32GB / 64GB",
     ram: "3GB / 4GB",
     images: [
-      "https://www.realme.com/in/realme-c15",
-      "https://cdn.mos.cms.futurecdn.net/Yb2G3TYp2wRf8MzX7W4H5M-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Jgr6qf6bkhfS8NcA9jxNfR-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/gx4fB3T5o6Jw8WmuQePNFC-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-C15-1.webp",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-C15-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-C15-4.jpeg",
     ],
   },
   {
@@ -1490,10 +1475,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB / 256GB",
     ram: "8GB / 12GB",
     images: [
-      "https://www.realme.com/in/realme-x2-pro",
-      "https://cdn.mos.cms.futurecdn.net/2J6F7cB93b8Y9sv8REmkkk-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Tjsb5ffX57grVvZG6fxVvd-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/PWuyug2wQYgXqV2YqqxxWA-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-X2-Pro-1.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-X2-Pro-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-X2-Pro-4.jpg",
     ],
   },
   {
@@ -1507,10 +1491,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.realme.com/in/realme-6-pro",
-      "https://cdn.mos.cms.futurecdn.net/QX5fi63mjw9cbQTY4CHvGv-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/nQPB6PRPuqEMy6aJ4iM5KA-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/x8fn4pZtd7pQdF3ev9pXy4-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-6-Pro-1.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-6-Pro-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-6-Pro-3.jpeg",
     ],
   },
   {
@@ -1524,10 +1507,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "4GB / 6GB",
     images: [
-      "https://www.realme.com/in/realme-6",
-      "https://cdn.mos.cms.futurecdn.net/JdHjAFhchwnTZjfdxz55w2-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/w8f6Gq6hzSPt9PyvVzDEb7-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/1pFpcLP6WTG6Ynxr3zHbYA-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-6-1.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-6-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-6-3.jpeg",
     ],
   },
   {
@@ -1541,10 +1523,9 @@ export const phones: Phone[] = [
     storage: "32GB / 64GB",
     ram: "3GB / 4GB",
     images: [
-      "https://www.realme.com/in/realme-c3",
-      "https://cdn.mos.cms.futurecdn.net/V7QdKZ5f5tbA5MhJd7s66y-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/mF9t7W3ghuAdG6rPp9wqzG-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/LVZQXkQHeA39FMQz6h3iXk-1200-80.jpg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-C3-1.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-C3-2.jpeg",
+      "public/prodcuts-imgs/realme-products-imgs/Realme-C3-3.jpeg",
     ],
   },
 
