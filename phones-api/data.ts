@@ -23,10 +23,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "12GB / 16GB",
     images: [
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12r-1.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12r-2.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12r-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12r-4.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-13-1.png",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-13-3.png",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-13-4.jpeg",
     ],
   },
   {
@@ -40,10 +39,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
     images: [
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13r-1.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13r-2.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13r-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13r-4.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-13R-1.png",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-13R-2.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-13-4.jpeg",
     ],
   },
   {
@@ -57,10 +55,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "12GB / 16GB",
     images: [
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12-1.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/onePlus-12-1.png",
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12-2.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12-4.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-12-3.jpg",
     ],
   },
   {
@@ -74,10 +71,9 @@ export const phones: Phone[] = [
     storage: "256GB / 512GB",
     ram: "16GB",
     images: [
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-open-1.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-open-2.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-open-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-open-4.jpg",
+      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.noon.com%2Fsaudi-en%2Fopen-dual-sim-emerald-dusk-16gb-ram-512gb-5g-international-version%2FN70016433V%2Fp%2F&psig=AOvVaw16x2esUQYGW9I8-ddHsyGg&ust=1746233479595000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjPo-TIg40DFQAAAAAdAAAAABAE",
+      "https://www.google.com/imgres?q=oneplus%20open&imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F71pKVhll1IL.jpg&imgrefurl=https%3A%2F%2Fwww.amazon.sa%2F-%2Fen%2FOnePlus-Dual-SIM-Factory-Unlocked-Smartphone%2Fdp%2FB0CKTPK4FG&docid=0SWliQAdN75CDM&tbnid=IlUXNpc7NDeXbM&vet=12ahUKEwiO05jcyIONAxU0xQIHHd3DEpgQM3oECB4QAA..i&w=1500&h=1500&hcb=2&ved=2ahUKEwiO05jcyIONAxU0xQIHHd3DEpgQM3oECB4QAA",
+      "https://www.google.com/imgres?q=oneplus%20open&imgurl=https%3A%2F%2Frukminim2.flixcart.com%2Fimage%2F850%2F1000%2Fxif0q%2Fmobile%2Fg%2Fa%2Fe%2Fopen-cph2551-oneplus-original-imagv2r4xvkjqcrj.jpeg%3Fq%3D90%26crop%3Dfalse&imgrefurl=https%3A%2F%2Fwww.flipkart.com%2Foneplus-open-voyager-black-512-gb%2Fp%2Fitm8d91ded712561%3Fpid%3DMOBGV2R5WXGTGGVK%26lid%3DLSTMOBGV2R5WXGTGGVKZQKNMM%26marketplace%3DFLIPKART%26cmpid%3Dcontent_mobile_8965229628_gmc&docid=r1vNps-jOM6UkM&tbnid=cC6bgEhxaMfKGM&vet=12ahUKEwiO05jcyIONAxU0xQIHHd3DEpgQM3oECHQQAA..i&w=506&h=1000&hcb=2&ved=2ahUKEwiO05jcyIONAxU0xQIHHd3DEpgQM3oECHQQAA",
     ],
   },
   {
@@ -91,10 +87,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "6GB / 8GB",
     images: [
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n30-1.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n30-2.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n30-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n30-4.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-Nord-N30-5G-2.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-Nord-N30-5G-3.jpg",
+      "https://www.google.com/imgres?q=OnePlus%20Nord%20N30%205G&imgurl=https%3A%2F%2Fwiregcc.com%2Fstorage%2Fproducts%2F2024-05-03%2F050320241731326634f5440f476.png&imgrefurl=https%3A%2F%2Fwww.wiregcc.com%2Fproducts%2Fphone-oneplus-nord-n30-se-128-gb-5g.65cb3ff125588&docid=btz_sDOwYtLBDM&tbnid=PhMcT_SxCZnedM&vet=12ahUKEwiJrtXvyYONAxUv3AIHHSKvKWoQM3oECH0QAA..i&w=500&h=500&hcb=2&ved=2ahUKEwiJrtXvyYONAxUv3AIHHSKvKWoQM3oECH0QAA",
     ],
   },
   {
@@ -111,7 +106,6 @@ export const phones: Phone[] = [
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11-1.jpg",
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11-2.jpg",
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11-4.jpg",
     ],
   },
   {
@@ -125,10 +119,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
     images: [
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11r-1.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11r-2.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11r-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11r-4.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/onePlus-11R-1.png",
+      "data:image/jpeg;base64,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",
+      "public/prodcuts-imgs/onePlus-products-imgs/onePlus-11R-1.png",
     ],
   },
   {
@@ -142,10 +135,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
     images: [
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-3-1.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-3-2.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-3-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-3-4.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/onePlus-nord-3-1.png",
+      "public/prodcuts-imgs/onePlus-products-imgs/onePlus-nord-3-3.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/onePlus-nord-3-4.png",
     ],
   },
   {
@@ -161,8 +153,7 @@ export const phones: Phone[] = [
     images: [
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-ce-3-lite-1.jpg",
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-ce-3-lite-2.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-ce-3-lite-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-ce-3-lite-4.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-Nord-CE-3-Lite-1.png",
     ],
   },
   {
@@ -179,7 +170,6 @@ export const phones: Phone[] = [
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-10-pro-1.jpg",
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-10-pro-2.jpg",
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-10-pro-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-10-pro-4.jpg",
     ],
   },
   {
@@ -195,8 +185,7 @@ export const phones: Phone[] = [
     images: [
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-pro-1.jpg",
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-pro-2.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-pro-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-pro-4.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-9-Pro-1.jpg",
     ],
   },
   {
@@ -212,8 +201,7 @@ export const phones: Phone[] = [
     images: [
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-8t-1.jpg",
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-8t-2.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-8t-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-8t-4.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-8T-1.jpg",
     ],
   },
   {
@@ -227,10 +215,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
     images: [
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-2t-1.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-2t-2.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-2t-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-2t-4.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-Nord-2T-1.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-Nord-2T-2.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-Nord-2T-3.jpg",
     ],
   },
   {
@@ -247,7 +234,6 @@ export const phones: Phone[] = [
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-1.jpg",
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-2.jpg",
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-4.jpg",
     ],
   },
   {
@@ -262,9 +248,8 @@ export const phones: Phone[] = [
     ram: "4GB",
     images: [
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n100-1.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n100-2.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n100-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n100-4.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-Nord-N100-3.jpeg",
+      "public/prodcuts-imgs/onePlus-products-imgs/OnePlus-Nord-N100-4.jpeg",
     ],
   },
   {
@@ -280,8 +265,7 @@ export const phones: Phone[] = [
     images: [
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-8-1.jpg",
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-8-2.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-8-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-8-4.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/oneplus-8-3.jpg",
     ],
   },
   {
@@ -295,10 +279,9 @@ export const phones: Phone[] = [
     storage: "16GB",
     ram: "3GB",
     images: [
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-x-1.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-x-2.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/oneplus-x-1.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/oneplus-x-2.jpg",
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-x-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-x-4.jpg",
     ],
   },
   {
@@ -315,7 +298,6 @@ export const phones: Phone[] = [
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7t-pro-1.jpg",
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7t-pro-2.jpg",
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7t-pro-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7t-pro-4.jpg",
     ],
   },
   {
@@ -332,7 +314,6 @@ export const phones: Phone[] = [
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7-pro-1.jpg",
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7-pro-2.jpg",
       "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7-pro-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7-pro-4.jpg",
     ],
   },
   {
@@ -346,10 +327,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
     images: [
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-6t-1.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-6t-2.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-6t-3.jpg",
-      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-6t-4.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/oneplus-6t-1.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/oneplus-6t-2.jpg",
+      "public/prodcuts-imgs/onePlus-products-imgs/oneplus-6t-3.jpg",
     ],
   },
 
@@ -365,6 +345,12 @@ export const phones: Phone[] = [
     production: "February 2023",
     storage: "256GB / 512GB / 1TB",
     ram: "12GB",
+    images: [
+      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-ultra-official-images/-1200w2/gsmarena_001.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-ultra-official-images/-1200w2/gsmarena_002.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-ultra-official-images/-1200w2/gsmarena_003.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-ultra-official-images/-1200w2/gsmarena_004.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy S23+",
@@ -376,6 +362,12 @@ export const phones: Phone[] = [
     production: "February 2023",
     storage: "256GB / 512GB",
     ram: "8GB",
+    images: [
+      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-plus-official-images/-1200w2/gsmarena_001.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-plus-official-images/-1200w2/gsmarena_002.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-plus-official-images/-1200w2/gsmarena_003.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-plus-official-images/-1200w2/gsmarena_004.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy S23",
@@ -387,6 +379,12 @@ export const phones: Phone[] = [
     production: "February 2023",
     storage: "128GB / 256GB",
     ram: "8GB",
+    images: [
+      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-official-images/-1200w2/gsmarena_001.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-official-images/-1200w2/gsmarena_002.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-official-images/-1200w2/gsmarena_003.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-official-images/-1200w2/gsmarena_004.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy Z Fold 5",
@@ -398,6 +396,12 @@ export const phones: Phone[] = [
     production: "July 2023",
     storage: "256GB / 512GB / 1TB",
     ram: "12GB",
+    images: [
+      "https://fdn.gsmarena.com/imgroot/news/23/07/samsung-galaxy-z-fold5-official-images/-1200w2/gsmarena_001.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/07/samsung-galaxy-z-fold5-official-images/-1200w2/gsmarena_002.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/07/samsung-galaxy-z-fold5-official-images/-1200w2/gsmarena_003.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/07/samsung-galaxy-z-fold5-official-images/-1200w2/gsmarena_004.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy Z Flip 5",
@@ -409,6 +413,12 @@ export const phones: Phone[] = [
     production: "July 2023",
     storage: "256GB / 512GB",
     ram: "8GB",
+    images: [
+      "https://fdn.gsmarena.com/imgroot/news/23/07/samsung-galaxy-z-flip5-official-images/-1200w2/gsmarena_001.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/07/samsung-galaxy-z-flip5-official-images/-1200w2/gsmarena_002.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/07/samsung-galaxy-z-flip5-official-images/-1200w2/gsmarena_003.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/07/samsung-galaxy-z-flip5-official-images/-1200w2/gsmarena_004.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy A54 5G",
@@ -420,6 +430,12 @@ export const phones: Phone[] = [
     production: "March 2023",
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://fdn.gsmarena.com/imgroot/news/23/03/samsung-galaxy-a54-official-images/-1200w2/gsmarena_001.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/03/samsung-galaxy-a54-official-images/-1200w2/gsmarena_002.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/03/samsung-galaxy-a54-official-images/-1200w2/gsmarena_003.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/03/samsung-galaxy-a54-official-images/-1200w2/gsmarena_004.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy A34 5G",
@@ -431,6 +447,12 @@ export const phones: Phone[] = [
     production: "March 2023",
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://fdn.gsmarena.com/imgroot/news/23/03/samsung-galaxy-a34-official-images/-1200w2/gsmarena_001.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/03/samsung-galaxy-a34-official-images/-1200w2/gsmarena_002.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/03/samsung-galaxy-a34-official-images/-1200w2/gsmarena_003.jpg",
+      "https://fdn.gsmarena.com/imgroot/news/23/03/samsung-galaxy-a34-official-images/-1200w2/gsmarena_004.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy S22 Ultra",
@@ -442,6 +464,12 @@ export const phones: Phone[] = [
     production: "February 2022",
     storage: "128GB / 256GB / 512GB",
     ram: "12GB",
+    images: [
+      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2201/gallery/latin-en-galaxy-s22-ultra-5g-zoom-06-1200x1200.jpg",
+      "https://www.samsung.com/us/smartphones/galaxy-s22-ultra/_next/static/images/phones/galaxy-s22-ultra-hero-800x800.jpg",
+      "https://www.samsung.com/global/galaxy/galaxy-s22-ultra/images/galaxy-s22-ultra-header-01.jpg",
+      "https://cdn.mos.cms.futurecdn.net/DJS2u9wpvJ5F9Bxt7vNx7A-1200-80.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy S22+",
@@ -453,6 +481,12 @@ export const phones: Phone[] = [
     production: "February 2022",
     storage: "128GB / 256GB",
     ram: "8GB",
+    images: [
+      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2201/gallery/latin-en-galaxy-s22-plus-5g-zoom-05-1200x1200.jpg",
+      "https://www.samsung.com/us/smartphones/galaxy-s22-plus/_next/static/images/phones/galaxy-s22-plus-hero-800x800.jpg",
+      "https://www.samsung.com/global/galaxy/galaxy-s22-plus/images/galaxy-s22-plus-header-01.jpg",
+      "https://cdn.mos.cms.futurecdn.net/VHhn5H9rB7xVnqpw45cuJ7-1200-80.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy S22",
@@ -464,6 +498,12 @@ export const phones: Phone[] = [
     production: "February 2022",
     storage: "128GB / 256GB",
     ram: "8GB",
+    images: [
+      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2201/gallery/latin-en-galaxy-s22-5g-zoom-05-1200x1200.jpg",
+      "https://www.samsung.com/us/smartphones/galaxy-s22/_next/static/images/phones/galaxy-s22-hero-800x800.jpg",
+      "https://www.samsung.com/global/galaxy/galaxy-s22/images/galaxy-s22-header-01.jpg",
+      "https://cdn.mos.cms.futurecdn.net/vJz6SKVJ36j4wWLhnnysNr-1200-80.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy Note 20 Ultra",
@@ -475,17 +515,12 @@ export const phones: Phone[] = [
     production: "August 2020",
     storage: "128GB / 256GB / 512GB",
     ram: "8GB / 12GB",
-  },
-  {
-    name: "Samsung Galaxy Note 20",
-    description:
-      "Snapdragon 865+, 6.7-inch Dynamic AMOLED, 60Hz, 108MP+12MP+64MP cameras, 4300mAh battery, 25W charging.",
-    price: 999,
-    brand: "Samsung",
-    category: "Flagship",
-    production: "August 2020",
-    storage: "128GB / 256GB",
-    ram: "8GB",
+    images: [
+      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2008/gallery/latin-en-galaxy-note20-ultra-5g-zoom-04-1200x1200.jpg",
+      "https://www.samsung.com/us/smartphones/galaxy-note20-ultra/_next/static/images/phones/galaxy-note20-ultra-hero-800x800.jpg",
+      "https://www.samsung.com/global/galaxy/galaxy-note20-ultra/images/galaxy-note20-ultra-header-01.jpg",
+      "https://cdn.mos.cms.futurecdn.net/3AvJ8fDBJmt8ccHq7NRxk3-1200-80.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy A73 5G",
@@ -497,6 +532,12 @@ export const phones: Phone[] = [
     production: "March 2022",
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2201/gallery/latin-en-galaxy-a73-5g-zoom-01-1200x1200.jpg",
+      "https://www.samsung.com/us/smartphones/galaxy-a73-5g/_next/static/images/phones/galaxy-a73-hero-800x800.jpg",
+      "https://www.samsung.com/global/galaxy/galaxy-a73/images/galaxy-a73-header-01.jpg",
+      "https://cdn.mos.cms.futurecdn.net/fnGdxmA7sdyw8mFjxfjmnv-1200-80.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy A72",
@@ -508,6 +549,12 @@ export const phones: Phone[] = [
     production: "March 2021",
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2103/gallery/latin-en-galaxy-a72-5g-zoom-04-1200x1200.jpg",
+      "https://www.samsung.com/us/smartphones/galaxy-a72/_next/static/images/phones/galaxy-a72-hero-800x800.jpg",
+      "https://www.samsung.com/global/galaxy/galaxy-a72/images/galaxy-a72-header-01.jpg",
+      "https://cdn.mos.cms.futurecdn.net/pd6k45vXyt7kbsf2btLg7r-1200-80.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy A52s 5G",
@@ -519,6 +566,12 @@ export const phones: Phone[] = [
     production: "August 2021",
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2103/gallery/latin-en-galaxy-a52s-5g-zoom-03-1200x1200.jpg",
+      "https://www.samsung.com/us/smartphones/galaxy-a52s-5g/_next/static/images/phones/galaxy-a52s-hero-800x800.jpg",
+      "https://www.samsung.com/global/galaxy/galaxy-a52s/images/galaxy-a52s-header-01.jpg",
+      "https://cdn.mos.cms.futurecdn.net/wAYnqBhL2cB48BG3vXuwPQ-1200-80.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy M54 5G",
@@ -530,6 +583,12 @@ export const phones: Phone[] = [
     production: "March 2023",
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2303/gallery/latin-en-galaxy-m54-5g-zoom-01-1200x1200.jpg",
+      "https://www.samsung.com/us/smartphones/galaxy-m54-5g/_next/static/images/phones/galaxy-m54-hero-800x800.jpg",
+      "https://www.samsung.com/global/galaxy/galaxy-m54/images/galaxy-m54-header-01.jpg",
+      "https://cdn.mos.cms.futurecdn.net/L73GH6zH6qFptvA7c8Xa5q-1200-80.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy M33 5G",
@@ -541,6 +600,12 @@ export const phones: Phone[] = [
     production: "March 2022",
     storage: "128GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2203/gallery/latin-en-galaxy-m33-5g-zoom-02-1200x1200.jpg",
+      "https://www.samsung.com/us/smartphones/galaxy-m33-5g/_next/static/images/phones/galaxy-m33-hero-800x800.jpg",
+      "https://www.samsung.com/global/galaxy/galaxy-m33/images/galaxy-m33-header-01.jpg",
+      "https://cdn.mos.cms.futurecdn.net/q6w7wb8t9ZZcbbf93xyd74-1200-80.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy A32 5G",
@@ -552,6 +617,12 @@ export const phones: Phone[] = [
     production: "January 2021",
     storage: "64GB / 128GB",
     ram: "4GB / 6GB",
+    images: [
+      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2101/gallery/latin-en-galaxy-a32-5g-zoom-04-1200x1200.jpg",
+      "https://www.samsung.com/us/smartphones/galaxy-a32-5g/_next/static/images/phones/galaxy-a32-hero-800x800.jpg",
+      "https://www.samsung.com/global/galaxy/galaxy-a32/images/galaxy-a32-header-01.jpg",
+      "https://cdn.mos.cms.futurecdn.net/MbH2TTzH4Ht2jtQXMAV7q5-1200-80.jpg",
+    ],
   },
   {
     name: "Samsung Galaxy A12",
@@ -563,6 +634,12 @@ export const phones: Phone[] = [
     production: "November 2020",
     storage: "64GB / 128GB",
     ram: "4GB / 6GB",
+    images: [
+      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2011/gallery/latin-en-galaxy-a12-zoom-01-1200x1200.jpg",
+      "https://www.samsung.com/us/smartphones/galaxy-a12/_next/static/images/phones/galaxy-a12-hero-800x800.jpg",
+      "https://www.samsung.com/global/galaxy/galaxy-a12/images/galaxy-a12-header-01.jpg",
+      "https://cdn.mos.cms.futurecdn.net/QAhq89V6f32D8pmtk5jqjh-1200-80.jpg",
+    ],
   },
 
   //   apple phones
@@ -577,6 +654,12 @@ export const phones: Phone[] = [
     production: "September 2023",
     storage: "256GB / 512GB / 1TB",
     ram: "8GB",
+    images: [
+      "https://www.apple.com/v/iphone-15/i/images/overview/hero/iphone_15_pro_max_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-15/i/images/overview/hero/iphone_15_pro_max_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-15/i/images/overview/design_1_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/s5j7rb7L6U8bqRr7zjxyfr-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 15 Pro",
@@ -588,6 +671,12 @@ export const phones: Phone[] = [
     production: "September 2023",
     storage: "256GB / 512GB / 1TB",
     ram: "8GB",
+    images: [
+      "https://www.apple.com/v/iphone-15/i/images/overview/hero/iphone_15_pro_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-15/i/images/overview/design_1_2x.jpg",
+      "https://www.apple.com/v/iphone-15/i/images/overview/hero/iphone_15_pro_hero_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/6vTq5p6PvR7HNmTCrqqSXY-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 15 Plus",
@@ -599,6 +688,12 @@ export const phones: Phone[] = [
     production: "September 2023",
     storage: "128GB / 256GB / 512GB",
     ram: "6GB",
+    images: [
+      "https://www.apple.com/v/iphone-15/i/images/overview/hero/iphone_15_plus_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-15/i/images/overview/design_1_2x.jpg",
+      "https://www.apple.com/v/iphone-15/i/images/overview/hero/iphone_15_plus_hero_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/dXGn7Kt9vXEv4rT7HW8M5w-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 15",
@@ -610,6 +705,12 @@ export const phones: Phone[] = [
     production: "September 2023",
     storage: "128GB / 256GB / 512GB",
     ram: "6GB",
+    images: [
+      "https://www.apple.com/v/iphone-15/i/images/overview/hero/iphone_15_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-15/i/images/overview/hero/iphone_15_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-15/i/images/overview/design_1_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/TKvQpGT6qFQ9YQ7xX7z9qV-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 14 Pro Max",
@@ -621,6 +722,12 @@ export const phones: Phone[] = [
     production: "September 2022",
     storage: "128GB / 256GB / 512GB / 1TB",
     ram: "6GB",
+    images: [
+      "https://www.apple.com/v/iphone-14/i/images/overview/hero/iphone_14_pro_max_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-14/i/images/overview/hero/iphone_14_pro_max_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-14/i/images/overview/design_1_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Gxyy5txpHhdjN9fjgq7Ds6-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 14 Pro",
@@ -632,6 +739,12 @@ export const phones: Phone[] = [
     production: "September 2022",
     storage: "128GB / 256GB / 512GB / 1TB",
     ram: "6GB",
+    images: [
+      "https://www.apple.com/v/iphone-14/i/images/overview/hero/iphone_14_pro_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-14/i/images/overview/hero/iphone_14_pro_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-14/i/images/overview/design_1_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/NZnNDr9tHfmkWrJYrtduq7-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 14 Plus",
@@ -643,6 +756,12 @@ export const phones: Phone[] = [
     production: "September 2022",
     storage: "128GB / 256GB / 512GB",
     ram: "6GB",
+    images: [
+      "https://www.apple.com/v/iphone-14/i/images/overview/hero/iphone_14_plus_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-14/i/images/overview/design_1_2x.jpg",
+      "https://www.apple.com/v/iphone-14/i/images/overview/hero/iphone_14_plus_hero_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Er53d2TA2a5PMdS4dF5cjq-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 14",
@@ -654,6 +773,12 @@ export const phones: Phone[] = [
     production: "September 2022",
     storage: "128GB / 256GB / 512GB",
     ram: "6GB",
+    images: [
+      "https://www.apple.com/v/iphone-14/i/images/overview/hero/iphone_14_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-14/i/images/overview/hero/iphone_14_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-14/i/images/overview/design_1_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/p8tbZnTZoRoQ3v9C37M2Jg-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 13 Pro Max",
@@ -665,6 +790,12 @@ export const phones: Phone[] = [
     production: "September 2021",
     storage: "128GB / 256GB / 512GB / 1TB",
     ram: "6GB",
+    images: [
+      "https://www.apple.com/v/iphone-13/i/images/overview/hero/iphone_13_pro_max_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-13/i/images/overview/hero/iphone_13_pro_max_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-13/i/images/overview/design_1_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/6wTcDvh8zJ7txJ4j4rQpXP-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 13 Pro",
@@ -676,6 +807,12 @@ export const phones: Phone[] = [
     production: "September 2021",
     storage: "128GB / 256GB / 512GB / 1TB",
     ram: "6GB",
+    images: [
+      "https://www.apple.com/v/iphone-13/i/images/overview/hero/iphone_13_pro_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-13/i/images/overview/hero/iphone_13_pro_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-13/i/images/overview/design_1_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/9HvDgf5nHZ8q9kRs8ZnGyg-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 13",
@@ -687,6 +824,12 @@ export const phones: Phone[] = [
     production: "September 2021",
     storage: "128GB / 256GB / 512GB",
     ram: "4GB",
+    images: [
+      "https://www.apple.com/v/iphone-13/i/images/overview/hero/iphone_13_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-13/i/images/overview/hero/iphone_13_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-13/i/images/overview/design_1_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Yo8hnkw2R8n9F5v7GV7vZ6-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 13 Mini",
@@ -698,6 +841,12 @@ export const phones: Phone[] = [
     production: "September 2021",
     storage: "128GB / 256GB / 512GB",
     ram: "4GB",
+    images: [
+      "https://www.apple.com/v/iphone-13/i/images/overview/hero/iphone_13_mini_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-13/i/images/overview/hero/iphone_13_mini_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-13/i/images/overview/design_1_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/pXeFdeyEG6Zdw4gxhQ2CZk-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone SE 3 (2022)",
@@ -709,6 +858,12 @@ export const phones: Phone[] = [
     production: "March 2022",
     storage: "64GB / 128GB / 256GB",
     ram: "4GB",
+    images: [
+      "https://www.apple.com/v/iphone-se/i/images/overview/hero/iphone_se_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-se/i/images/overview/hero/iphone_se_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-se/i/images/overview/design_1_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/aD7m4Erv5TkAkXRPx6jH76-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 12 Pro Max",
@@ -720,6 +875,12 @@ export const phones: Phone[] = [
     production: "October 2020",
     storage: "128GB / 256GB / 512GB",
     ram: "6GB",
+    images: [
+      "https://www.apple.com/v/iphone-12/i/images/overview/hero/iphone_12_pro_max_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-12/i/images/overview/hero/iphone_12_pro_max_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-12/i/images/overview/design_1_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/9V2b9ppmwq8os9SHR7YW3b-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 12 Pro",
@@ -731,6 +892,12 @@ export const phones: Phone[] = [
     production: "October 2020",
     storage: "128GB / 256GB / 512GB",
     ram: "6GB",
+    images: [
+      "https://www.apple.com/v/iphone-12/i/images/overview/hero/iphone_12_pro_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-12/i/images/overview/hero/iphone_12_pro_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-12/i/images/overview/design_1_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/x4cxqHjtkSYQnHg4Qyywzg-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 12",
@@ -742,6 +909,12 @@ export const phones: Phone[] = [
     production: "October 2020",
     storage: "64GB / 128GB / 256GB",
     ram: "4GB",
+    images: [
+      "https://www.apple.com/v/iphone-12/i/images/overview/hero/iphone_12_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-12/i/images/overview/hero/iphone_12_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-12/i/images/overview/design_1_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Z5tmy4pWLZGpwRYzN5XK9X-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 12 Mini",
@@ -753,6 +926,12 @@ export const phones: Phone[] = [
     production: "October 2020",
     storage: "64GB / 128GB / 256GB",
     ram: "4GB",
+    images: [
+      "https://www.apple.com/v/iphone-12/i/images/overview/hero/iphone_12_mini_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-12/i/images/overview/hero/iphone_12_mini_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-12/i/images/overview/design_1_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/NjfU7Mn9qBzUpuvSsjkpnw-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 11 Pro Max",
@@ -764,6 +943,12 @@ export const phones: Phone[] = [
     production: "September 2019",
     storage: "64GB / 256GB / 512GB",
     ram: "4GB",
+    images: [
+      "https://www.apple.com/v/iphone-11/i/images/overview/hero/iphone_11_pro_max_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-11/i/images/overview/hero/iphone_11_pro_max_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-11/i/images/overview/design_1_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/8AWddWxFfEchB9e5mn3FNg-1200-80.jpg",
+    ],
   },
   {
     name: "iPhone 11 Pro",
@@ -775,6 +960,12 @@ export const phones: Phone[] = [
     production: "September 2019",
     storage: "64GB / 256GB / 512GB",
     ram: "4GB",
+    images: [
+      "https://www.apple.com/v/iphone-11/i/images/overview/hero/iphone_11_pro_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-11/i/images/overview/hero/iphone_11_pro_hero_2x.jpg",
+      "https://www.apple.com/v/iphone-11/i/images/overview/design_1_2x.jpg",
+      "https://cdn.mos.cms.futurecdn.net/BFAvRA7HQE76ZADxaU7i2J-1200-80.jpg",
+    ],
   },
 
   //   Honor Phones
@@ -789,6 +980,12 @@ export const phones: Phone[] = [
     production: "February 2023",
     storage: "256GB / 512GB",
     ram: "12GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic5-pro-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic5-pro-hero.jpg",
+      "https://www.gizmochina.com/wp-content/uploads/2023/02/Honor-Magic5-Pro-1.jpg",
+      "https://cdn.mos.cms.futurecdn.net/2HSThzkro9vtrYbmr5x6hg-1200-80.jpg",
+    ],
   },
   {
     name: "Honor Magic5",
@@ -800,6 +997,12 @@ export const phones: Phone[] = [
     production: "February 2023",
     storage: "256GB / 512GB",
     ram: "12GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic5-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic5-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/xv9puZgKv8apFmjWx3qxg-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/M8SZ38w74YhzngdFBxNqcF-1200-80.jpg",
+    ],
   },
   {
     name: "Honor 90 5G",
@@ -811,6 +1014,12 @@ export const phones: Phone[] = [
     production: "May 2023",
     storage: "256GB / 512GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-90-5g-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-90-5g-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/pzEGX7ydHvXdfHvqJUshtQ-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/KfgEmtSMW5M89dtiF2kxuw-1200-80.jpg",
+    ],
   },
   {
     name: "Honor 70 5G",
@@ -822,6 +1031,12 @@ export const phones: Phone[] = [
     production: "May 2022",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-70-5g-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-70-5g-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/KVgrPHg7ZTggdh5SZv3zm9-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/3dSgopg5AvF7osJkkXtvbF-1200-80.jpg",
+    ],
   },
   {
     name: "Honor X9a 5G",
@@ -833,6 +1048,12 @@ export const phones: Phone[] = [
     production: "January 2023",
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-x9a-5g-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-x9a-5g-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/jt8WBYnPy9XZjVxt5huR9W-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/9gN2FFz63XqbGe9BqRtqwg-1200-80.jpg",
+    ],
   },
   {
     name: "Honor Magic4 Pro",
@@ -844,6 +1065,12 @@ export const phones: Phone[] = [
     production: "March 2022",
     storage: "256GB / 512GB",
     ram: "12GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic4-pro-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic4-pro-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/tV6Yn4rMGhq9z94XswkyhA-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/8s9WWn98erq7gWnHgMzDgD-1200-80.jpg",
+    ],
   },
   {
     name: "Honor Magic4",
@@ -855,6 +1082,12 @@ export const phones: Phone[] = [
     production: "March 2022",
     storage: "256GB / 512GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic4-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic4-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/36gJFG6he97fWmjrbhHj8b-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/8yF8cR2XmWGgq92Vfjrw6Q-1200-80.jpg",
+    ],
   },
   {
     name: "Honor 50",
@@ -866,6 +1099,12 @@ export const phones: Phone[] = [
     production: "June 2021",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-50-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-50-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/xfwYvtg8zQp1fmUctWvSkQ-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Dh62K4mTfxfwSK2yR9br5g-1200-80.jpg",
+    ],
   },
   {
     name: "Honor X8 5G",
@@ -877,6 +1116,12 @@ export const phones: Phone[] = [
     production: "March 2022",
     storage: "128GB",
     ram: "6GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-x8-5g-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-x8-5g-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/7crwB1WGhwNqQyjywHpj6B-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/5J8pUhf4GGskAfCm6wbfNA-1200-80.jpg",
+    ],
   },
   {
     name: "Honor X7 5G",
@@ -888,6 +1133,12 @@ export const phones: Phone[] = [
     production: "April 2022",
     storage: "128GB",
     ram: "4GB / 6GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-x7-5g-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-x7-5g-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/qy9vYHSCQHKvDCMzH3FXBQ-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/nm8m5RTgPaFbMzLhgHrtD6-1200-80.jpg",
+    ],
   },
   {
     name: "Honor Magic5 Lite",
@@ -899,6 +1150,12 @@ export const phones: Phone[] = [
     production: "February 2023",
     storage: "128GB",
     ram: "6GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic5-lite-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic5-lite-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/7tQHZX94wZJSHQG2czwmRg-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/kfkz7CfhUJqVn6wLztYZbQ-1200-80.jpg",
+    ],
   },
   {
     name: "Honor 10X Lite",
@@ -910,6 +1167,12 @@ export const phones: Phone[] = [
     production: "November 2020",
     storage: "128GB",
     ram: "4GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-10x-lite-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-10x-lite-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Af4aCGSYFJHwnwHjcvvkh5-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/3kMLtJce77oGqFJcm3PRBd-1200-80.jpg",
+    ],
   },
   {
     name: "Honor View 20",
@@ -921,6 +1184,12 @@ export const phones: Phone[] = [
     production: "January 2019",
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-view-20-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-view-20-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/gFE3rKmE9A4rM2M8PczL3h-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/7qkF2M8Xf7bL3GFGxF9bVf-1200-80.jpg",
+    ],
   },
   {
     name: "Honor 9X Pro",
@@ -932,6 +1201,12 @@ export const phones: Phone[] = [
     production: "January 2020",
     storage: "128GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-9x-pro-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-9x-pro-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/82r9jvd8kv6fs2Xw9k9wXf-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/2dLhWwV4j9ryqdZ2bPHmZV-1200-80.jpg",
+    ],
   },
   {
     name: "Honor 8X",
@@ -943,6 +1218,12 @@ export const phones: Phone[] = [
     production: "September 2018",
     storage: "64GB / 128GB",
     ram: "4GB / 6GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-8x-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-8x-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/6hD26KbHLQF6vFVt9g9RkF-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Bp4YB4v9FzCwsX8B38f3Rx-1200-80.jpg",
+    ],
   },
   {
     name: "Honor 20 Pro",
@@ -954,6 +1235,12 @@ export const phones: Phone[] = [
     production: "June 2019",
     storage: "128GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-20-pro-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-20-pro-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Rp7JQgnfWVw6v8fNdtVdpR-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/FgaHkGRmjXP8Q6eNRwHt5V-1200-80.jpg",
+    ],
   },
   {
     name: "Honor 8",
@@ -965,6 +1252,12 @@ export const phones: Phone[] = [
     production: "May 2016",
     storage: "32GB / 64GB",
     ram: "3GB / 4GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-8-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-8-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/BfKn2sBhUu9Jt1hH2n7Pfj-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Cy2MN9JTRXj8XPu2xq7ZPy-1200-80.jpg",
+    ],
   },
   {
     name: "Honor Play 4 Pro",
@@ -976,6 +1269,12 @@ export const phones: Phone[] = [
     production: "July 2020",
     storage: "128GB",
     ram: "8GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-play-4-pro-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-play-4-pro-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/KbRcb9fHpvW2SzPZqdyQ8-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/M6np96ZyRHNczhtG5kgf9v-1200-80.jpg",
+    ],
   },
   {
     name: "Honor 7X",
@@ -987,6 +1286,12 @@ export const phones: Phone[] = [
     production: "October 2017",
     storage: "32GB / 64GB",
     ram: "3GB / 4GB",
+    images: [
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-7x-hero.jpg",
+      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-7x-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/JWbp2r4gq2WyY7Fz6yF9pp-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Wk4ZgMZEmxD8z6LgfVJZXg-1200-80.jpg",
+    ],
   },
 
   //   realme phones
@@ -1001,6 +1306,12 @@ export const phones: Phone[] = [
     production: "January 2022",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://www.realme.com/in/realme-gt-2-pro",
+      "https://cdn.mos.cms.futurecdn.net/SJ5Z6L2hbhbL6yThNGBu8h-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/FSbndgs2YF3aTttCRqzrQX-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/68TkdsEjxoiijNQL8WSz9w-1200-80.jpg",
+    ],
   },
   {
     name: "Realme GT 2",
@@ -1012,6 +1323,12 @@ export const phones: Phone[] = [
     production: "January 2022",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://www.realme.com/in/realme-gt-2",
+      "https://cdn.mos.cms.futurecdn.net/4MwMbjsGnaBfgXBm8y8bTA-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/8bFhzYc5toG2fV4sb7bAyj-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/p5rsB6rfgt8zBrKZXbzV9k-1200-80.jpg",
+    ],
   },
   {
     name: "Realme 9 Pro+",
@@ -1023,6 +1340,12 @@ export const phones: Phone[] = [
     production: "February 2022",
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.realme.com/in/realme-9-pro-plus",
+      "https://cdn.mos.cms.futurecdn.net/fHKmLYgq9nFc5v7pnjp7Xc-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Qw33LPV7KbWsNSXkTmV6Hf-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/BF8YrRmVrTGGp2NY2hZ2a9-1200-80.jpg",
+    ],
   },
   {
     name: "Realme 9 Pro",
@@ -1034,6 +1357,12 @@ export const phones: Phone[] = [
     production: "February 2022",
     storage: "128GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.realme.com/in/realme-9-pro",
+      "https://cdn.mos.cms.futurecdn.net/jGTG5WL9Xx8fNjF8Fubm76-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/xJe4FcF5zo8qvUszA5xKv7-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/YyQwv66E65nQ3bgHmuGcqR-1200-80.jpg",
+    ],
   },
   {
     name: "Realme GT Master Edition",
@@ -1045,6 +1374,12 @@ export const phones: Phone[] = [
     production: "July 2021",
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.realme.com/in/realme-gt-master-edition",
+      "https://cdn.mos.cms.futurecdn.net/USjRfM7mr6wbt9fsQ1t8Zf-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/9d3HgqeqcXcV2fb5ytjZYx-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/yYB84HtNjRG2f8Xhw7A4Sm-1200-80.jpg",
+    ],
   },
   {
     name: "Realme X7 Max 5G",
@@ -1056,6 +1391,12 @@ export const phones: Phone[] = [
     production: "May 2021",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://www.realme.com/in/realme-x7-max",
+      "https://cdn.mos.cms.futurecdn.net/B3kPFrpfhaXxakmP2N2HMb-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/ywMKTyzA5z9S4rbM6d7Jpb-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/NeGG46b2Lf35UjmKrjqfu9-1200-80.jpg",
+    ],
   },
   {
     name: "Realme Narzo 50 Pro 5G",
@@ -1067,6 +1408,12 @@ export const phones: Phone[] = [
     production: "May 2022",
     storage: "128GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.realme.com/in/realme-narzo-50-pro-5g",
+      "https://cdn.mos.cms.futurecdn.net/Z7Rfkbj7NxZ9p4gLvdYj2R-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/dNH5FM6JVoP6ZT7WL5gUqZ-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/fP8r2Grtgsb8pEq4FyU7ZA-1200-80.jpg",
+    ],
   },
   {
     name: "Realme 8 Pro",
@@ -1078,6 +1425,12 @@ export const phones: Phone[] = [
     production: "March 2021",
     storage: "128GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.realme.com/in/realme-8-pro",
+      "https://cdn.mos.cms.futurecdn.net/dN7h4rFgD3n6pqerh5xb9c-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/dN7h4rFgD3n6pqerh5xb9c-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/9C8i8zCgyU9tYw8pzmNm36-1200-80.jpg",
+    ],
   },
   {
     name: "Realme 8 5G",
@@ -1089,6 +1442,12 @@ export const phones: Phone[] = [
     production: "April 2021",
     storage: "128GB",
     ram: "4GB / 6GB",
+    images: [
+      "https://www.realme.com/in/realme-8-5g",
+      "https://cdn.mos.cms.futurecdn.net/mh2vS3Q8ReT9gGpVpVeYfk-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/sdj4p5zTQhb95jKZj9gHFk-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/v9a7q8jp4z9q8AzHLu4Vdh-1200-80.jpg",
+    ],
   },
   {
     name: "Realme X50 Pro 5G",
@@ -1100,6 +1459,12 @@ export const phones: Phone[] = [
     production: "February 2020",
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.realme.com/in/realme-x50-pro-5g",
+      "https://cdn.mos.cms.futurecdn.net/ghR3F6eRQxETc4TcbZTNRH-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/5wGtsHzx5ywj45jR44pKTn-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Tz9FnxW9ApNnyD8MvQLdP8-1200-80.jpg",
+    ],
   },
   {
     name: "Realme Narzo 30 Pro 5G",
@@ -1111,6 +1476,12 @@ export const phones: Phone[] = [
     production: "February 2021",
     storage: "64GB / 128GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.realme.com/in/realme-narzo-30-pro-5g",
+      "https://cdn.mos.cms.futurecdn.net/z8nGSKy5vuwK7kfdh7KmL5-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/v24Xk6HBJS8XuwtG9khVhb-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/v9Wa5wqN8K2YBuaF8MPMGK-1200-80.jpg",
+    ],
   },
   {
     name: "Realme C25Y",
@@ -1122,6 +1493,12 @@ export const phones: Phone[] = [
     production: "September 2021",
     storage: "64GB / 128GB",
     ram: "4GB",
+    images: [
+      "https://www.realme.com/in/realme-c25y",
+      "https://cdn.mos.cms.futurecdn.net/Zyjj9N2nx9a8L2V2t3pHAZ-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/dk9pxFdANjU6gXyk9f7A5C-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/w7dFy6Pt5fjhP8k9kxFJQ6-1200-80.jpg",
+    ],
   },
   {
     name: "Realme Narzo 30A",
@@ -1133,6 +1510,12 @@ export const phones: Phone[] = [
     production: "February 2021",
     storage: "32GB / 64GB",
     ram: "3GB / 4GB",
+    images: [
+      "https://www.realme.com/in/realme-narzo-30a",
+      "https://cdn.mos.cms.futurecdn.net/w5S8MQhZ2Gh7taBqa6Hh5B-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/AjTTtt5gTzW93tce98gZGd-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/fDkqS5h62M3Kx3zTh7oT6X-1200-80.jpg",
+    ],
   },
   {
     name: "Realme C12",
@@ -1144,6 +1527,12 @@ export const phones: Phone[] = [
     production: "August 2020",
     storage: "32GB / 64GB",
     ram: "3GB / 4GB",
+    images: [
+      "https://www.realme.com/in/realme-c12",
+      "https://cdn.mos.cms.futurecdn.net/zDd6Pv6mHh4Y8CwDsdqE2H-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/d61ft4rcjFwN9w6hryFhn8-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/gFgL2Yua9J9QBdqTHgwr3w-1200-80.jpg",
+    ],
   },
   {
     name: "Realme C15",
@@ -1155,6 +1544,12 @@ export const phones: Phone[] = [
     production: "August 2020",
     storage: "32GB / 64GB",
     ram: "3GB / 4GB",
+    images: [
+      "https://www.realme.com/in/realme-c15",
+      "https://cdn.mos.cms.futurecdn.net/Yb2G3TYp2wRf8MzX7W4H5M-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Jgr6qf6bkhfS8NcA9jxNfR-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/gx4fB3T5o6Jw8WmuQePNFC-1200-80.jpg",
+    ],
   },
   {
     name: "Realme X2 Pro",
@@ -1166,6 +1561,12 @@ export const phones: Phone[] = [
     production: "October 2019",
     storage: "64GB / 128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://www.realme.com/in/realme-x2-pro",
+      "https://cdn.mos.cms.futurecdn.net/2J6F7cB93b8Y9sv8REmkkk-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Tjsb5ffX57grVvZG6fxVvd-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/PWuyug2wQYgXqV2YqqxxWA-1200-80.jpg",
+    ],
   },
   {
     name: "Realme 6 Pro",
@@ -1177,6 +1578,12 @@ export const phones: Phone[] = [
     production: "March 2020",
     storage: "64GB / 128GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.realme.com/in/realme-6-pro",
+      "https://cdn.mos.cms.futurecdn.net/QX5fi63mjw9cbQTY4CHvGv-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/nQPB6PRPuqEMy6aJ4iM5KA-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/x8fn4pZtd7pQdF3ev9pXy4-1200-80.jpg",
+    ],
   },
   {
     name: "Realme 6",
@@ -1188,6 +1595,12 @@ export const phones: Phone[] = [
     production: "March 2020",
     storage: "64GB / 128GB",
     ram: "4GB / 6GB",
+    images: [
+      "https://www.realme.com/in/realme-6",
+      "https://cdn.mos.cms.futurecdn.net/JdHjAFhchwnTZjfdxz55w2-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/w8f6Gq6hzSPt9PyvVzDEb7-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/1pFpcLP6WTG6Ynxr3zHbYA-1200-80.jpg",
+    ],
   },
   {
     name: "Realme C3",
@@ -1199,6 +1612,12 @@ export const phones: Phone[] = [
     production: "February 2020",
     storage: "32GB / 64GB",
     ram: "3GB / 4GB",
+    images: [
+      "https://www.realme.com/in/realme-c3",
+      "https://cdn.mos.cms.futurecdn.net/V7QdKZ5f5tbA5MhJd7s66y-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/mF9t7W3ghuAdG6rPp9wqzG-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/LVZQXkQHeA39FMQz6h3iXk-1200-80.jpg",
+    ],
   },
 
   //   oppo phones
@@ -1213,6 +1632,11 @@ export const phones: Phone[] = [
     production: "February 2022",
     storage: "256GB",
     ram: "12GB",
+    images: [
+      "https://www.oppo.com/in/smartphones/series-find-x/find-x5-pro",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Oppo_Find_X5_Pro.jpg/500px-Oppo_Find_X5_Pro.jpg",
+      "https://cdn.mos.cms.futurecdn.net/ahH7vrcbWo3bQskAsFeR7D-1200-80.jpg",
+    ],
   },
   {
     name: "Oppo Reno8 Pro 5G",
@@ -1224,6 +1648,11 @@ export const phones: Phone[] = [
     production: "July 2022",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://www.oppo.com/in/smartphones/reno/reno8-pro-5g",
+      "https://cdn.mos.cms.futurecdn.net/Xc9bftKw3hbFxkHmnMXJzC-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/k5SbYQzHuxzYgVxapQKknP-1200-80.jpg",
+    ],
   },
   {
     name: "Oppo Find X3 Pro",
@@ -1235,6 +1664,11 @@ export const phones: Phone[] = [
     production: "March 2021",
     storage: "256GB",
     ram: "12GB",
+    images: [
+      "https://www.oppo.com/in/smartphones/series-find-x/find-x3-pro",
+      "https://cdn.mos.cms.futurecdn.net/k1Q7bYvA6WSYsm3bf4hzrK-1200-80.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Oppo_Find_X3_Pro.jpg/500px-Oppo_Find_X3_Pro.jpg",
+    ],
   },
   {
     name: "Oppo Reno7 Pro 5G",
@@ -1246,6 +1680,11 @@ export const phones: Phone[] = [
     production: "December 2021",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://www.oppo.com/in/smartphones/reno/reno7-pro-5g",
+      "https://cdn.mos.cms.futurecdn.net/9DZ74Puhy1uKgtaDoZX5Xb-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/h9bFzxdq6ZkvdvV5tsdp4p-1200-80.jpg",
+    ],
   },
   {
     name: "Oppo A95 5G",
@@ -1257,6 +1696,11 @@ export const phones: Phone[] = [
     production: "November 2021",
     storage: "128GB",
     ram: "8GB",
+    images: [
+      "https://www.oppo.com/in/smartphones/a-series/a95-5g",
+      "https://cdn.mos.cms.futurecdn.net/2YRmJf6Gxv2yqftgg2HJ4n-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/J9V6aZqU67N2YyL4g4w9hD-1200-80.jpg",
+    ],
   },
   {
     name: "Oppo F19 Pro+ 5G",
@@ -1268,6 +1712,11 @@ export const phones: Phone[] = [
     production: "March 2021",
     storage: "128GB",
     ram: "8GB",
+    images: [
+      "https://www.oppo.com/in/smartphones/f-series/f19-pro-plus-5g",
+      "https://cdn.mos.cms.futurecdn.net/Qwz6LZB32TT2qVdsChGpUA-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/TZtKPvwPb72AXznt6otrxP-1200-80.jpg",
+    ],
   },
   {
     name: "Oppo A74 5G",
@@ -1279,6 +1728,11 @@ export const phones: Phone[] = [
     production: "April 2021",
     storage: "128GB",
     ram: "6GB",
+    images: [
+      "https://www.oppo.com/in/smartphones/a-series/a74-5g",
+      "https://cdn.mos.cms.futurecdn.net/8RbQDPVpRfdU5grtQoxHRE-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/v5Wzt4jxxDohkfaeTspYtP-1200-80.jpg",
+    ],
   },
   {
     name: "Oppo Reno6 5G",
@@ -1290,6 +1744,11 @@ export const phones: Phone[] = [
     production: "June 2021",
     storage: "128GB",
     ram: "8GB",
+    images: [
+      "https://www.oppo.com/in/smartphones/reno/reno6-5g",
+      "https://cdn.mos.cms.futurecdn.net/g9rnUEdRU7XcPmbvEoK4Yq-1200-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/pvS6DzqB7TxAKjf9R2wfzA-1200-80.jpg",
+    ],
   },
 
   //   vivo phones
@@ -1304,6 +1763,11 @@ export const phones: Phone[] = [
     production: "December 2022",
     storage: "256GB / 512GB",
     ram: "12GB",
+    images: [
+      "https://www.vivo.com/vivo-x90-pro",
+      "https://static.vivo.com/vivo-x90-pro-1.jpg",
+      "https://static.vivo.com/vivo-x90-pro-2.jpg",
+    ],
   },
   {
     name: "Vivo V23 Pro 5G",
@@ -1315,6 +1779,11 @@ export const phones: Phone[] = [
     production: "January 2022",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://www.vivo.com/vivo-v23-pro-5g",
+      "https://static.vivo.com/vivo-v23-pro-5g-1.jpg",
+      "https://static.vivo.com/vivo-v23-pro-5g-2.jpg",
+    ],
   },
   {
     name: "Vivo V21 5G",
@@ -1326,6 +1795,11 @@ export const phones: Phone[] = [
     production: "May 2021",
     storage: "128GB / 256GB",
     ram: "8GB",
+    images: [
+      "https://www.vivo.com/vivo-v21-5g",
+      "https://static.vivo.com/vivo-v21-5g-1.jpg",
+      "https://static.vivo.com/vivo-v21-5g-2.jpg",
+    ],
   },
   {
     name: "Vivo X60 Pro",
@@ -1337,6 +1811,11 @@ export const phones: Phone[] = [
     production: "March 2021",
     storage: "128GB / 256GB",
     ram: "12GB",
+    images: [
+      "https://www.vivo.com/vivo-x60-pro",
+      "https://static.vivo.com/vivo-x60-pro-1.jpg",
+      "https://static.vivo.com/vivo-x60-pro-2.jpg",
+    ],
   },
   {
     name: "Vivo V20 Pro",
@@ -1348,6 +1827,11 @@ export const phones: Phone[] = [
     production: "September 2020",
     storage: "128GB",
     ram: "8GB",
+    images: [
+      "https://www.vivo.com/vivo-v20-pro",
+      "https://static.vivo.com/vivo-v20-pro-1.jpg",
+      "https://static.vivo.com/vivo-v20-pro-2.jpg",
+    ],
   },
   {
     name: "Vivo Y73",
@@ -1359,6 +1843,11 @@ export const phones: Phone[] = [
     production: "June 2021",
     storage: "128GB",
     ram: "8GB",
+    images: [
+      "https://www.vivo.com/vivo-y73",
+      "https://static.vivo.com/vivo-y73-1.jpg",
+      "https://static.vivo.com/vivo-y73-2.jpg",
+    ],
   },
   {
     name: "Vivo Y53s",
@@ -1370,6 +1859,11 @@ export const phones: Phone[] = [
     production: "June 2021",
     storage: "128GB",
     ram: "8GB",
+    images: [
+      "https://www.vivo.com/vivo-y53s",
+      "https://static.vivo.com/vivo-y53s-1.jpg",
+      "https://static.vivo.com/vivo-y53s-2.jpg",
+    ],
   },
   {
     name: "Vivo T1 Pro 5G",
@@ -1381,6 +1875,11 @@ export const phones: Phone[] = [
     production: "May 2022",
     storage: "128GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.vivo.com/vivo-t1-pro-5g",
+      "https://static.vivo.com/vivo-t1-pro-5g-1.jpg",
+      "https://static.vivo.com/vivo-t1-pro-5g-2.jpg",
+    ],
   },
   {
     name: "Vivo X70 Pro",
@@ -1392,6 +1891,11 @@ export const phones: Phone[] = [
     production: "September 2021",
     storage: "256GB",
     ram: "12GB",
+    images: [
+      "https://www.vivo.com/vivo-x70-pro",
+      "https://static.vivo.com/vivo-x70-pro-1.jpg",
+      "https://static.vivo.com/vivo-x70-pro-2.jpg",
+    ],
   },
   {
     name: "Vivo Y21",
@@ -1403,6 +1907,11 @@ export const phones: Phone[] = [
     production: "August 2021",
     storage: "64GB / 128GB",
     ram: "4GB",
+    images: [
+      "https://www.vivo.com/vivo-y21",
+      "https://static.vivo.com/vivo-y21-1.jpg",
+      "https://static.vivo.com/vivo-y21-2.jpg",
+    ],
   },
 
   //   xiamoi phones
@@ -1417,6 +1926,11 @@ export const phones: Phone[] = [
     production: "December 2022",
     storage: "256GB / 512GB",
     ram: "12GB",
+    images: [
+      "https://www.mi.com/xiaomi-13-pro",
+      "https://static.mi.com/xiaomi-13-pro-1.jpg",
+      "https://static.mi.com/xiaomi-13-pro-2.jpg",
+    ],
   },
   {
     name: "Xiaomi 12 Pro",
@@ -1428,6 +1942,11 @@ export const phones: Phone[] = [
     production: "March 2022",
     storage: "256GB",
     ram: "12GB",
+    images: [
+      "https://www.mi.com/xiaomi-12-pro",
+      "https://static.mi.com/xiaomi-12-pro-1.jpg",
+      "https://static.mi.com/xiaomi-12-pro-2.jpg",
+    ],
   },
   {
     name: "Xiaomi Redmi Note 12 Pro+",
@@ -1439,6 +1958,11 @@ export const phones: Phone[] = [
     production: "October 2022",
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.mi.com/redmi-note-12-pro-plus",
+      "https://static.mi.com/redmi-note-12-pro-plus-1.jpg",
+      "https://static.mi.com/redmi-note-12-pro-plus-2.jpg",
+    ],
   },
   {
     name: "Xiaomi Mi 11 Ultra",
@@ -1450,6 +1974,11 @@ export const phones: Phone[] = [
     production: "March 2021",
     storage: "256GB",
     ram: "12GB",
+    images: [
+      "https://www.mi.com/mi-11-ultra",
+      "https://static.mi.com/mi-11-ultra-1.jpg",
+      "https://static.mi.com/mi-11-ultra-2.jpg",
+    ],
   },
   {
     name: "Xiaomi Redmi Note 11 Pro 5G",
@@ -1461,6 +1990,11 @@ export const phones: Phone[] = [
     production: "January 2022",
     storage: "64GB / 128GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.mi.com/redmi-note-11-pro-5g",
+      "https://static.mi.com/redmi-note-11-pro-5g-1.jpg",
+      "https://static.mi.com/redmi-note-11-pro-5g-2.jpg",
+    ],
   },
   {
     name: "Xiaomi Mi 11X Pro",
@@ -1472,6 +2006,11 @@ export const phones: Phone[] = [
     production: "April 2021",
     storage: "128GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.mi.com/mi-11x-pro",
+      "https://static.mi.com/mi-11x-pro-1.jpg",
+      "https://static.mi.com/mi-11x-pro-2.jpg",
+    ],
   },
   {
     name: "Xiaomi Redmi K40 Pro",
@@ -1483,6 +2022,11 @@ export const phones: Phone[] = [
     production: "February 2021",
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.mi.com/redmi-k40-pro",
+      "https://static.mi.com/redmi-k40-pro-1.jpg",
+      "https://static.mi.com/redmi-k40-pro-2.jpg",
+    ],
   },
   {
     name: "Xiaomi Redmi Note 10 Pro",
@@ -1494,6 +2038,11 @@ export const phones: Phone[] = [
     production: "March 2021",
     storage: "64GB / 128GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.mi.com/redmi-note-10-pro",
+      "https://static.mi.com/redmi-note-10-pro-1.jpg",
+      "https://static.mi.com/redmi-note-10-pro-2.jpg",
+    ],
   },
   {
     name: "Xiaomi 11T Pro",
@@ -1505,6 +2054,11 @@ export const phones: Phone[] = [
     production: "September 2021",
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
+    images: [
+      "https://www.mi.com/xiaomi-11t-pro",
+      "https://static.mi.com/xiaomi-11t-pro-1.jpg",
+      "https://static.mi.com/xiaomi-11t-pro-2.jpg",
+    ],
   },
   {
     name: "Xiaomi Mi 10T Pro",
@@ -1516,6 +2070,11 @@ export const phones: Phone[] = [
     production: "October 2020",
     storage: "128GB / 256GB",
     ram: "8GB",
+    images: [
+      "https://www.mi.com/mi-10t-pro",
+      "https://static.mi.com/mi-10t-pro-1.jpg",
+      "https://static.mi.com/mi-10t-pro-2.jpg",
+    ],
   },
   {
     name: "Xiaomi Mi 10 5G",
@@ -1527,6 +2086,11 @@ export const phones: Phone[] = [
     production: "February 2020",
     storage: "128GB",
     ram: "8GB",
+    images: [
+      "https://www.mi.com/mi-10-5g",
+      "https://static.mi.com/mi-10-5g-1.jpg",
+      "https://static.mi.com/mi-10-5g-2.jpg",
+    ],
   },
   {
     name: "Xiaomi Redmi Note 9 Pro",
@@ -1538,6 +2102,11 @@ export const phones: Phone[] = [
     production: "March 2020",
     storage: "64GB / 128GB",
     ram: "4GB / 6GB",
+    images: [
+      "https://www.mi.com/redmi-note-9-pro",
+      "https://static.mi.com/redmi-note-9-pro-1.jpg",
+      "https://static.mi.com/redmi-note-9-pro-2.jpg",
+    ],
   },
   {
     name: "Xiaomi Redmi Note 8 Pro",
@@ -1549,6 +2118,11 @@ export const phones: Phone[] = [
     production: "August 2019",
     storage: "64GB / 128GB",
     ram: "6GB / 8GB",
+    images: [
+      "https://www.mi.com/redmi-note-8-pro",
+      "https://static.mi.com/redmi-note-8-pro-1.jpg",
+      "https://static.mi.com/redmi-note-8-pro-2.jpg",
+    ],
   },
   {
     name: "Xiaomi Mi A3",
@@ -1560,6 +2134,11 @@ export const phones: Phone[] = [
     production: "July 2019",
     storage: "64GB / 128GB",
     ram: "4GB / 6GB",
+    images: [
+      "https://www.mi.com/mi-a3",
+      "https://static.mi.com/mi-a3-1.jpg",
+      "https://static.mi.com/mi-a3-2.jpg",
+    ],
   },
 
   //   tecno phones
@@ -1574,6 +2153,11 @@ export const phones: Phone[] = [
     production: "December 2022",
     storage: "256GB",
     ram: "12GB",
+    images: [
+      "https://www.tecno-mobile.com/phantom-x2-pro",
+      "https://static.tecno-mobile.com/phantom-x2-pro-1.jpg",
+      "https://static.tecno-mobile.com/phantom-x2-pro-2.jpg",
+    ],
   },
   {
     name: "Tecno Spark 9 Pro",
@@ -1585,6 +2169,11 @@ export const phones: Phone[] = [
     production: "June 2022",
     storage: "64GB / 128GB",
     ram: "4GB / 6GB",
+    images: [
+      "https://www.tecno-mobile.com/spark-9-pro",
+      "https://static.tecno-mobile.com/spark-9-pro-1.jpg",
+      "https://static.tecno-mobile.com/spark-9-pro-2.jpg",
+    ],
   },
   {
     name: "Tecno Camon 18 Pro",
@@ -1596,6 +2185,11 @@ export const phones: Phone[] = [
     production: "October 2021",
     storage: "128GB",
     ram: "8GB",
+    images: [
+      "https://www.tecno-mobile.com/camon-18-pro",
+      "https://static.tecno-mobile.com/camon-18-pro-1.jpg",
+      "https://static.tecno-mobile.com/camon-18-pro-2.jpg",
+    ],
   },
   {
     name: "Tecno Pova 4 Pro",
@@ -1607,6 +2201,11 @@ export const phones: Phone[] = [
     production: "August 2022",
     storage: "128GB",
     ram: "8GB",
+    images: [
+      "https://www.tecno-mobile.com/pova-4-pro",
+      "https://static.tecno-mobile.com/pova-4-pro-1.jpg",
+      "https://static.tecno-mobile.com/pova-4-pro-2.jpg",
+    ],
   },
   {
     name: "Tecno Phantom X",
@@ -1618,5 +2217,10 @@ export const phones: Phone[] = [
     production: "July 2021",
     storage: "128GB",
     ram: "8GB",
+    images: [
+      "https://www.tecno-mobile.com/phantom-x",
+      "https://static.tecno-mobile.com/phantom-x-1.jpg",
+      "https://static.tecno-mobile.com/phantom-x-2.jpg",
+    ],
   },
 ];
