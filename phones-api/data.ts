@@ -2063,9 +2063,9 @@ export const phones: Phone[] = [
     storage: "256GB",
     ram: "12GB",
     images: [
-      "https://www.tecno-mobile.com/phantom-x2-pro",
-      "https://static.tecno-mobile.com/phantom-x2-pro-1.jpg",
-      "https://static.tecno-mobile.com/phantom-x2-pro-2.jpg",
+      "public/prodcuts-imgs/tecno-products-imgs/Tecno-Phantom-X2-Pro-1.jpeg",
+      "public/prodcuts-imgs/tecno-products-imgs/Tecno-Phantom-X2-Pro-2.jpeg",
+      "public/prodcuts-imgs/tecno-products-imgs/Tecno-Phantom-X2-Pro-3.jpeg",
     ],
   },
   {
@@ -2079,9 +2079,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "4GB / 6GB",
     images: [
-      "https://www.tecno-mobile.com/spark-9-pro",
-      "https://static.tecno-mobile.com/spark-9-pro-1.jpg",
-      "https://static.tecno-mobile.com/spark-9-pro-2.jpg",
+      "public/prodcuts-imgs/tecno-products-imgs/Tecno-Spark-9-Pro-1.jpeg",
+      "public/prodcuts-imgs/tecno-products-imgs/Tecno-Spark-9-Pro-2.jpeg",
+      "public/prodcuts-imgs/tecno-products-imgs/Tecno-Spark-9-Pro-3.jpeg",
     ],
   },
   {
@@ -2095,9 +2095,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "8GB",
     images: [
-      "https://www.tecno-mobile.com/camon-18-pro",
-      "https://static.tecno-mobile.com/camon-18-pro-1.jpg",
-      "https://static.tecno-mobile.com/camon-18-pro-2.jpg",
+      "public/prodcuts-imgs/tecno-products-imgs/Tecno-Camon-18-Pro-1.jpeg",
+      "public/prodcuts-imgs/tecno-products-imgs/Tecno-Camon-18-Pro-2.jpeg",
+      "public/prodcuts-imgs/tecno-products-imgs/Tecno-Camon-18-Pro-3.jpeg",
     ],
   },
   {
@@ -2111,9 +2111,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "8GB",
     images: [
-      "https://www.tecno-mobile.com/pova-4-pro",
-      "https://static.tecno-mobile.com/pova-4-pro-1.jpg",
-      "https://static.tecno-mobile.com/pova-4-pro-2.jpg",
+      "public/prodcuts-imgs/tecno-products-imgs/Tecno-Pova-4-Pro-1.jpeg",
+      "public/prodcuts-imgs/tecno-products-imgs/Tecno-Pova-4-Pro-2.jpeg",
+      "public/prodcuts-imgs/tecno-products-imgs/Tecno-Pova-4-Pro-3.jpeg",
     ],
   },
   {
@@ -2127,9 +2127,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "8GB",
     images: [
-      "https://www.tecno-mobile.com/phantom-x",
-      "https://static.tecno-mobile.com/phantom-x-1.jpg",
-      "https://static.tecno-mobile.com/phantom-x-2.jpg",
+      "public/prodcuts-imgs/tecno-products-imgs/Tecno-Phantom-X-1.jpeg",
+      "public/prodcuts-imgs/tecno-products-imgs/Tecno-Phantom-X-1.jpeg",
+      "public/prodcuts-imgs/tecno-products-imgs/Tecno-Phantom-X-1.jpeg",
     ],
   },
 ];
