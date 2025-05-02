@@ -1542,9 +1542,9 @@ export const phones: Phone[] = [
     storage: "256GB",
     ram: "12GB",
     images: [
-      "https://www.oppo.com/in/smartphones/series-find-x/find-x5-pro",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Oppo_Find_X5_Pro.jpg/500px-Oppo_Find_X5_Pro.jpg",
-      "https://cdn.mos.cms.futurecdn.net/ahH7vrcbWo3bQskAsFeR7D-1200-80.jpg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-Find-X5-Pro-1.jpeg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-Find-X5-Pro-2.jpg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-Find-X5-Pro-4.jpeg",
     ],
   },
   {
@@ -1558,9 +1558,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
     images: [
-      "https://www.oppo.com/in/smartphones/reno/reno8-pro-5g",
-      "https://cdn.mos.cms.futurecdn.net/Xc9bftKw3hbFxkHmnMXJzC-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/k5SbYQzHuxzYgVxapQKknP-1200-80.jpg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-Reno8-Pro-5G-1.jpeg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-Reno8-Pro-5G-2.jpeg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-Reno8-Pro-5G-4.jpeg",
     ],
   },
   {
@@ -1574,9 +1574,9 @@ export const phones: Phone[] = [
     storage: "256GB",
     ram: "12GB",
     images: [
-      "https://www.oppo.com/in/smartphones/series-find-x/find-x3-pro",
-      "https://cdn.mos.cms.futurecdn.net/k1Q7bYvA6WSYsm3bf4hzrK-1200-80.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Oppo_Find_X3_Pro.jpg/500px-Oppo_Find_X3_Pro.jpg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-Find-X3-Pro-1.jpeg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-Find-X3-Pro-3.jpeg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-Find-X3-Pro-4.jpeg",
     ],
   },
   {
@@ -1590,9 +1590,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
     images: [
-      "https://www.oppo.com/in/smartphones/reno/reno7-pro-5g",
-      "https://cdn.mos.cms.futurecdn.net/9DZ74Puhy1uKgtaDoZX5Xb-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/h9bFzxdq6ZkvdvV5tsdp4p-1200-80.jpg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-Reno7-Pro-5G-1.jpeg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-Reno7-Pro-5G-2.jpeg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-Reno7-Pro-5G-4.jpeg",
     ],
   },
   {
@@ -1606,9 +1606,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "8GB",
     images: [
-      "https://www.oppo.com/in/smartphones/a-series/a95-5g",
-      "https://cdn.mos.cms.futurecdn.net/2YRmJf6Gxv2yqftgg2HJ4n-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/J9V6aZqU67N2YyL4g4w9hD-1200-80.jpg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-A95-5G-1.jpeg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-A95-5G-2.jpeg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-A95-5G-4.jpeg",
     ],
   },
   {
@@ -1622,9 +1622,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "8GB",
     images: [
-      "https://www.oppo.com/in/smartphones/f-series/f19-pro-plus-5g",
-      "https://cdn.mos.cms.futurecdn.net/Qwz6LZB32TT2qVdsChGpUA-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/TZtKPvwPb72AXznt6otrxP-1200-80.jpg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-F19-Pro+-5G-1.jpeg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-F19-Pro+-5G-2.jpeg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-F19-Pro+-5G-4.jpeg",
     ],
   },
   {
@@ -1638,9 +1638,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "6GB",
     images: [
-      "https://www.oppo.com/in/smartphones/a-series/a74-5g",
-      "https://cdn.mos.cms.futurecdn.net/8RbQDPVpRfdU5grtQoxHRE-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/v5Wzt4jxxDohkfaeTspYtP-1200-80.jpg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-A74-5G-1.jpeg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-A74-5G-2.jpeg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-A74-5G-4.jpeg",
     ],
   },
   {
@@ -1654,9 +1654,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "8GB",
     images: [
-      "https://www.oppo.com/in/smartphones/reno/reno6-5g",
-      "https://cdn.mos.cms.futurecdn.net/g9rnUEdRU7XcPmbvEoK4Yq-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/pvS6DzqB7TxAKjf9R2wfzA-1200-80.jpg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-Reno6-5G-1.jpeg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-Reno6-5G-2.jpeg",
+      "public/prodcuts-imgs/Oppo-products-imgs/Oppo-Reno6-5G-4.jpeg",
     ],
   },
 
