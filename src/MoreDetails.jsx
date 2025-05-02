@@ -15,14 +15,12 @@ export default function MoreDetails() {
   ) : (
     <div className="moreDetailsCard flex justify-center gap-10 text-[#eeeeeed1] !mt-[20px] !mb-[20px] !ml-[10px] !mr-[10px]">
       <div className="grid gap-5 justify-items-center">
-        <img
-          className="h-[280px] w-[280px]"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUHB559_lpuhRggsf2SfA6nuCvsM_7zj8lg&s"
-        />
-        <img
-          className="h-[50px] w-[50px] "
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUHB559_lpuhRggsf2SfA6nuCvsM_7zj8lg&s"
-        />
+        <img className="h-[280px] w-[280px]" src={productDetails.images[0]} />
+        <div className="flex items-center gap-2.5">
+          {productDetails.images.map((m, index) => (
+            <img src={m} key={index} className="w-20 h-20" />
+          ))}
+        </div>
       </div>
       <div className="grid gap-3 h-[fit-content]">
         <h1 className="font-normal text-[25px] border-b-1 border-[#eeeeeed1]">
