@@ -637,10 +637,9 @@ export const phones: Phone[] = [
     storage: "256GB / 512GB / 1TB",
     ram: "8GB",
     images: [
-      "https://www.apple.com/v/iphone-15/i/images/overview/hero/iphone_15_pro_max_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-15/i/images/overview/hero/iphone_15_pro_max_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-15/i/images/overview/design_1_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/s5j7rb7L6U8bqRr7zjxyfr-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-15-Pro-Max-2.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-15-Pro-Max-3.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-15-Pro-Max-4.jpg",
     ],
   },
   {
@@ -654,10 +653,9 @@ export const phones: Phone[] = [
     storage: "256GB / 512GB / 1TB",
     ram: "8GB",
     images: [
-      "https://www.apple.com/v/iphone-15/i/images/overview/hero/iphone_15_pro_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-15/i/images/overview/design_1_2x.jpg",
-      "https://www.apple.com/v/iphone-15/i/images/overview/hero/iphone_15_pro_hero_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/6vTq5p6PvR7HNmTCrqqSXY-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-15-Pro-1.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-15-Pro-2.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-15-Pro-3.png",
     ],
   },
   {
@@ -671,10 +669,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB / 512GB",
     ram: "6GB",
     images: [
-      "https://www.apple.com/v/iphone-15/i/images/overview/hero/iphone_15_plus_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-15/i/images/overview/design_1_2x.jpg",
-      "https://www.apple.com/v/iphone-15/i/images/overview/hero/iphone_15_plus_hero_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/dXGn7Kt9vXEv4rT7HW8M5w-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-15-Plus-1.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-15-Plus-2.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-15-Plus-3.jpeg",
     ],
   },
   {
@@ -688,10 +685,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB / 512GB",
     ram: "6GB",
     images: [
-      "https://www.apple.com/v/iphone-15/i/images/overview/hero/iphone_15_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-15/i/images/overview/hero/iphone_15_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-15/i/images/overview/design_1_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/TKvQpGT6qFQ9YQ7xX7z9qV-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-15-1.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-15-Plus-4.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-15-3.jpg",
     ],
   },
   {
@@ -705,10 +701,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB / 512GB / 1TB",
     ram: "6GB",
     images: [
-      "https://www.apple.com/v/iphone-14/i/images/overview/hero/iphone_14_pro_max_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-14/i/images/overview/hero/iphone_14_pro_max_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-14/i/images/overview/design_1_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Gxyy5txpHhdjN9fjgq7Ds6-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-14-Pro-Max-1.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-14-Pro-Max-2.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-14-Pro-Max-4.jpg",
     ],
   },
   {
@@ -722,10 +717,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB / 512GB / 1TB",
     ram: "6GB",
     images: [
-      "https://www.apple.com/v/iphone-14/i/images/overview/hero/iphone_14_pro_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-14/i/images/overview/hero/iphone_14_pro_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-14/i/images/overview/design_1_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/NZnNDr9tHfmkWrJYrtduq7-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-14-Pro-1.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-14-Pro-3.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-14-Pro-4.jpg",
     ],
   },
   {
@@ -739,10 +733,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB / 512GB",
     ram: "6GB",
     images: [
-      "https://www.apple.com/v/iphone-14/i/images/overview/hero/iphone_14_plus_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-14/i/images/overview/design_1_2x.jpg",
-      "https://www.apple.com/v/iphone-14/i/images/overview/hero/iphone_14_plus_hero_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Er53d2TA2a5PMdS4dF5cjq-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-14-Plus-1.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-14-4.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-14-4.jpg",
     ],
   },
   {
@@ -756,10 +749,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB / 512GB",
     ram: "6GB",
     images: [
-      "https://www.apple.com/v/iphone-14/i/images/overview/hero/iphone_14_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-14/i/images/overview/hero/iphone_14_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-14/i/images/overview/design_1_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/p8tbZnTZoRoQ3v9C37M2Jg-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-14-1.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-14-4.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-14-Plus-4.jpg",
     ],
   },
   {
@@ -773,10 +765,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB / 512GB / 1TB",
     ram: "6GB",
     images: [
-      "https://www.apple.com/v/iphone-13/i/images/overview/hero/iphone_13_pro_max_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-13/i/images/overview/hero/iphone_13_pro_max_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-13/i/images/overview/design_1_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/6wTcDvh8zJ7txJ4j4rQpXP-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-13-Pro-Max-1.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-13-Pro-Max-2.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-13-Pro-Max-3.jpg",
     ],
   },
   {
@@ -790,10 +781,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB / 512GB / 1TB",
     ram: "6GB",
     images: [
-      "https://www.apple.com/v/iphone-13/i/images/overview/hero/iphone_13_pro_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-13/i/images/overview/hero/iphone_13_pro_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-13/i/images/overview/design_1_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/9HvDgf5nHZ8q9kRs8ZnGyg-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-13-Pro-1.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-13-Pro-3.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-13-Pro-4.jpg",
     ],
   },
   {
@@ -807,10 +797,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB / 512GB",
     ram: "4GB",
     images: [
-      "https://www.apple.com/v/iphone-13/i/images/overview/hero/iphone_13_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-13/i/images/overview/hero/iphone_13_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-13/i/images/overview/design_1_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Yo8hnkw2R8n9F5v7GV7vZ6-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-13-1.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-13-3.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-13-4.png",
     ],
   },
   {
@@ -824,10 +813,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB / 512GB",
     ram: "4GB",
     images: [
-      "https://www.apple.com/v/iphone-13/i/images/overview/hero/iphone_13_mini_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-13/i/images/overview/hero/iphone_13_mini_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-13/i/images/overview/design_1_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/pXeFdeyEG6Zdw4gxhQ2CZk-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-13-Mini-1.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-13-Mini-2.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-13-Mini-4.png",
     ],
   },
   {
@@ -841,10 +829,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB / 256GB",
     ram: "4GB",
     images: [
-      "https://www.apple.com/v/iphone-se/i/images/overview/hero/iphone_se_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-se/i/images/overview/hero/iphone_se_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-se/i/images/overview/design_1_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/aD7m4Erv5TkAkXRPx6jH76-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-SE-3-(2022)-1.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-SE-3-(2022)-2.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-SE-3-(2022)-4.jpg",
     ],
   },
   {
@@ -858,10 +845,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB / 512GB",
     ram: "6GB",
     images: [
-      "https://www.apple.com/v/iphone-12/i/images/overview/hero/iphone_12_pro_max_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-12/i/images/overview/hero/iphone_12_pro_max_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-12/i/images/overview/design_1_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/9V2b9ppmwq8os9SHR7YW3b-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-12-Pro-Max-1.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-12-Pro-Max-2.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-12-Pro-Max-3.jpg",
     ],
   },
   {
@@ -875,10 +861,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB / 512GB",
     ram: "6GB",
     images: [
-      "https://www.apple.com/v/iphone-12/i/images/overview/hero/iphone_12_pro_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-12/i/images/overview/hero/iphone_12_pro_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-12/i/images/overview/design_1_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/x4cxqHjtkSYQnHg4Qyywzg-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-12-Pro-2.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-12-1.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-12-4.jpg",
     ],
   },
   {
@@ -892,10 +877,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB / 256GB",
     ram: "4GB",
     images: [
-      "https://www.apple.com/v/iphone-12/i/images/overview/hero/iphone_12_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-12/i/images/overview/hero/iphone_12_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-12/i/images/overview/design_1_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Z5tmy4pWLZGpwRYzN5XK9X-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-12-1.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-12-2.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-12-3.jpg",
     ],
   },
   {
@@ -909,10 +893,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB / 256GB",
     ram: "4GB",
     images: [
-      "https://www.apple.com/v/iphone-12/i/images/overview/hero/iphone_12_mini_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-12/i/images/overview/hero/iphone_12_mini_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-12/i/images/overview/design_1_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/NjfU7Mn9qBzUpuvSsjkpnw-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-12-Mini-2.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-12-Mini-4.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-12-4.jpg",
     ],
   },
   {
@@ -926,10 +909,9 @@ export const phones: Phone[] = [
     storage: "64GB / 256GB / 512GB",
     ram: "4GB",
     images: [
-      "https://www.apple.com/v/iphone-11/i/images/overview/hero/iphone_11_pro_max_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-11/i/images/overview/hero/iphone_11_pro_max_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-11/i/images/overview/design_1_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/8AWddWxFfEchB9e5mn3FNg-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-11-Pro-Max-2.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-11-Pro-Max-3.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-11-Pro-Max-4.jpg",
     ],
   },
   {
@@ -943,10 +925,9 @@ export const phones: Phone[] = [
     storage: "64GB / 256GB / 512GB",
     ram: "4GB",
     images: [
-      "https://www.apple.com/v/iphone-11/i/images/overview/hero/iphone_11_pro_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-11/i/images/overview/hero/iphone_11_pro_hero_2x.jpg",
-      "https://www.apple.com/v/iphone-11/i/images/overview/design_1_2x.jpg",
-      "https://cdn.mos.cms.futurecdn.net/BFAvRA7HQE76ZADxaU7i2J-1200-80.jpg",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-11-Pro-Max-2.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-11-Pro-3.png",
+      "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-11-Pro-Max-4.jpg",
     ],
   },
 
