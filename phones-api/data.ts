@@ -944,10 +944,9 @@ export const phones: Phone[] = [
     storage: "256GB / 512GB",
     ram: "12GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic5-pro-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic5-pro-hero.jpg",
-      "https://www.gizmochina.com/wp-content/uploads/2023/02/Honor-Magic5-Pro-1.jpg",
-      "https://cdn.mos.cms.futurecdn.net/2HSThzkro9vtrYbmr5x6hg-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Magic5-Pro-4.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Magic5-imgs-1.png",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Magic5-imgs-4.jpg",
     ],
   },
   {
@@ -961,10 +960,9 @@ export const phones: Phone[] = [
     storage: "256GB / 512GB",
     ram: "12GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic5-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic5-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/xv9puZgKv8apFmjWx3qxg-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/M8SZ38w74YhzngdFBxNqcF-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Magic5-imgs-1.png",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Magic5-imgs-2.png",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Magic5-imgs-4.jpg",
     ],
   },
   {
@@ -978,10 +976,9 @@ export const phones: Phone[] = [
     storage: "256GB / 512GB",
     ram: "8GB / 12GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-90-5g-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-90-5g-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/pzEGX7ydHvXdfHvqJUshtQ-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/KfgEmtSMW5M89dtiF2kxuw-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-90-5G-1.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-90-5G-2.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-90-5G-4.jpg",
     ],
   },
   {
@@ -995,10 +992,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-70-5g-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-70-5g-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/KVgrPHg7ZTggdh5SZv3zm9-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/3dSgopg5AvF7osJkkXtvbF-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-70-5G-4.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-90-5G-3.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-90-5G-4.jpg",
     ],
   },
   {
@@ -1012,10 +1008,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-x9a-5g-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-x9a-5g-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/jt8WBYnPy9XZjVxt5huR9W-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/9gN2FFz63XqbGe9BqRtqwg-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-X9a-5G-4.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-X9a-5G-3.png",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-X8-5G-1.png",
     ],
   },
   {
@@ -1029,10 +1024,9 @@ export const phones: Phone[] = [
     storage: "256GB / 512GB",
     ram: "12GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic4-pro-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic4-pro-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/tV6Yn4rMGhq9z94XswkyhA-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/8s9WWn98erq7gWnHgMzDgD-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Magic4-Pro-1.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Magic4-Pro-4.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Magic5-imgs-4.jpg",
     ],
   },
   {
@@ -1046,10 +1040,9 @@ export const phones: Phone[] = [
     storage: "256GB / 512GB",
     ram: "8GB / 12GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic4-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic4-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/36gJFG6he97fWmjrbhHj8b-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/8yF8cR2XmWGgq92Vfjrw6Q-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Magic4-1.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Magic4-4.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Magic4-Pro-1.jpg",
     ],
   },
   {
@@ -1063,10 +1056,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-50-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-50-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/xfwYvtg8zQp1fmUctWvSkQ-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Dh62K4mTfxfwSK2yR9br5g-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-50-4.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-70-5G-4.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-50-4.jpg",
     ],
   },
   {
@@ -1080,10 +1072,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "6GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-x8-5g-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-x8-5g-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/7crwB1WGhwNqQyjywHpj6B-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/5J8pUhf4GGskAfCm6wbfNA-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-7X-1.jpeg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-8-3.jpeg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-8-4.jpeg",
     ],
   },
   {
@@ -1097,10 +1088,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "4GB / 6GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-x7-5g-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-x7-5g-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/qy9vYHSCQHKvDCMzH3FXBQ-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/nm8m5RTgPaFbMzLhgHrtD6-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-7X-1.jpeg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-7X-2.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-8-4.jpeg",
     ],
   },
   {
@@ -1114,10 +1104,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "6GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic5-lite-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-magic5-lite-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/7tQHZX94wZJSHQG2czwmRg-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/kfkz7CfhUJqVn6wLztYZbQ-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Magic5-Lite-1.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Magic4-Pro-1.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Magic4-Pro-4.jpg",
     ],
   },
   {
@@ -1131,10 +1120,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "4GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-10x-lite-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-10x-lite-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Af4aCGSYFJHwnwHjcvvkh5-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/3kMLtJce77oGqFJcm3PRBd-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-10X-Lite-1.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-10X-Lite-2.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-10X-Lite-4.jpeg",
     ],
   },
   {
@@ -1148,10 +1136,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-view-20-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-view-20-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/gFE3rKmE9A4rM2M8PczL3h-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/7qkF2M8Xf7bL3GFGxF9bVf-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-View-20-1.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-View-20-2.png",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-View-20-4.jpg",
     ],
   },
   {
@@ -1165,10 +1152,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-9x-pro-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-9x-pro-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/82r9jvd8kv6fs2Xw9k9wXf-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/2dLhWwV4j9ryqdZ2bPHmZV-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-9X-Pro-2.jpeg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-9X-Pro-3.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-9X-Pro-4.jpg",
     ],
   },
   {
@@ -1182,10 +1168,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "4GB / 6GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-8x-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-8x-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/6hD26KbHLQF6vFVt9g9RkF-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Bp4YB4v9FzCwsX8B38f3Rx-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-8-3.jpeg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-8-4.jpeg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-8-4.jpeg",
     ],
   },
   {
@@ -1199,27 +1184,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-20-pro-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-20-pro-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Rp7JQgnfWVw6v8fNdtVdpR-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/FgaHkGRmjXP8Q6eNRwHt5V-1200-80.jpg",
-    ],
-  },
-  {
-    name: "Honor 8",
-    description:
-      "Kirin 950, 5.2-inch IPS LCD, 60Hz, 12MP+8MP cameras, 3000mAh battery, 9V/2A charging.",
-    price: 299,
-    brand: "Honor",
-    category: "Mid-range",
-    production: "May 2016",
-    storage: "32GB / 64GB",
-    ram: "3GB / 4GB",
-    images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-8-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-8-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/BfKn2sBhUu9Jt1hH2n7Pfj-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Cy2MN9JTRXj8XPu2xq7ZPy-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-20-Pro-2.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-20-Pro-4.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-20-Pro-2.jpg",
     ],
   },
   {
@@ -1233,10 +1200,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "8GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-play-4-pro-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-play-4-pro-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/KbRcb9fHpvW2SzPZqdyQ8-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/M6np96ZyRHNczhtG5kgf9v-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Play-4-Pro-1.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Play-4-Pro-4.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-Play-4-Pro-3.jpeg",
     ],
   },
   {
@@ -1250,10 +1216,9 @@ export const phones: Phone[] = [
     storage: "32GB / 64GB",
     ram: "3GB / 4GB",
     images: [
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-7x-hero.jpg",
-      "https://www.hihonor.com/global/-/media/honor/global/images/hero/honor-7x-hero.jpg",
-      "https://cdn.mos.cms.futurecdn.net/JWbp2r4gq2WyY7Fz6yF9pp-1200-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Wk4ZgMZEmxD8z6LgfVJZXg-1200-80.jpg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-7X-1.jpeg",
+      "public/prodcuts-imgs/Honor-products-imgs/Honor-7X-2.jpg",
+      "      public/prodcuts-imgs/Honor-products-imgs/Honor-9X-Pro-2.jpeg",
     ],
   },
 
