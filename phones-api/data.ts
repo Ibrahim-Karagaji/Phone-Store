@@ -346,10 +346,9 @@ export const phones: Phone[] = [
     storage: "256GB / 512GB / 1TB",
     ram: "12GB",
     images: [
-      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-ultra-official-images/-1200w2/gsmarena_001.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-ultra-official-images/-1200w2/gsmarena_002.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-ultra-official-images/-1200w2/gsmarena_003.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-ultra-official-images/-1200w2/gsmarena_004.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galax- S23-Ultra-1.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S23-Ultra-2.png",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S23-Ultra-3.webp",
     ],
   },
   {
@@ -363,10 +362,9 @@ export const phones: Phone[] = [
     storage: "256GB / 512GB",
     ram: "8GB",
     images: [
-      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-plus-official-images/-1200w2/gsmarena_001.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-plus-official-images/-1200w2/gsmarena_002.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-plus-official-images/-1200w2/gsmarena_003.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-plus-official-images/-1200w2/gsmarena_004.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S23+-1.png",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S23+-2.webp",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S23+-3.jpg",
     ],
   },
   {
@@ -380,10 +378,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB",
     images: [
-      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-official-images/-1200w2/gsmarena_001.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-official-images/-1200w2/gsmarena_002.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-official-images/-1200w2/gsmarena_003.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/01/samsung-galaxy-s23-official-images/-1200w2/gsmarena_004.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S23-1.png",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S23-2.webp",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S23-3.jpg",
     ],
   },
   {
@@ -397,10 +394,9 @@ export const phones: Phone[] = [
     storage: "256GB / 512GB / 1TB",
     ram: "12GB",
     images: [
-      "https://fdn.gsmarena.com/imgroot/news/23/07/samsung-galaxy-z-fold5-official-images/-1200w2/gsmarena_001.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/07/samsung-galaxy-z-fold5-official-images/-1200w2/gsmarena_002.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/07/samsung-galaxy-z-fold5-official-images/-1200w2/gsmarena_003.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/07/samsung-galaxy-z-fold5-official-images/-1200w2/gsmarena_004.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-Z-Fold-5-1.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-Z-Fold-5-2.png",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-Z-Fold-5-3.png",
     ],
   },
   {
@@ -414,10 +410,9 @@ export const phones: Phone[] = [
     storage: "256GB / 512GB",
     ram: "8GB",
     images: [
-      "https://fdn.gsmarena.com/imgroot/news/23/07/samsung-galaxy-z-flip5-official-images/-1200w2/gsmarena_001.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/07/samsung-galaxy-z-flip5-official-images/-1200w2/gsmarena_002.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/07/samsung-galaxy-z-flip5-official-images/-1200w2/gsmarena_003.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/07/samsung-galaxy-z-flip5-official-images/-1200w2/gsmarena_004.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-Z-Flip-5-1.png",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-Z-Flip-5-2.png",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-Z-Flip-5-3.avif",
     ],
   },
   {
@@ -431,10 +426,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
     images: [
-      "https://fdn.gsmarena.com/imgroot/news/23/03/samsung-galaxy-a54-official-images/-1200w2/gsmarena_001.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/03/samsung-galaxy-a54-official-images/-1200w2/gsmarena_002.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/03/samsung-galaxy-a54-official-images/-1200w2/gsmarena_003.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/03/samsung-galaxy-a54-official-images/-1200w2/gsmarena_004.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A54-5G-1.avif",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A54-5G-2.png",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A54-5G-3.jpg",
     ],
   },
   {
@@ -448,10 +442,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
     images: [
-      "https://fdn.gsmarena.com/imgroot/news/23/03/samsung-galaxy-a34-official-images/-1200w2/gsmarena_001.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/03/samsung-galaxy-a34-official-images/-1200w2/gsmarena_002.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/03/samsung-galaxy-a34-official-images/-1200w2/gsmarena_003.jpg",
-      "https://fdn.gsmarena.com/imgroot/news/23/03/samsung-galaxy-a34-official-images/-1200w2/gsmarena_004.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A34-5G-1.webp",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A34-5G-2.webp",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A34-5G-3.jpg",
     ],
   },
   {
@@ -465,10 +458,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB / 512GB",
     ram: "12GB",
     images: [
-      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2201/gallery/latin-en-galaxy-s22-ultra-5g-zoom-06-1200x1200.jpg",
-      "https://www.samsung.com/us/smartphones/galaxy-s22-ultra/_next/static/images/phones/galaxy-s22-ultra-hero-800x800.jpg",
-      "https://www.samsung.com/global/galaxy/galaxy-s22-ultra/images/galaxy-s22-ultra-header-01.jpg",
-      "https://cdn.mos.cms.futurecdn.net/DJS2u9wpvJ5F9Bxt7vNx7A-1200-80.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S22-Ultra-1.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S22-Ultra-2.webp",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S22-Ultra-3.jpg",
     ],
   },
   {
@@ -482,10 +474,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB",
     images: [
-      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2201/gallery/latin-en-galaxy-s22-plus-5g-zoom-05-1200x1200.jpg",
-      "https://www.samsung.com/us/smartphones/galaxy-s22-plus/_next/static/images/phones/galaxy-s22-plus-hero-800x800.jpg",
-      "https://www.samsung.com/global/galaxy/galaxy-s22-plus/images/galaxy-s22-plus-header-01.jpg",
-      "https://cdn.mos.cms.futurecdn.net/VHhn5H9rB7xVnqpw45cuJ7-1200-80.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S22+-1.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S22+-3.webp",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S22+-4.webp",
     ],
   },
   {
@@ -499,10 +490,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB",
     images: [
-      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2201/gallery/latin-en-galaxy-s22-5g-zoom-05-1200x1200.jpg",
-      "https://www.samsung.com/us/smartphones/galaxy-s22/_next/static/images/phones/galaxy-s22-hero-800x800.jpg",
-      "https://www.samsung.com/global/galaxy/galaxy-s22/images/galaxy-s22-header-01.jpg",
-      "https://cdn.mos.cms.futurecdn.net/vJz6SKVJ36j4wWLhnnysNr-1200-80.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S22-1.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S22-2.webp",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-S22-3.webp",
     ],
   },
   {
@@ -516,10 +506,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB / 512GB",
     ram: "8GB / 12GB",
     images: [
-      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2008/gallery/latin-en-galaxy-note20-ultra-5g-zoom-04-1200x1200.jpg",
-      "https://www.samsung.com/us/smartphones/galaxy-note20-ultra/_next/static/images/phones/galaxy-note20-ultra-hero-800x800.jpg",
-      "https://www.samsung.com/global/galaxy/galaxy-note20-ultra/images/galaxy-note20-ultra-header-01.jpg",
-      "https://cdn.mos.cms.futurecdn.net/3AvJ8fDBJmt8ccHq7NRxk3-1200-80.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-Note-20-Ultra-2.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-Note-20-Ultra-3.png",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-Note-20-Ultra-4.jpg",
     ],
   },
   {
@@ -533,10 +522,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
     images: [
-      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2201/gallery/latin-en-galaxy-a73-5g-zoom-01-1200x1200.jpg",
-      "https://www.samsung.com/us/smartphones/galaxy-a73-5g/_next/static/images/phones/galaxy-a73-hero-800x800.jpg",
-      "https://www.samsung.com/global/galaxy/galaxy-a73/images/galaxy-a73-header-01.jpg",
-      "https://cdn.mos.cms.futurecdn.net/fnGdxmA7sdyw8mFjxfjmnv-1200-80.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A73-5G-1.avif",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A73-5G-2.png",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A73-5G-3.jpg",
     ],
   },
   {
@@ -550,10 +538,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
     images: [
-      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2103/gallery/latin-en-galaxy-a72-5g-zoom-04-1200x1200.jpg",
-      "https://www.samsung.com/us/smartphones/galaxy-a72/_next/static/images/phones/galaxy-a72-hero-800x800.jpg",
-      "https://www.samsung.com/global/galaxy/galaxy-a72/images/galaxy-a72-header-01.jpg",
-      "https://cdn.mos.cms.futurecdn.net/pd6k45vXyt7kbsf2btLg7r-1200-80.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A72-1.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A72-2.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A72-3.png",
     ],
   },
   {
@@ -567,10 +554,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
     images: [
-      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2103/gallery/latin-en-galaxy-a52s-5g-zoom-03-1200x1200.jpg",
-      "https://www.samsung.com/us/smartphones/galaxy-a52s-5g/_next/static/images/phones/galaxy-a52s-hero-800x800.jpg",
-      "https://www.samsung.com/global/galaxy/galaxy-a52s/images/galaxy-a52s-header-01.jpg",
-      "https://cdn.mos.cms.futurecdn.net/wAYnqBhL2cB48BG3vXuwPQ-1200-80.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A52s-5G-1.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A52s-5G-2.png",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A52s-5G-3.jpg",
     ],
   },
   {
@@ -584,10 +570,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
     images: [
-      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2303/gallery/latin-en-galaxy-m54-5g-zoom-01-1200x1200.jpg",
-      "https://www.samsung.com/us/smartphones/galaxy-m54-5g/_next/static/images/phones/galaxy-m54-hero-800x800.jpg",
-      "https://www.samsung.com/global/galaxy/galaxy-m54/images/galaxy-m54-header-01.jpg",
-      "https://cdn.mos.cms.futurecdn.net/L73GH6zH6qFptvA7c8Xa5q-1200-80.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-M54-5G-1.webp",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-M54-5G-2.webp",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-M54-5G-3.jpg",
     ],
   },
   {
@@ -601,10 +586,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "6GB / 8GB",
     images: [
-      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2203/gallery/latin-en-galaxy-m33-5g-zoom-02-1200x1200.jpg",
-      "https://www.samsung.com/us/smartphones/galaxy-m33-5g/_next/static/images/phones/galaxy-m33-hero-800x800.jpg",
-      "https://www.samsung.com/global/galaxy/galaxy-m33/images/galaxy-m33-header-01.jpg",
-      "https://cdn.mos.cms.futurecdn.net/q6w7wb8t9ZZcbbf93xyd74-1200-80.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-M33-5G-1.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-M33-5G-2.png",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-M33-5G-3.webp",
     ],
   },
   {
@@ -618,10 +602,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "4GB / 6GB",
     images: [
-      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2101/gallery/latin-en-galaxy-a32-5g-zoom-04-1200x1200.jpg",
-      "https://www.samsung.com/us/smartphones/galaxy-a32-5g/_next/static/images/phones/galaxy-a32-hero-800x800.jpg",
-      "https://www.samsung.com/global/galaxy/galaxy-a32/images/galaxy-a32-header-01.jpg",
-      "https://cdn.mos.cms.futurecdn.net/MbH2TTzH4Ht2jtQXMAV7q5-1200-80.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A32-5G-1.webp",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A32-5G-2.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A32-5G-3.webp",
     ],
   },
   {
@@ -635,10 +618,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "4GB / 6GB",
     images: [
-      "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2011/gallery/latin-en-galaxy-a12-zoom-01-1200x1200.jpg",
-      "https://www.samsung.com/us/smartphones/galaxy-a12/_next/static/images/phones/galaxy-a12-hero-800x800.jpg",
-      "https://www.samsung.com/global/galaxy/galaxy-a12/images/galaxy-a12-header-01.jpg",
-      "https://cdn.mos.cms.futurecdn.net/QAhq89V6f32D8pmtk5jqjh-1200-80.jpg",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A12-1.webp",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A12-2.webp",
+      "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A12-3.png",
     ],
   },
 
