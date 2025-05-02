@@ -22,7 +22,7 @@ export default function FiltersCards({ products, index }) {
         <div className="more-details">
           <img
             className="min-w-[180px] max-w-[220px]  min-h-[180px] max-h-[190px] rounded-[4px]"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUHB559_lpuhRggsf2SfA6nuCvsM_7zj8lg&s"
+            src={products.images[0]}
           />
         </div>
       </Link>
