@@ -1,24 +1,30 @@
 import { favoritesProductsContext } from "./FavoritesProductsState";
 import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
 import { productDetailsContext } from "./ProductDetailsState";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 export default function MoreDetails() {
   const { productDetails } = useContext(productDetailsContext);
   const favorites = useContext(favoritesProductsContext);
   const shoppingCart = useContext(shoppingCartProductsContext);
+  const [imagesState, setImagesState] = useState(productDetails.images[0]);
 
   return Object.keys(productDetails).length == 0 ? (
     <div className="flex justify-center !m-[10px]">
       <img src="images-folder\Waiting.png" />
     </div>
   ) : (
-    <div className="moreDetailsCard flex justify-center gap-10 text-[#eeeeeed1] !mt-[20px] !mb-[20px] !ml-[10px] !mr-[10px]">
+    <div className="moreDetailsCard flex justify-center gap-5 text-[#eeeeeed1] !mt-[20px] !mb-[20px] !ml-[10px] !mr-[10px]">
       <div className="grid gap-5 justify-items-center">
-        <img className="h-[280px] w-[280px]" src={productDetails.images[0]} />
-        <div className="flex items-center gap-2.5">
+        <img className="h-[280px] w-[280px]" src={imagesState} />
+        <div className="flex items-center gap-2.5 flex-wrap">
           {productDetails.images.map((m, index) => (
-            <img src={m} key={index} className="w-20 h-20" />
+            <img
+              onClick={(e) => setImagesState(m)}
+              src={m}
+              key={index}
+              className="w-20 h-20"
+            />
           ))}
         </div>
       </div>

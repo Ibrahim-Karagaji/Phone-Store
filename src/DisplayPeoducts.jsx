@@ -11,7 +11,7 @@ export default function DisplayPeoducts(products) {
     return (
       <div
         key={index}
-        className="DisplayPeoducts text-[15px] text-[#eeeeeed4] rounded-[5px] shadow-[0px_0px_3px_0px_black] grid gap-[3px] w-[fit-content] duration-500 hover:-translate-y-1"
+        className="DisplayPeoducts text-[15px] text-[#eeeeeed4] rounded-[5px] shadow-[0px_0px_2px_0px_black] grid  w-[fit-content] duration-300 hover:-translate-y-1"
       >
         <Link
           onClick={() => {
@@ -19,17 +19,16 @@ export default function DisplayPeoducts(products) {
           }}
           to="/More-Details"
         >
-          <div className="more-details w-[240px] h-[170px] ">
+          <div className="more-details w-[auto] h-[auto] ">
             <img
-              className="h-full rounded-[5px]"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUHB559_lpuhRggsf2SfA6nuCvsM_7zj8lg&s"
+              className="h-full rounded-[5px] max-w-[230px] max-h-[350px]"
+              src={p.images[0]}
             />
           </div>
         </Link>
-
         <div className="grid gap-[5px] !p-[5px]">
           <h1 className="rounded-[5px] font-bold">{p.name}</h1>
-          <p className="text-[#063447] bg-[#eeeeeed4] w-[230px] !p-[3px] rounded-[5px] font-semibold text-[15px]">
+          <p className="text-[#063447] bg-[#eeeeeed4] w-[220px] !p-[3px] rounded-[5px] font-semibold text-[15px]">
             {p.description}
           </p>
           <p className="rounded-[5px] font-bold">Price: {p.price + "$"}</p>
