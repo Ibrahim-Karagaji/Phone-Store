@@ -1673,9 +1673,9 @@ export const phones: Phone[] = [
     storage: "256GB / 512GB",
     ram: "12GB",
     images: [
-      "https://www.vivo.com/vivo-x90-pro",
-      "https://static.vivo.com/vivo-x90-pro-1.jpg",
-      "https://static.vivo.com/vivo-x90-pro-2.jpg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-X90-Pro-1.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-X90-Pro-2.jpg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-X90-Pro-4.jpeg",
     ],
   },
   {
@@ -1689,9 +1689,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
     images: [
-      "https://www.vivo.com/vivo-v23-pro-5g",
-      "https://static.vivo.com/vivo-v23-pro-5g-1.jpg",
-      "https://static.vivo.com/vivo-v23-pro-5g-2.jpg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-V23-Pro-5G-1.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-V23-Pro-5G-2.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-V23-Pro-5G-3.jpeg",
     ],
   },
   {
@@ -1705,9 +1705,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB",
     images: [
-      "https://www.vivo.com/vivo-v21-5g",
-      "https://static.vivo.com/vivo-v21-5g-1.jpg",
-      "https://static.vivo.com/vivo-v21-5g-2.jpg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-V21-5G-1.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-V21-5G-2.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-V21-5G-4.jpeg",
     ],
   },
   {
@@ -1721,9 +1721,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "12GB",
     images: [
-      "https://www.vivo.com/vivo-x60-pro",
-      "https://static.vivo.com/vivo-x60-pro-1.jpg",
-      "https://static.vivo.com/vivo-x60-pro-2.jpg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-X60-Pro-1.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-X60-Pro-2.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-X60-Pro-4.jpeg",
     ],
   },
   {
@@ -1737,9 +1737,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "8GB",
     images: [
-      "https://www.vivo.com/vivo-v20-pro",
-      "https://static.vivo.com/vivo-v20-pro-1.jpg",
-      "https://static.vivo.com/vivo-v20-pro-2.jpg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-V20-Pro-1.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-V20-Pro-2.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-V20-Pro-4.jpeg",
     ],
   },
   {
@@ -1753,9 +1753,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "8GB",
     images: [
-      "https://www.vivo.com/vivo-y73",
-      "https://static.vivo.com/vivo-y73-1.jpg",
-      "https://static.vivo.com/vivo-y73-2.jpg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-Y73-1.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-Y73-2.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-Y73-4.jpeg",
     ],
   },
   {
@@ -1769,9 +1769,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "8GB",
     images: [
-      "https://www.vivo.com/vivo-y53s",
-      "https://static.vivo.com/vivo-y53s-1.jpg",
-      "https://static.vivo.com/vivo-y53s-2.jpg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-Y53s-1.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-Y53s-2.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-Y53s-4.jpeg",
     ],
   },
   {
@@ -1785,9 +1785,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.vivo.com/vivo-t1-pro-5g",
-      "https://static.vivo.com/vivo-t1-pro-5g-1.jpg",
-      "https://static.vivo.com/vivo-t1-pro-5g-2.jpg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-T1-Pro-5G-1.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-T1-Pro-5G-3.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-T1-Pro-5G-4.jpeg",
     ],
   },
   {
@@ -1801,9 +1801,9 @@ export const phones: Phone[] = [
     storage: "256GB",
     ram: "12GB",
     images: [
-      "https://www.vivo.com/vivo-x70-pro",
-      "https://static.vivo.com/vivo-x70-pro-1.jpg",
-      "https://static.vivo.com/vivo-x70-pro-2.jpg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-X70-Pro-1.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-X70-Pro-2.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-X70-Pro-4.jpeg",
     ],
   },
   {
@@ -1817,9 +1817,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "4GB",
     images: [
-      "https://www.vivo.com/vivo-y21",
-      "https://static.vivo.com/vivo-y21-1.jpg",
-      "https://static.vivo.com/vivo-y21-2.jpg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-Y21-1.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-Y21-2.jpeg",
+      "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-Y21-4.jpeg",
     ],
   },
 
