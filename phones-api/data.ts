@@ -1836,9 +1836,9 @@ export const phones: Phone[] = [
     storage: "256GB / 512GB",
     ram: "12GB",
     images: [
-      "https://www.mi.com/xiaomi-13-pro",
-      "https://static.mi.com/xiaomi-13-pro-1.jpg",
-      "https://static.mi.com/xiaomi-13-pro-2.jpg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-13-Pro-1.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-13-Pro-2.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-13-Pro-4.jpeg",
     ],
   },
   {
@@ -1852,9 +1852,9 @@ export const phones: Phone[] = [
     storage: "256GB",
     ram: "12GB",
     images: [
-      "https://www.mi.com/xiaomi-12-pro",
-      "https://static.mi.com/xiaomi-12-pro-1.jpg",
-      "https://static.mi.com/xiaomi-12-pro-2.jpg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-12-Pro-1.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-12-Pro-2.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-12-Pro-4.jpeg",
     ],
   },
   {
@@ -1868,9 +1868,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.mi.com/redmi-note-12-pro-plus",
-      "https://static.mi.com/redmi-note-12-pro-plus-1.jpg",
-      "https://static.mi.com/redmi-note-12-pro-plus-2.jpg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-Note-12 Pro+-1.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-Note-12 Pro+-2.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-Note-12 Pro+-3.jpeg",
     ],
   },
   {
@@ -1884,9 +1884,9 @@ export const phones: Phone[] = [
     storage: "256GB",
     ram: "12GB",
     images: [
-      "https://www.mi.com/mi-11-ultra",
-      "https://static.mi.com/mi-11-ultra-1.jpg",
-      "https://static.mi.com/mi-11-ultra-2.jpg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Mi-11-Ultra-1.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Mi-11-Ultra-2.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Mi-11-Ultra-4.avif",
     ],
   },
   {
@@ -1900,9 +1900,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.mi.com/redmi-note-11-pro-5g",
-      "https://static.mi.com/redmi-note-11-pro-5g-1.jpg",
-      "https://static.mi.com/redmi-note-11-pro-5g-2.jpg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-Note-11-Pro-5G-1.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-Note-11-Pro-5G-2.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-Note-11-Pro-5G-4.jpeg",
     ],
   },
   {
@@ -1916,9 +1916,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.mi.com/mi-11x-pro",
-      "https://static.mi.com/mi-11x-pro-1.jpg",
-      "https://static.mi.com/mi-11x-pro-2.jpg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Mi-11X-Pro-1.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Mi-11X-Pro-2.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Mi-11X-Pro-4.jpeg",
     ],
   },
   {
@@ -1932,9 +1932,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.mi.com/redmi-k40-pro",
-      "https://static.mi.com/redmi-k40-pro-1.jpg",
-      "https://static.mi.com/redmi-k40-pro-2.jpg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-K40-Pro-1.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-K40-Pro-2.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-K40-Pro-3.jpeg",
     ],
   },
   {
@@ -1948,9 +1948,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.mi.com/redmi-note-10-pro",
-      "https://static.mi.com/redmi-note-10-pro-1.jpg",
-      "https://static.mi.com/redmi-note-10-pro-2.jpg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-Note-10-Pro-1.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-Note-10-Pro-1.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-Note-10-Pro-4.jpg",
     ],
   },
   {
@@ -1964,9 +1964,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB / 12GB",
     images: [
-      "https://www.mi.com/xiaomi-11t-pro",
-      "https://static.mi.com/xiaomi-11t-pro-1.jpg",
-      "https://static.mi.com/xiaomi-11t-pro-2.jpg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-11T-Pro-1.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-11T-Pro-2.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-11T-Pro-3.jpeg",
     ],
   },
   {
@@ -1980,9 +1980,9 @@ export const phones: Phone[] = [
     storage: "128GB / 256GB",
     ram: "8GB",
     images: [
-      "https://www.mi.com/mi-10t-pro",
-      "https://static.mi.com/mi-10t-pro-1.jpg",
-      "https://static.mi.com/mi-10t-pro-2.jpg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Mi-10T-Pro-1.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Mi-10T-Pro-2.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Mi-10T-Pro-4.jpeg",
     ],
   },
   {
@@ -1996,9 +1996,9 @@ export const phones: Phone[] = [
     storage: "128GB",
     ram: "8GB",
     images: [
-      "https://www.mi.com/mi-10-5g",
-      "https://static.mi.com/mi-10-5g-1.jpg",
-      "https://static.mi.com/mi-10-5g-2.jpg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Mi-10-5G-1.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Mi-10-5G-2.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Mi-10-5G-3.jpeg",
     ],
   },
   {
@@ -2012,9 +2012,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "4GB / 6GB",
     images: [
-      "https://www.mi.com/redmi-note-9-pro",
-      "https://static.mi.com/redmi-note-9-pro-1.jpg",
-      "https://static.mi.com/redmi-note-9-pro-2.jpg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-Note-9-Pro-1.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-Note-9-Pro-2.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-Note-9-Pro-3.jpeg",
     ],
   },
   {
@@ -2028,9 +2028,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "6GB / 8GB",
     images: [
-      "https://www.mi.com/redmi-note-8-pro",
-      "https://static.mi.com/redmi-note-8-pro-1.jpg",
-      "https://static.mi.com/redmi-note-8-pro-2.jpg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-Note-8-Pro-1.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-Note-8-Pro-2.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Redmi-Note-8-Pro-3.jpeg",
     ],
   },
   {
@@ -2044,9 +2044,9 @@ export const phones: Phone[] = [
     storage: "64GB / 128GB",
     ram: "4GB / 6GB",
     images: [
-      "https://www.mi.com/mi-a3",
-      "https://static.mi.com/mi-a3-1.jpg",
-      "https://static.mi.com/mi-a3-2.jpg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Mi-A3-1.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Mi-A3-2.jpeg",
+      "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Mi-A3-3.jpeg",
     ],
   },
 
