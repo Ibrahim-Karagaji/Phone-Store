@@ -26,7 +26,7 @@ export default function Header() {
             <i className="fa-solid log-in fa-right-to-bracket !p-[3px] text-[16px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[4px] duration-300 hover:-translate-y-1 relative"></i>
           </Link>
           <i className="option fa-solid fa-bars left-[0px] absolute opacity-0 !p-[3px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[4px] duration-300 hover:-translate-y-1"></i>
-          <div className="list-option absolute opacity-0 grid bg-[#eeeeeed1] text-[#063447] !p-[2px] text-[2px] top-[-30px] right-[15px] rounded-[4px] duration-300">
+          <div className="list-option z-30 absolute opacity-0 grid bg-[#eeeeeed1] text-[#063447] !p-[2px] text-[2px] top-[-30px] right-[15px] rounded-[4px] duration-300">
             <Link to="/">
               <p className="!p-[4px] border-b-[2px]  duration-300 hover:-translate-y-1">
                 Home
