@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import "./App.css";
 import Header from "./Header";
 import useProducts from "./useProducts";
@@ -9,8 +10,15 @@ import ShoppingCartProductsState from "./ShoppingCartProductsState";
 import FiltersState from "./FiltersState";
 import ProductDetailsState from "./ProductDetailsState";
 export const products = createContext();
+import WelcomeMassage from "./WelcomeMassage";
 
 export default function Layout() {
+  const [waiting, setWaiting] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => setWaiting(true), 3000);
+  }, []);
+
   return (
     <products.Provider value={useProducts()}>
       <ProductDetailsState>
@@ -18,9 +26,15 @@ export default function Layout() {
           <ShoppingCartProductsState>
             <FavoritesProductsState>
               <div id="App" className="h-screen">
-                <Header />
-                <Outlet />
-                <Footer />
+                {waiting == false ? (
+                  <WelcomeMassage />
+                ) : (
+                  <>
+                    <Header />
+                    <Outlet />
+                    <Footer />
+                  </>
+                )}
               </div>
             </FavoritesProductsState>
           </ShoppingCartProductsState>
