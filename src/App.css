@@ -327,3 +327,9 @@ display:grid
   margin-right: 0px;
 }
 }
+
+
+@media(min-width:650px){
+.descriptionSideBarOptionsi{
+display: none;
+}}
