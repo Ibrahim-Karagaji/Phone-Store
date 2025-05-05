@@ -146,9 +146,9 @@
   border-radius: 5px;
   border: #063447 1px solid;
   outline: #eeeeeed1 1px solid;
-  left: -10px;
+  left: -16px;
   top: -23px;
-  width: 50px;
+  width: 47px;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   opacity: 0%;
   transition: 0.5s;
@@ -175,6 +175,7 @@
   }
 
   .choices:hover .list-option {
+    z-index: 52;
     opacity: 100%;
     font-size: 13px;
     top: 48px;
