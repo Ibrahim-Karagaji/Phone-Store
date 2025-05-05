@@ -24,12 +24,11 @@ export default function SearchCards() {
     >
       {handleFilterProducts()
         .map((p, index) => (
-          <Link to="/More-Details">
+          <Link key={index} to="/More-Details">
             <div
               onClick={() => {
                 moreDetilsState.addProduct(p);
               }}
-              key={index}
               className="searchCards flex gap-1 !p-[5px] border-b-[1px] border-[#063447] border-solid duration-300 hover:-translate-y-1"
             >
               <img

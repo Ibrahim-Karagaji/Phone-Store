@@ -30,9 +30,19 @@ export default function Header() {
           <Link to="/favorites">
             <i className="fa-solid heart fa-heart !p-[3px] text-[16px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[4px] duration-300 hover:-translate-y-1 relative"></i>
           </Link>
-          <Link to="/Login">
-            <i className="fa-solid log-in fa-right-to-bracket !p-[3px] text-[16px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[4px] duration-300 hover:-translate-y-1 relative"></i>
-          </Link>
+          {window.localStorage.getItem("user") == null ? (
+            <Link to="/Login">
+              <i className="fa-solid log-in fa-right-to-bracket !p-[3px] text-[16px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[4px] duration-300 hover:-translate-y-1 relative"></i>
+            </Link>
+          ) : (
+            <i
+              onClick={() => {
+                window.localStorage.clear();
+                location.reload();
+              }}
+              className="fa-solid fa-arrow-right-from-bracket log-out !p-[3px] text-[16px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[4px] duration-300 hover:-translate-y-1 relative"
+            ></i>
+          )}
           <i className="option fa-solid fa-bars left-[0px] absolute opacity-0 !p-[3px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[4px] duration-300 hover:-translate-y-1"></i>
           <div className="list-option z-30 absolute opacity-0 grid bg-[#eeeeeed1] text-[#063447] !p-[2px] text-[2px] top-[-30px] right-[15px] rounded-[4px] duration-300">
             <Link to="/">
@@ -50,11 +60,23 @@ export default function Header() {
                 Favorite
               </p>
             </Link>
-            <Link to="/Login">
-              <p className="!p-[4px] border-b-[2px]  duration-300 hover:-translate-y-1">
-                Log In
+            {window.localStorage.getItem("user") == null ? (
+              <Link to="/Login">
+                <p className="!p-[4px] border-b-[2px]  duration-300 hover:-translate-y-1">
+                  Log In
+                </p>
+              </Link>
+            ) : (
+              <p
+                onClick={() => {
+                  window.localStorage.clear();
+                  location.reload();
+                }}
+                className="!p-[4px] border-b-[2px]  duration-300 hover:-translate-y-1"
+              >
+                Log out
               </p>
-            </Link>
+            )}
           </div>
         </div>
       </div>
