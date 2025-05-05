@@ -5,6 +5,21 @@ import { useInView } from "react-intersection-observer";
 
 export default function ListPhones() {
   const filters = useContext(filtersStateContext);
+  const [productsCounter, setProductsCounter] = useState(5);
+  const { ref, inView } = useInView({ threshold: 0.7 });
+
+  const visabilState = {
+    ref: ref,
+    inView: inView,
+    productsCounter: productsCounter,
+    setProductsCounter,
+  };
+
+  useEffect(() => {
+    setTimeout(() => {
+      setProductsCounter((prev) => prev + 10);
+    }, 1500);
+  }, [inView]);
 
   const [products, setProducts] = useState({
     products: [],
@@ -190,7 +205,12 @@ export default function ListPhones() {
         {products.products.length != 0 ? (
           products.products
             .map((item, index) => (
-              <FiltersCards key={index} products={item} index={index} />
+              <FiltersCards
+                key={index}
+                products={item}
+                index={index}
+                visabilState={visabilState}
+              />
             ))
             .slice(0, productsCounter)
         ) : (

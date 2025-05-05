@@ -3,13 +3,13 @@ import { favoritesProductsContext } from "./FavoritesProductsState";
 import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
 import { productDetailsContext } from "./ProductDetailsState";
 import { useContext } from "react";
-export default function FiltersCards({ products, index }) {
+export default function FiltersCards({ products, index, visabilState }) {
   const favorites = useContext(favoritesProductsContext);
   const shoppingCart = useContext(shoppingCartProductsContext);
   const productDetails = useContext(productDetailsContext);
-
   return (
     <div
+      ref={index + 1 == visabilState.productsCounter ? visabilState.ref : null}
       className="filter-card DisplayPeoducts flex gap-2 text-[#eeeeeed1] shadow-[0px_0px_5px_0px_black] !p-[3px] rounded-[4px] duration-500 hover:shadow-[0px_0px_10px_0px_black] hover:-translate-y-1"
       key={index}
     >
@@ -35,7 +35,7 @@ export default function FiltersCards({ products, index }) {
         <div className="flex justify-between items-center border-b-[1px] border-b-[#eeeeee40]">
           <span>Price: {products.price}$</span>
           <img
-            className={`w-[30px] rounded-[3px] !p-[3px] rounded-[5px] ${
+            className={`w-[30px] rounded-[3px] !p-[3px] ${
               favorites.favoritesState.some(
                 (fav) => fav.name == products.name
               ) == true
