@@ -1,6 +1,7 @@
 import { filtersStateContext } from "./FiltersState";
 import { useEffect, useContext, useState } from "react";
 import FiltersCards from "./FiltersCards";
+import { useInView } from "react-intersection-observer";
 
 export default function ListPhones() {
   const filters = useContext(filtersStateContext);
@@ -191,7 +192,7 @@ export default function ListPhones() {
             .map((item, index) => (
               <FiltersCards key={index} products={item} index={index} />
             ))
-            .slice(0, 10)
+            .slice(0, productsCounter)
         ) : (
           <div className="empty-image grid justify-center text-center bg-[#002737] text-[#eeeeeed1] rounded-[4px]">
             <h1 className="text-[23px]">Not Found</h1>
