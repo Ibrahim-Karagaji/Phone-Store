@@ -8,7 +8,11 @@ export default function SideBar() {
 
   return (
     <div className=" relative SideBar min-w-[155px] basis-[12%] shadow-[0px_0px_5px_0px_black] rounded-[5px] duration-300 ">
-      <i className="fa-solid fa-circle-user !p-[3px] hover:text-[#063447] hover:bg-[#eeeeeed1] duration-300 rounded-[4px] !flex w-[fit-content] !ml-[auto] text-[30px]"></i>
+      {window.localStorage.getItem("user") == null ? (
+        <i className="fa-solid fa-circle-user !p-[3px] hover:text-[#063447] hover:bg-[#eeeeeed1] duration-300 rounded-[4px] !flex w-[fit-content] !ml-[auto] text-[30px]"></i>
+      ) : (
+        <img src="images-folder/avatar.png" className="w-[35px] !ml-[auto]" />
+      )}
       <div className="content grid gap-[3px] text-[#eeeeeed1] !m-[10px_0px_0px]">
         <Link to="/List-Phones">
           <div
