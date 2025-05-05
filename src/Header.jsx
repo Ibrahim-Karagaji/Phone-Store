@@ -1,4 +1,5 @@
 import { SearchStateContext } from "./SearchState";
+import SearchCards from "./SearchCards";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 export default function Header() {
@@ -18,7 +19,7 @@ export default function Header() {
           placeholder="Search for a Phone"
           className="focus:outline-none w-[93%]"
         />
-        SearchStateContext{" "}
+        <SearchCards />
         <div className="choices flex items-center gap-[5px] !m-[0px_10px]">
           <Link to="/">
             <i className="fa-solid fa-house home !p-[3px] text-[16px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[4px] duration-300 hover:-translate-y-1 relative"></i>
