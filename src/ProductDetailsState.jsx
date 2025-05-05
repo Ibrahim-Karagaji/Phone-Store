@@ -9,7 +9,6 @@ export default function ProductDetailsState({ children }) {
 
   const state = {
     productDetails: productDetails,
-    setProductDetails,
     addProduct,
   };
 

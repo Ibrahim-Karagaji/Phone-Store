@@ -333,3 +333,12 @@ display:grid
 .descriptionSideBarOptionsi{
 display: none;
 }}
+
+
+@media(max-width:400px){
+  .searchCards{
+    display: grid;
+    justify-items: center;
+    text-align: center;
+  }
+}
