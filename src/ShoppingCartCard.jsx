@@ -1,9 +1,8 @@
-import { favoritesProductsContext } from "./FavoritesProductsState";
 import { productDetailsContext } from "./ProductDetailsState";
+import AddToFavoriteElement from "./AddToFavoriteElement";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 export default function ShoppingCartCard({ product, index, shoppingCart }) {
-  const favorites = useContext(favoritesProductsContext);
   const productDetails = useContext(productDetailsContext);
   return (
     <div
@@ -27,25 +26,7 @@ export default function ShoppingCartCard({ product, index, shoppingCart }) {
         </p>
         <div className="flex items-center justify-between border-b-[1px] border-b-[#eeeeee40]">
           <p>${product.price}</p>
-          <img
-            className={`w-[30px] rounded-[3px] !p-[3px] ${
-              favorites.favoritesState.some(
-                (fav) => fav.name == product.name
-              ) == true
-                ? `bg-[red]`
-                : `bg-[transparent]`
-            }`}
-            onClick={() => {
-              if (
-                favorites.favoritesState.some(
-                  (fav) => fav.name == product.name
-                ) == true
-              )
-                favorites.deleteFromFavorites(product);
-              else favorites.handleAddToFavorites(product);
-            }}
-            src="images-folder\wishlist-dark.svg"
-          />
+          <AddToFavoriteElement product={product} />
         </div>
         <div className="flex items-center justify-between !mt-[15px]">
           <label for="count" className="relative countOption">
