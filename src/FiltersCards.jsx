@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
-import { favoritesProductsContext } from "./FavoritesProductsState";
+import AddToFavoriteElement from "./AddToFavoriteElement";
 import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
 import { productDetailsContext } from "./ProductDetailsState";
 import { useContext } from "react";
 export default function FiltersCards({ products, index, visabilState }) {
-  const favorites = useContext(favoritesProductsContext);
   const shoppingCart = useContext(shoppingCartProductsContext);
   const productDetails = useContext(productDetailsContext);
   return (
@@ -34,25 +33,7 @@ export default function FiltersCards({ products, index, visabilState }) {
         </p>
         <div className="flex justify-between items-center border-b-[1px] border-b-[#eeeeee40]">
           <span>Price: {products.price}$</span>
-          <img
-            className={`w-[30px] rounded-[3px] !p-[3px] ${
-              favorites.favoritesState.some(
-                (fav) => fav.name == products.name
-              ) == true
-                ? `bg-[red]`
-                : `bg-[transparent]`
-            }`}
-            onClick={() => {
-              if (
-                favorites.favoritesState.some(
-                  (fav) => fav.name == products.name
-                ) == true
-              )
-                favorites.deleteFromFavorites(products);
-              else favorites.handleAddToFavorites(products);
-            }}
-            src="images-folder\wishlist-dark.svg"
-          />
+          <AddToFavoriteElement product={products} />
         </div>
         <button
           onClick={() => {
