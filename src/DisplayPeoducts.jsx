@@ -1,10 +1,9 @@
-import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
 import AddToFavoriteElement from "./AddToFavoriteElement";
 import { productDetailsContext } from "./ProductDetailsState";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
+import AddToCartElement from "./AddToCartElement";
 export default function DisplayPeoducts(products) {
-  const shoppingCart = useContext(shoppingCartProductsContext);
   const productDetails = useContext(productDetailsContext);
   const newProducts = products.map((p, index) => {
     return (
@@ -34,42 +33,7 @@ export default function DisplayPeoducts(products) {
         </div>
         <div className="flex justify-between !p-[5px] items-center">
           <AddToFavoriteElement product={p} />
-          <button
-            onClick={() => {
-              if (
-                !shoppingCart.shoppingCartState.some(
-                  (shop) => shop.name != p.name
-                )
-              );
-              shoppingCart.handleAddToShoppingCart(p);
-            }}
-            className={`flex items-center gap-[8px] rounded-[3px] !pl-[8px] !pr-[5px] duration-500 ${
-              shoppingCart.shoppingCartState.some(
-                (shop) => shop.name == p.name
-              ) == true
-                ? `!bg-[#002737] text-[#00b2ff] hover:bg-[#194d63]`
-                : `bg-[#eeeeeed4] hover:bg-[#eeeeee96] text-[#063447]`
-            }`}
-          >
-            <i
-              className={
-                shoppingCart.shoppingCartState.some(
-                  (shop) => shop.name == p.name
-                ) == true
-                  ? `fa-solid fa-cart-plus`
-                  : `fa-solid fa-cart-shopping`
-              }
-            ></i>
-            {shoppingCart.shoppingCartState.some(
-              (shop) => shop.name == p.name
-            ) == true ? (
-              <Link to="/shopping-cart">
-                <p className="font-semibold">Go To Cart</p>
-              </Link>
-            ) : (
-              <p className="font-semibold">Add To Cart</p>
-            )}
-          </button>
+          <AddToCartElement product={p} />
         </div>
       </div>
     );
