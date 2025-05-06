@@ -1,11 +1,10 @@
-import { favoritesProductsContext } from "./FavoritesProductsState";
+import AddToFavoriteElement from "./AddToFavoriteElement";
 import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
 import { productDetailsContext } from "./ProductDetailsState";
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 export default function MoreDetails() {
   const { productDetails } = useContext(productDetailsContext);
-  const favorites = useContext(favoritesProductsContext);
   const shoppingCart = useContext(shoppingCartProductsContext);
   const [imagesState, setImagesState] = useState(productDetails.images[0]);
 
@@ -97,25 +96,7 @@ export default function MoreDetails() {
               <p className="font-semibold">Add To Cart</p>
             )}
           </button>
-          <img
-            className={`w-[30px] rounded-[3px] !p-[3px] rounded-[5px] ${
-              favorites.favoritesState.some(
-                (fav) => fav.name == productDetails.name
-              ) == true
-                ? `bg-[red]`
-                : `bg-[transparent]`
-            }`}
-            onClick={() => {
-              if (
-                favorites.favoritesState.some(
-                  (fav) => fav.name == productDetails.name
-                ) == true
-              )
-                favorites.deleteFromFavorites(productDetails);
-              else favorites.handleAddToFavorites(productDetails);
-            }}
-            src="images-folder\wishlist-dark.svg"
-          />
+          <AddToFavoriteElement product={productDetails} />
         </div>
       </div>
     </div>
