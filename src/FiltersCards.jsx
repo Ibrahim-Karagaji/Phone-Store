@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
 import AddToFavoriteElement from "./AddToFavoriteElement";
-import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
+import AddToCartElement from "./AddToCartElement";
 import { productDetailsContext } from "./ProductDetailsState";
 import { useContext } from "react";
 export default function FiltersCards({ products, index, visabilState }) {
-  const shoppingCart = useContext(shoppingCartProductsContext);
   const productDetails = useContext(productDetailsContext);
   return (
     <div
@@ -25,7 +24,6 @@ export default function FiltersCards({ products, index, visabilState }) {
           />
         </div>
       </Link>
-
       <div className="grid gap-2">
         <h1 className="text-[20px] font-normal">{products.name}</h1>
         <p className="text-[#063447] bg-[#eeeeeed1] rounded-[4px] !p-[5px] min-w-[190px] max-w-[220px]">
@@ -35,42 +33,7 @@ export default function FiltersCards({ products, index, visabilState }) {
           <span>Price: {products.price}$</span>
           <AddToFavoriteElement product={products} />
         </div>
-        <button
-          onClick={() => {
-            if (
-              !shoppingCart.shoppingCartState.some(
-                (shop) => shop.name != products.name
-              )
-            );
-            shoppingCart.handleAddToShoppingCart(products);
-          }}
-          className={`flex items-center justify-center gap-[8px] rounded-[3px] !pl-[8px] !pr-[5px] duration-500 ${
-            shoppingCart.shoppingCartState.some(
-              (shop) => shop.name == products.name
-            ) == true
-              ? `!bg-[#002737] text-[#00b2ff] hover:bg-[#194d63]`
-              : `bg-[#eeeeeed4] hover:bg-[#eeeeee96] text-[#063447]`
-          }`}
-        >
-          <i
-            className={
-              shoppingCart.shoppingCartState.some(
-                (shop) => shop.name == products.name
-              ) == true
-                ? `fa-solid fa-cart-plus`
-                : `fa-solid fa-cart-shopping`
-            }
-          ></i>
-          {shoppingCart.shoppingCartState.some(
-            (shop) => shop.name == products.name
-          ) == true ? (
-            <Link to="/shopping-cart">
-              <p className="font-semibold">Go To Cart</p>
-            </Link>
-          ) : (
-            <p className="font-semibold">Add To Cart</p>
-          )}
-        </button>
+        <AddToCartElement product={products} />
       </div>
     </div>
   );

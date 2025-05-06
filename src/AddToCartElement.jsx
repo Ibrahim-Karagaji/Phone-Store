@@ -16,7 +16,7 @@ export default function AddToCartElement({ product }) {
           );
           shoppingCart.handleAddToShoppingCart(product);
         }}
-        className={`flex items-center gap-[8px] rounded-[3px] !pl-[8px] !pr-[5px] duration-500 ${
+        className={`flex items-center gap-[8px] justify-center rounded-[3px] !pl-[8px] !pr-[5px] duration-500 ${
           shoppingCart.shoppingCartState.some(
             (shop) => shop.name == product.name
           ) == true
