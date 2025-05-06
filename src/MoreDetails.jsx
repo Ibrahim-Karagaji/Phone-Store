@@ -1,11 +1,9 @@
 import AddToFavoriteElement from "./AddToFavoriteElement";
-import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
+import AddToCartElement from "./AddToCartElement";
 import { productDetailsContext } from "./ProductDetailsState";
 import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
 export default function MoreDetails() {
   const { productDetails } = useContext(productDetailsContext);
-  const shoppingCart = useContext(shoppingCartProductsContext);
   const [imagesState, setImagesState] = useState(productDetails.images[0]);
 
   return Object.keys(productDetails).length == 0 ? (
@@ -60,42 +58,7 @@ export default function MoreDetails() {
           {productDetails.description}
         </p>
         <div className="flex justify-between border-t-1 border-[#eeeeeed1] !pt-[10px]">
-          <button
-            onClick={() => {
-              if (
-                !shoppingCart.shoppingCartState.some(
-                  (shop) => shop.name != productDetails.name
-                )
-              );
-              shoppingCart.handleAddToShoppingCart(productDetails);
-            }}
-            className={`flex items-center justify-center gap-[8px] rounded-[3px] !pl-[8px] !pr-[5px] duration-500 ${
-              shoppingCart.shoppingCartState.some(
-                (shop) => shop.name == productDetails.name
-              ) == true
-                ? `!bg-[#002737] text-[#00b2ff] hover:bg-[#194d63]`
-                : `bg-[#eeeeeed4] hover:bg-[#eeeeee96] text-[#063447]`
-            }`}
-          >
-            <i
-              className={
-                shoppingCart.shoppingCartState.some(
-                  (shop) => shop.name == productDetails.name
-                ) == true
-                  ? `fa-solid fa-cart-plus`
-                  : `fa-solid fa-cart-shopping`
-              }
-            ></i>
-            {shoppingCart.shoppingCartState.some(
-              (shop) => shop.name == productDetails.name
-            ) == true ? (
-              <Link to="/shopping-cart">
-                <p className="font-semibold">Go To Cart</p>
-              </Link>
-            ) : (
-              <p className="font-semibold">Add To Cart</p>
-            )}
-          </button>
+          <AddToCartElement product={productDetails} />
           <AddToFavoriteElement product={productDetails} />
         </div>
       </div>

@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
+import { Link } from "react-router-dom";
 import React from "react";
 export default function AddToCartElement({ product }) {
   const shoppingCart = useContext(shoppingCartProductsContext);
@@ -13,7 +14,7 @@ export default function AddToCartElement({ product }) {
               (shop) => shop.name != product.name
             )
           );
-          shoppingCart.handleAddToShoppingCart(p);
+          shoppingCart.handleAddToShoppingCart(product);
         }}
         className={`flex items-center gap-[8px] rounded-[3px] !pl-[8px] !pr-[5px] duration-500 ${
           shoppingCart.shoppingCartState.some(

@@ -68,6 +68,7 @@ export default function ShoppingCart() {
         <div className="grid gap-2 ShoppingCartCardParant">
           {shoppingCart.shoppingCartState.map((s, index) => (
             <ShoppingCartCard
+              key={index}
               product={s}
               index={index}
               shoppingCart={shoppingCart}
