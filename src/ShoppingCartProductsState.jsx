@@ -1,8 +1,24 @@
 import { useState, createContext } from "react";
 export const shoppingCartProductsContext = createContext();
+
 export default function ShoppingCartProductsState({ children }) {
   const [shoppingCartState, setShoppingCartState] = useState([]);
+  let shoppingLocalStorage = window.localStorage.getItem("shoppingCart");
+
   function handleAddToShoppingCart(shoppingCart) {
+    if (window.localStorage.getItem("shoppingCart") == null) {
+      let shopping = [];
+      shopping.push(shoppingCart);
+      window.localStorage.setItem("shoppingCart", JSON.stringify(shopping));
+    } else {
+      let convert = JSON.parse(shoppingLocalStorage);
+      const check = convert.some((p) => p.name == shoppingCart.name);
+      if (!check) {
+        convert.push(shoppingCart);
+        window.localStorage.setItem("shoppingCart", JSON.stringify(convert));
+      }
+    }
+
     if (shoppingCartState.length == 0)
       setShoppingCartState((prev) => {
         return [...prev, shoppingCart];
