@@ -1,15 +1,26 @@
 import React from "react";
 import { useEffect, useRef, useState, useContext } from "react";
+import { favoritesProductsContext } from "./FavoritesProductsState";
 import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
 
 export default function WelcomeMassage() {
   const welcomeMassage = useRef(null);
+  const favorites = useContext(favoritesProductsContext);
   const shoppingCart = useContext(shoppingCartProductsContext);
 
   const favoritesWindowLocalStorage = window.localStorage.getItem("favorites");
   if (favoritesWindowLocalStorage != null) {
     const convert = JSON.parse(favoritesWindowLocalStorage);
     const fav = convert.map((f) => favorites.handleAddToFavorites(f));
+  }
+
+  const shoppingCartWindowLocalStorage =
+    window.localStorage.getItem("shoppingCart");
+  if (shoppingCartWindowLocalStorage != null) {
+    const convert = JSON.parse(shoppingCartWindowLocalStorage);
+    const fav = convert.map((shopping) =>
+      shoppingCart.handleAddToShoppingCart(shopping)
+    );
   }
 
   useEffect(() => {

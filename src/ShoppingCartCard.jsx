@@ -29,7 +29,7 @@ export default function ShoppingCartCard({ product, index, shoppingCart }) {
           <AddToFavoriteElement product={product} />
         </div>
         <div className="flex items-center justify-between !mt-[15px]">
-          <label for="count" className="relative countOption">
+          <label htmlFor="count" className="relative countOption">
             <select
               id="count"
               name="count"
