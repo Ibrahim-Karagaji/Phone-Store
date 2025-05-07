@@ -49,6 +49,7 @@ export default function ShoppingCartProductsState({ children }) {
   };
 
   function handleClearShoppingCart() {
+    window.localStorage.removeItem("shoppingCart");
     setShoppingCartState([]);
   }
 
