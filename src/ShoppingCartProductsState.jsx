@@ -33,19 +33,32 @@ export default function ShoppingCartProductsState({ children }) {
         });
     }
   }
+
   const handleDeleteFromShoppingCart = (shoppingCart) => {
+    let convert = JSON.parse(shoppingLocalStorage);
+    const filterSoppingCartProducts = convert.filter(
+      (f) => f.name != shoppingCart.name
+    );
+    window.localStorage.setItem(
+      "shoppingCart",
+      JSON.stringify(filterSoppingCartProducts)
+    );
+
     const shop = shoppingCartState.filter((s) => s.name != shoppingCart.name);
     setShoppingCartState(shop);
   };
+
   function handleClearShoppingCart() {
     setShoppingCartState([]);
   }
+
   const state = {
     shoppingCartState: shoppingCartState,
     handleAddToShoppingCart,
     handleDeleteFromShoppingCart,
     handleClearShoppingCart,
   };
+
   return (
     <shoppingCartProductsContext.Provider value={state}>
       {children}
