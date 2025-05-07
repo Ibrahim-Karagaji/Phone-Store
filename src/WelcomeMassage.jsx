@@ -1,14 +1,24 @@
 import React from "react";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState, useContext } from "react";
+import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
 
 export default function WelcomeMassage() {
   const welcomeMassage = useRef(null);
+  const shoppingCart = useContext(shoppingCartProductsContext);
+
+  const favoritesWindowLocalStorage = window.localStorage.getItem("favorites");
+  if (favoritesWindowLocalStorage != null) {
+    const convert = JSON.parse(favoritesWindowLocalStorage);
+    const fav = convert.map((f) => favorites.handleAddToFavorites(f));
+  }
+
   useEffect(() => {
     welcomeMassage.current.style.opacity = "100%";
     setTimeout(() => {
       welcomeMassage.current.style.opacity = "0%";
     }, 2500);
   }, []);
+
   return (
     <div
       ref={welcomeMassage}
