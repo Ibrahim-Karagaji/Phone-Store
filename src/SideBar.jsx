@@ -9,9 +9,23 @@ export default function SideBar() {
   return (
     <div className=" relative SideBar min-w-[155px] basis-[12%] shadow-[0px_0px_5px_0px_black] rounded-[5px] duration-300 ">
       {window.localStorage.getItem("user") == null ? (
-        <i className="fa-solid fa-circle-user !p-[3px] hover:text-[#063447] hover:bg-[#eeeeeed1] duration-300 rounded-[4px] !flex w-[fit-content] !ml-[auto] text-[30px]"></i>
+        <i className="fa-solid fa-circle-user profileIcon !p-[3px] hover:text-[#063447] hover:bg-[#eeeeeed1] duration-300 rounded-[4px] !flex w-[fit-content] !ml-[auto] text-[30px]"></i>
       ) : (
-        <img src="images-folder/avatar.png" className="w-[35px] !ml-[auto]" />
+        <img
+          src="images-folder/avatar.png"
+          className="w-[35px] !ml-[auto] profileImage"
+        />
+      )}
+
+      {window.localStorage.getItem("user") == null ? (
+        <div className="logInFirstParent opacity-0 absolute text-[13px] font-normal right-[-175px] flex gap-3 text-[#063447] bg-[#eee] items-center !p-[3px] rounded-[5px] border-[#063447] border-[2px] top-[0px] duration-300">
+          <p>You have to log in first</p>
+          <i class="fa-solid fa-arrow-right-from-bracket logInFirst"></i>
+        </div>
+      ) : (
+        <p className="absolute opacity-0 profile z-20 text-[#063447] bg-[#eee] border-[#063447] border-[2px] text-[15px] font-medium right-[-100px] top-[0px] !p-[3px] rounded-[5px] duration-300">
+          Your Profile
+        </p>
       )}
       <div className="content grid gap-[3px] text-[#eeeeeed1] !m-[10px_0px_0px]">
         <Link to="/List-Phones">

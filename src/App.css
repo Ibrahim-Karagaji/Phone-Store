@@ -386,6 +386,57 @@ display: none;
   top:8px;
 }
 
+@media(max-width:650px){
+  .favoritesCounter{display: none;}
+}
+
 .shopping:hover + .shoppingCartCounter{
     top:8px;
+}
+
+@media(max-width:650px){
+  .shoppingCartCounter{display: none;}
+}
+
+
+.profileImage:hover + .profile{
+   opacity: 100%;
+ }
+
+ @media(min-width:650px){
+  .profile{
+    display:none
+  }
+}
+
+@keyframes moveLogInIcon {
+  25% {
+     transform: translateX(-10px);
+    }
+  50% {
+     transform: translateX(0px);
+    }
+  75% {
+     transform: translateX(-10px);
+    }
+  100% {
+     transform: translateX(0px);
+    }
+
+}
+
+.logInFirst{
+  animation-name: moveLogInIcon;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.profileIcon:hover + .logInFirstParent{
+  opacity: 100%;
+}
+
+@media(min-width:650px){
+  .logInFirstParent{
+    display:none
+  }
 }
