@@ -1,9 +1,11 @@
 import { SearchStateContext } from "./SearchState";
+import { favoritesProductsContext } from "./FavoritesProductsState";
 import SearchCards from "./SearchCards";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 export default function Header() {
   const search = useContext(SearchStateContext);
+  const favorites = useContext(favoritesProductsContext);
   return (
     <div className="flex items-center gap-[10px] text-[#eeeeeed1] !p-[3px]">
       <img
@@ -29,6 +31,13 @@ export default function Header() {
           </Link>
           <Link to="/favorites">
             <i className="fa-solid heart fa-heart !p-[3px] text-[16px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[4px] duration-300 hover:-translate-y-1 relative"></i>
+            <span
+              className={`favoritesCounter w-[10px] h-[10px] absolute ${
+                favorites.favoritesState.length != 0
+                  ? "bg-red-600"
+                  : "bg-[transparent]"
+              } text-[#063447] right-[34px] top-[12px] z-40 text-[20px] rounded-[50%] duration-150`}
+            ></span>
           </Link>
           {window.localStorage.getItem("user") == null ? (
             <Link to="/Login">

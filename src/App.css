@@ -381,3 +381,7 @@ display: none;
     gap:10px;
   }
 }
+
+.heart:hover + .favoritesCounter{
+  top:8px;
+}
