@@ -6,7 +6,7 @@ import Favorites from "./Favorites";
 import Layout from "./Layout";
 import ShoppingCart from "./ShoppingCart";
 import ListPhones from "./ListPhones";
-import MoreDetails from "./MoreDetails";
+import ProductMoreDetails from "./ProductMoreDetails";
 export default function App() {
   return (
     <BrowserRouter>
@@ -16,7 +16,7 @@ export default function App() {
           <Route path="/favorites" element={<Favorites />} />
           <Route path="/shopping-cart" element={<ShoppingCart />} />
           <Route path="/List-Phones" element={<ListPhones />} />
-          <Route path="/More-Details" element={<MoreDetails />} />
+          <Route path="/More-Details" element={<ProductMoreDetails />} />
         </Route>
         <Route path="/Login" element={<LogIn />} />
       </Routes>
