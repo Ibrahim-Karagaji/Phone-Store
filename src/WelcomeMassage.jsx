@@ -1,27 +1,37 @@
 import React from "react";
-import { useEffect, useRef, useState, useContext } from "react";
+import { useEffect, useRef, useContext } from "react";
 import { favoritesProductsContext } from "./FavoritesProductsState";
 import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
+import { productDetailsContext } from "./ProductDetailsState";
 
 export default function WelcomeMassage() {
   const welcomeMassage = useRef(null);
   const favorites = useContext(favoritesProductsContext);
   const shoppingCart = useContext(shoppingCartProductsContext);
+  const productDetails = useContext(productDetailsContext);
 
-  const favoritesWindowLocalStorage = window.localStorage.getItem("favorites");
-  if (favoritesWindowLocalStorage != null) {
-    const convert = JSON.parse(favoritesWindowLocalStorage);
+  const favoritesLcalStorage = window.localStorage.getItem("favorites");
+  if (favoritesLcalStorage != null) {
+    const convert = JSON.parse(favoritesLcalStorage);
     const fav = convert.map((f) => favorites.handleAddToFavorites(f));
   }
 
-  const shoppingCartWindowLocalStorage =
-    window.localStorage.getItem("shoppingCart");
-  if (shoppingCartWindowLocalStorage != null) {
-    const convert = JSON.parse(shoppingCartWindowLocalStorage);
+  const shoppingCartLocalStorage = window.localStorage.getItem("shoppingCart");
+  if (shoppingCartLocalStorage != null) {
+    const convert = JSON.parse(shoppingCartLocalStorage);
     const fav = convert.map((shopping) =>
       shoppingCart.handleAddToShoppingCart(shopping)
     );
   }
+
+  useEffect(() => {
+    const productDetailsLcalStorage =
+      window.localStorage.getItem("productDetails");
+    if (productDetailsLcalStorage != null) {
+      const convert = JSON.parse(productDetailsLcalStorage);
+      productDetails.addProduct(convert);
+    }
+  }, []);
 
   useEffect(() => {
     welcomeMassage.current.style.opacity = "100%";
