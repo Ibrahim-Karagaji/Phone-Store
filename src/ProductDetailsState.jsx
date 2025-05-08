@@ -4,6 +4,7 @@ export default function ProductDetailsState({ children }) {
   const [productDetails, setProductDetails] = useState({});
 
   const addProduct = (details) => {
+    window.localStorage.setItem("productDetails", JSON.stringify(details));
     setProductDetails(details);
   };
 
