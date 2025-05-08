@@ -374,3 +374,10 @@ display: none;
     text-align: center;
   }
 }
+
+@media(max-width:520px){
+  .footer{
+    display: grid;
+    gap:10px;
+  }
+}

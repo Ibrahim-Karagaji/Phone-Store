@@ -13,10 +13,10 @@ import WelcomeMassage from "./WelcomeMassage";
 import SearchState from "./SearchState";
 
 export default function Layout() {
-  const [waiting, setWaiting] = useState(false);
+  const [waiting, setWaiting] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setWaiting(true), 3000);
+    setTimeout(() => setWaiting(false), 3000);
   }, []);
 
   return (
@@ -27,7 +27,7 @@ export default function Layout() {
             <ShoppingCartProductsState>
               <FavoritesProductsState>
                 <div id="App" className="h-screen">
-                  {waiting == false ? (
+                  {waiting == true ? (
                     <WelcomeMassage />
                   ) : (
                     <>

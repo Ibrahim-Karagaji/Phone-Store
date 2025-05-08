@@ -7,14 +7,14 @@ export default function Footer() {
             src="images-folder\site-Logo.png"
             className="w-[150px] h-[100px] rounded-[5px] !m-[auto]"
           />
-          <span className="font-normal text-[18px] leading-[1.7] w-[70%] !m-[auto]">
+          <span className="font-normal text-[18px] leading-[1.7] w-[90%] !m-[auto]">
             Your go-to destination for the latest smartphones, accessories, and
             expert reviews. We're passionate about keeping you connected with
             the best mobile technology at unbeatable prices. Shop smart, stay
             connected.
           </span>
         </div>
-        <div className="!mt-[10px] !mb-[10px] flex items-center gap-3 justify-center">
+        <div className="footer !mt-[10px] !mb-[10px] flex items-center gap-3 justify-center">
           <div className="grid text-[19px] text-center">
             <h1 className="font-bold">Categories</h1>
             <p className="font-normal">Flagship</p>
@@ -33,7 +33,13 @@ export default function Footer() {
             </div>
             <div className="flex gap-1 items-center">
               <i className="fa-solid fa-envelope text-[#3d5afe]"></i>
-              <h1 className="underline">Ibrahimkaragaji@gmail.com</h1>
+              <a
+                href="https://mail.google.com/mail/?view=cm&to=Ibrahimkaragaji@gmail.com"
+                target="_blank"
+                className="underline"
+              >
+                Ibrahimkaragaji@gmail.com
+              </a>
             </div>
           </div>
         </div>
