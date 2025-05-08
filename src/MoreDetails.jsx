@@ -2,9 +2,18 @@ import AddToFavoriteElement from "./AddToFavoriteElement";
 import AddToCartElement from "./AddToCartElement";
 import { productDetailsContext } from "./ProductDetailsState";
 import { useContext, useState } from "react";
+import { useEffect } from "react";
 export default function MoreDetails() {
   const { productDetails } = useContext(productDetailsContext);
-  const [imagesState, setImagesState] = useState(productDetails.images[0]);
+
+  const [imagesState, setImagesState] = useState(
+    Object.keys(productDetails).length == 0 ? "" : productDetails.images[0]
+  );
+
+  useEffect(() => {
+    if (Object.keys(productDetails).length != 0)
+      setImagesState(productDetails.images[0]);
+  }, [productDetails]);
 
   return Object.keys(productDetails).length == 0 ? (
     <div className="flex justify-center !m-[10px]">
@@ -47,7 +56,7 @@ export default function MoreDetails() {
           </h1>
           <h1 className="font-bold text-[20px]">
             price:
-            <span className="font-normal"> {productDetails.price}</span>
+            <span className="font-normal"> {productDetails.price}$</span>
           </h1>
           <h1 className="font-bold text-[20px]">
             production:
