@@ -36,7 +36,8 @@ router.get("/phones", async (ctx) => {
 
 router.get("/phones/:id", async (ctx) => {
   await new Promise((res) => setTimeout(res, 2000));
-  ctx.response.body = phones[Number(ctx.params.id)];
+  const id = ctx.params.id;
+  ctx.response.body = phones.find((p) => p.id === id);
 });
 
 const app = new Application();

@@ -1,4 +1,5 @@
 export type Phone = {
+  id: string;
   name: string;
   description: string;
   price: number;
@@ -11,8 +12,8 @@ export type Phone = {
 };
 
 export const phones: Phone[] = [
-  // oneolus Phones
   {
+    id: "681bba0a-299e-46ba-b8d9-a5328692b816",
     name: "OnePlus 13",
     description:
       "Flagship phone with Snapdragon 8 Elite, 6.82-inch AMOLED display, 50MP+50MP+50MP cameras, 6000mAh battery, 80W charging.",
@@ -29,6 +30,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "226f1419-cfad-4c7a-b4ed-4c0b7dea0ee7",
     name: "OnePlus 13R",
     description:
       "Affordable flagship variant with Snapdragon 8 Gen 3, 6.78-inch AMOLED, 50MP main camera, 6000mAh battery, 80W charging.",
@@ -45,6 +47,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "66d4620f-f955-4af5-9978-077797d39f9b",
     name: "OnePlus 12",
     description:
       "Snapdragon 8 Gen 2, 6.7-inch AMOLED, 120Hz, 50MP+48MP+48MP cameras, 5500mAh battery, 80W charging.",
@@ -61,6 +64,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "d8bc4c46-99c6-42ef-a373-7a653e89bd90",
     name: "OnePlus Open",
     description:
       "First foldable phone by OnePlus, 7.82-inch inner OLED, Snapdragon 8 Gen 2, 16GB RAM, triple-camera setup.",
@@ -77,6 +81,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "7125fe0a-e8d0-4f8a-9cd8-b7b6177b3310",
     name: "OnePlus Nord N30 5G",
     description:
       "Budget-friendly with Snapdragon 695, 6.72-inch AMOLED, 108MP camera, 5000mAh, 50W charging.",
@@ -93,6 +98,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "f623f255-1386-4863-a8db-b7bbde98f233",
     name: "OnePlus 11",
     description:
       "Snapdragon 8 Gen 2, 6.7-inch AMOLED, 120Hz, 50MP+48MP+32MP cameras, 5000mAh battery, 100W charging.",
@@ -109,6 +115,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "fcaac6fb-f7bd-446b-9fd5-0b0a400b95cb",
     name: "OnePlus 11R",
     description:
       "Mid-range with Snapdragon 8+ Gen 1, 6.74-inch AMOLED, 120Hz, 50MP main camera, 5000mAh battery.",
@@ -125,6 +132,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "2bf84b4f-db55-4ba4-a77c-131791b6d46e",
     name: "OnePlus Nord 3",
     description:
       "MediaTek Dimensity 9000, 6.74-inch AMOLED, 120Hz, 50MP camera, 5000mAh, 80W charging.",
@@ -141,6 +149,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "5bc188ca-699f-44f5-970c-a48a719802be",
     name: "OnePlus Nord CE 3 Lite",
     description:
       "Budget option with Snapdragon 695, 6.72-inch 120Hz LCD, 108MP camera, 5000mAh battery.",
@@ -157,6 +166,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "db428ae3-1dd2-4ae8-8848-c8d465518436",
     name: "OnePlus 10 Pro",
     description:
       "Snapdragon 8 Gen 1, 6.7-inch AMOLED, 120Hz, 48MP+50MP+8MP cameras, 5000mAh, 65W charging.",
@@ -173,6 +183,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "e1ff33b7-476f-4b19-97fb-f34404baf234",
     name: "OnePlus 9 Pro",
     description:
       "Snapdragon 888, 6.7-inch AMOLED, 120Hz, 48MP+50MP+8MP cameras, 4500mAh battery, 65W charging.",
@@ -189,6 +200,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "bf242682-bea8-4ede-8ccb-be55f1de31ae",
     name: "OnePlus 8T",
     description:
       "Snapdragon 865, 6.55-inch AMOLED, 120Hz, 48MP+16MP+5MP+2MP cameras, 4500mAh, 65W fast charging.",
@@ -205,6 +217,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "459be41e-1a69-4929-a41c-815724d6f31a",
     name: "OnePlus Nord 2T",
     description:
       "MediaTek Dimensity 1300, 6.43-inch AMOLED, 90Hz, 50MP camera, 4500mAh battery.",
@@ -221,6 +234,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "449a2ff0-a038-4c9b-a5db-7411ce324f5c",
     name: "OnePlus 9",
     description:
       "Snapdragon 888, 6.55-inch AMOLED, 120Hz, 48MP+50MP+2MP cameras, 4500mAh battery, 65W charging.",
@@ -237,6 +251,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "5baaf9f3-5a25-4b29-9f9c-239eb329bece",
     name: "OnePlus Nord N100",
     description:
       "Entry-level with Snapdragon 460, 6.52-inch LCD, 60Hz, 13MP camera, 5000mAh battery, 18W charging.",
@@ -253,6 +268,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "aee90b96-7385-4a84-bb0b-6b9441c13879",
     name: "OnePlus 8",
     description:
       "Snapdragon 865, 6.55-inch Fluid AMOLED, 90Hz, 48MP+16MP+2MP cameras, 4300mAh, Warp Charge 30T.",
@@ -269,6 +285,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "b6e209bc-fab6-4845-a834-1d49b7d0fcfd",
     name: "OnePlus X",
     description:
       "Compact design with Snapdragon 801, 5.0-inch AMOLED, 1080p display, 13MP camera, 2525mAh battery.",
@@ -285,6 +302,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "58f746a0-c873-4510-8ae8-f259244a99a4",
     name: "OnePlus 7T Pro",
     description:
       "Snapdragon 855+, 6.67-inch Fluid AMOLED, 90Hz, 48MP+8MP+16MP cameras, 4085mAh, 30W charging.",
@@ -301,6 +319,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "408e9701-a8ce-4a48-a413-edf576fe7c0b",
     name: "OnePlus 7 Pro",
     description:
       "Snapdragon 855, 6.67-inch Fluid AMOLED, 90Hz, 48MP+16MP+8MP cameras, 4000mAh, Warp Charge 30.",
@@ -317,6 +336,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "1258440b-9265-4665-91a9-41fbbb1c7089",
     name: "OnePlus 6T",
     description:
       "Snapdragon 845, 6.41-inch AMOLED, 1080p display, 16MP+20MP cameras, 3700mAh, Fast Charge.",
@@ -332,10 +352,8 @@ export const phones: Phone[] = [
       "public/prodcuts-imgs/onePlus-products-imgs/oneplus-6t-3.jpg",
     ],
   },
-
-  //   Samsung phones
-
   {
+    id: "de2f5149-7c5a-489e-84b2-50f4a87b9b57",
     name: "Samsung Galaxy S23 Ultra",
     description:
       "Flagship phone with Snapdragon 8 Gen 2, 6.8-inch Dynamic AMOLED, 120Hz, 200MP+12MP+10MP+10MP cameras, 5000mAh battery, 45W charging.",
@@ -352,6 +370,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "07b0ccd8-a92e-4a43-858a-5bbb655fcf6e",
     name: "Samsung Galaxy S23+",
     description:
       "Snapdragon 8 Gen 2, 6.6-inch Dynamic AMOLED, 120Hz, 50MP+12MP+10MP cameras, 4700mAh battery, 45W charging.",
@@ -368,6 +387,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "128447ed-a851-4ede-836f-3be65c009c8b",
     name: "Samsung Galaxy S23",
     description:
       "Snapdragon 8 Gen 2, 6.1-inch Dynamic AMOLED, 120Hz, 50MP+12MP+10MP cameras, 3900mAh battery, 25W charging.",
@@ -384,6 +404,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "b46f9081-f41f-47f2-b220-e2ef5bb865d6",
     name: "Samsung Galaxy Z Fold 5",
     description:
       "Foldable phone with Snapdragon 8 Gen 2, 7.6-inch Dynamic AMOLED 2X, 120Hz, 50MP+12MP+10MP cameras, 4400mAh battery, 25W charging.",
@@ -400,6 +421,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "a9d1b3b5-8706-450c-ad8f-98e4d66641b4",
     name: "Samsung Galaxy Z Flip 5",
     description:
       "Compact foldable with Snapdragon 8 Gen 2, 6.7-inch Dynamic AMOLED, 120Hz, 12MP+12MP cameras, 3700mAh battery, 25W charging.",
@@ -416,6 +438,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "5508a223-ccbf-4286-a1ec-402ad69a9584",
     name: "Samsung Galaxy A54 5G",
     description:
       "Mid-range with Exynos 1380, 6.4-inch Super AMOLED, 120Hz, 50MP+12MP+5MP cameras, 5000mAh battery, 25W charging.",
@@ -432,6 +455,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "298c22c5-e1f6-4257-b185-6e01d23ad8e1",
     name: "Samsung Galaxy A34 5G",
     description:
       "Mid-range with MediaTek Dimensity 1080, 6.6-inch Super AMOLED, 120Hz, 48MP+8MP+5MP cameras, 5000mAh battery, 25W charging.",
@@ -448,6 +472,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "4c0f194b-be43-4a3c-8758-eaa7932ef0ce",
     name: "Samsung Galaxy S22 Ultra",
     description:
       "Snapdragon 8 Gen 1, 6.8-inch Dynamic AMOLED, 120Hz, 108MP+12MP+10MP+10MP cameras, 5000mAh battery, 45W charging.",
@@ -464,6 +489,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "45112782-e732-4da9-93dd-c0f94dc5460c",
     name: "Samsung Galaxy S22+",
     description:
       "Snapdragon 8 Gen 1, 6.6-inch Dynamic AMOLED, 120Hz, 50MP+10MP+12MP cameras, 4500mAh battery, 25W charging.",
@@ -480,6 +506,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "dffca2cf-2b62-4b83-9159-29ba2c7cfb5a",
     name: "Samsung Galaxy S22",
     description:
       "Snapdragon 8 Gen 1, 6.1-inch Dynamic AMOLED, 120Hz, 50MP+10MP+12MP cameras, 3700mAh battery, 25W charging.",
@@ -496,6 +523,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "7d2f4a25-e783-42c3-abd1-20a61340d369",
     name: "Samsung Galaxy Note 20 Ultra",
     description:
       "Snapdragon 865+, 6.9-inch Dynamic AMOLED, 120Hz, 108MP+12MP+12MP cameras, 4500mAh battery, 25W charging.",
@@ -512,6 +540,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "9e5460b1-c211-49ff-b7c6-e1c87e6f1cd4",
     name: "Samsung Galaxy A73 5G",
     description:
       "Mid-range with Snapdragon 778G, 6.7-inch Super AMOLED, 120Hz, 108MP+12MP+5MP+5MP cameras, 5000mAh battery, 25W charging.",
@@ -528,6 +557,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "c73500d1-9311-4ef5-a563-c97ecbca9242",
     name: "Samsung Galaxy A72",
     description:
       "Mid-range with Snapdragon 720G, 6.7-inch Super AMOLED, 90Hz, 64MP+12MP+8MP+5MP cameras, 5000mAh battery, 25W charging.",
@@ -544,6 +574,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "42e64cf9-35a7-4390-a2d4-e2749a1e0933",
     name: "Samsung Galaxy A52s 5G",
     description:
       "Mid-range with Snapdragon 778G, 6.5-inch Super AMOLED, 120Hz, 64MP+12MP+5MP+5MP cameras, 4500mAh battery, 25W charging.",
@@ -560,6 +591,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "829225e4-b735-47ac-891c-50d6fdd6d47a",
     name: "Samsung Galaxy M54 5G",
     description:
       "Mid-range with Exynos 1380, 6.7-inch Super AMOLED, 120Hz, 108MP+8MP+2MP cameras, 6000mAh battery, 25W charging.",
@@ -576,6 +608,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "fb650f63-f22f-4c04-ae5e-7d1b6372a2a2",
     name: "Samsung Galaxy M33 5G",
     description:
       "Mid-range with Exynos 1280, 6.6-inch PLS LCD, 120Hz, 50MP+5MP+2MP+2MP cameras, 6000mAh battery, 25W charging.",
@@ -592,6 +625,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "60cca32b-1c9d-4405-a784-163b50db8d4e",
     name: "Samsung Galaxy A32 5G",
     description:
       "Budget phone with MediaTek Dimensity 720, 6.5-inch PLS LCD, 90Hz, 48MP+8MP+5MP+2MP cameras, 5000mAh battery, 15W charging.",
@@ -608,6 +642,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "572aea11-0488-4e7b-803a-8cb1b394481f",
     name: "Samsung Galaxy A12",
     description:
       "Budget phone with MediaTek Helio P35, 6.5-inch PLS LCD, 60Hz, 48MP+5MP+2MP+2MP cameras, 5000mAh battery, 15W charging.",
@@ -623,10 +658,8 @@ export const phones: Phone[] = [
       "public/prodcuts-imgs/Samsung-products-imgs/Samsung-Galaxy-A12-3.png",
     ],
   },
-
-  //   apple phones
-
   {
+    id: "55985842-cf4f-4dd7-ac7a-f0714a00759a",
     name: "iPhone 15 Pro Max",
     description:
       "Flagship phone with A17 Pro chip, 6.7-inch Super Retina XDR OLED, 120Hz, 48MP+12MP+12MP cameras, 4422mAh battery, 20W charging.",
@@ -643,6 +676,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "899a4d74-42b0-4ae4-be2a-da88c3ef6deb",
     name: "iPhone 15 Pro",
     description:
       "Flagship phone with A17 Pro chip, 6.1-inch Super Retina XDR OLED, 120Hz, 48MP+12MP+12MP cameras, 3200mAh battery, 20W charging.",
@@ -659,6 +693,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "a869ab88-3884-48d6-97ba-4695d087a26d",
     name: "iPhone 15 Plus",
     description:
       "A16 Bionic chip, 6.7-inch Super Retina XDR OLED, 60Hz, 48MP+12MP+12MP cameras, 4383mAh battery, 20W charging.",
@@ -675,6 +710,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "34c77ca9-1784-48b3-a02c-0af52fd6ff65",
     name: "iPhone 15",
     description:
       "A16 Bionic chip, 6.1-inch Super Retina XDR OLED, 60Hz, 48MP+12MP+12MP cameras, 3274mAh battery, 20W charging.",
@@ -691,6 +727,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "64785a82-02fe-44b8-bb4d-f7b3f0a08353",
     name: "iPhone 14 Pro Max",
     description:
       "A16 Bionic chip, 6.7-inch Super Retina XDR OLED, 120Hz, 48MP+12MP+12MP cameras, 4323mAh battery, 20W charging.",
@@ -707,6 +744,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "c79f9f86-7a44-451a-814e-ca7e0f908759",
     name: "iPhone 14 Pro",
     description:
       "A16 Bionic chip, 6.1-inch Super Retina XDR OLED, 120Hz, 48MP+12MP+12MP cameras, 3200mAh battery, 20W charging.",
@@ -723,6 +761,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "faa9e249-89aa-451c-b980-997e14a73db8",
     name: "iPhone 14 Plus",
     description:
       "A15 Bionic chip, 6.7-inch Super Retina XDR OLED, 60Hz, 12MP+12MP cameras, 4325mAh battery, 20W charging.",
@@ -739,6 +778,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "e8d4af78-9531-446c-8ec3-f454555671b5",
     name: "iPhone 14",
     description:
       "A15 Bionic chip, 6.1-inch Super Retina XDR OLED, 60Hz, 12MP+12MP cameras, 3279mAh battery, 20W charging.",
@@ -755,6 +795,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "cbbc09b8-bb47-47a1-806e-2a740293070e",
     name: "iPhone 13 Pro Max",
     description:
       "A15 Bionic chip, 6.7-inch Super Retina XDR OLED, 120Hz, 12MP+12MP+12MP cameras, 4352mAh battery, 20W charging.",
@@ -771,6 +812,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "fd9a5ccf-b49c-48d7-84b5-bbada1e52321",
     name: "iPhone 13 Pro",
     description:
       "A15 Bionic chip, 6.1-inch Super Retina XDR OLED, 120Hz, 12MP+12MP+12MP cameras, 3095mAh battery, 20W charging.",
@@ -787,6 +829,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "7103b75a-cef2-4d6a-8ea0-af96aae3c6ce",
     name: "iPhone 13",
     description:
       "A15 Bionic chip, 6.1-inch Super Retina XDR OLED, 60Hz, 12MP+12MP cameras, 3240mAh battery, 20W charging.",
@@ -803,6 +846,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "eda243cf-4b7a-4fab-8aa1-8955e22d0237",
     name: "iPhone 13 Mini",
     description:
       "A15 Bionic chip, 5.4-inch Super Retina XDR OLED, 60Hz, 12MP+12MP cameras, 2438mAh battery, 20W charging.",
@@ -819,6 +863,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "c61e13a5-3989-44f9-897c-046213455151",
     name: "iPhone SE 3 (2022)",
     description:
       "A15 Bionic chip, 4.7-inch Retina HD display, 60Hz, 12MP camera, 2018mAh battery, 20W charging.",
@@ -835,6 +880,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "3a1dfbdb-15d8-44d4-9a03-07e8baad7526",
     name: "iPhone 12 Pro Max",
     description:
       "A14 Bionic chip, 6.7-inch Super Retina XDR OLED, 60Hz, 12MP+12MP+12MP cameras, 3687mAh battery, 20W charging.",
@@ -851,6 +897,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "8ad37f3d-37cc-4019-9821-2c4da54d9012",
     name: "iPhone 12 Pro",
     description:
       "A14 Bionic chip, 6.1-inch Super Retina XDR OLED, 60Hz, 12MP+12MP+12MP cameras, 2815mAh battery, 20W charging.",
@@ -867,6 +914,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "31b341b9-f182-44e3-b531-d766f9ead43a",
     name: "iPhone 12",
     description:
       "A14 Bionic chip, 6.1-inch Super Retina XDR OLED, 60Hz, 12MP+12MP cameras, 2815mAh battery, 20W charging.",
@@ -883,6 +931,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "b3114415-4796-4992-ac3d-a837e325550b",
     name: "iPhone 12 Mini",
     description:
       "A14 Bionic chip, 5.4-inch Super Retina XDR OLED, 60Hz, 12MP+12MP cameras, 2227mAh battery, 20W charging.",
@@ -899,6 +948,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "e94822da-ad58-4697-a37a-1e76f38c03c0",
     name: "iPhone 11 Pro Max",
     description:
       "A13 Bionic chip, 6.5-inch Super Retina XDR OLED, 60Hz, 12MP+12MP+12MP cameras, 3969mAh battery, 18W charging.",
@@ -915,6 +965,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "fd511eda-cf77-4e6c-ac26-fc6e78571f7f",
     name: "iPhone 11 Pro",
     description:
       "A13 Bionic chip, 5.8-inch Super Retina XDR OLED, 60Hz, 12MP+12MP+12MP cameras, 3046mAh battery, 18W charging.",
@@ -930,10 +981,8 @@ export const phones: Phone[] = [
       "public/prodcuts-imgs/apple-prodcuts-imgs/iPhone-11-Pro-Max-4.jpg",
     ],
   },
-
-  //   Honor Phones
-
   {
+    id: "984b13cf-2807-4d71-8a7f-4e19d57fb45d",
     name: "Honor Magic5 Pro",
     description:
       "Flagship with Snapdragon 8 Gen 2, 6.81-inch OLED, 120Hz, 50MP+50MP+50MP cameras, 5100mAh battery, 66W charging.",
@@ -950,6 +999,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "a3bb000a-b5ad-4dd3-a874-1dd3c8a8f903",
     name: "Honor Magic5",
     description:
       "Snapdragon 8 Gen 2, 6.73-inch OLED, 120Hz, 54MP+50MP+50MP cameras, 4800mAh battery, 66W charging.",
@@ -966,6 +1016,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "406a595d-223f-4eaa-87b0-1d7499e7b9c3",
     name: "Honor 90 5G",
     description:
       "Snapdragon 7 Gen 1, 6.7-inch OLED, 120Hz, 200MP+12MP+2MP cameras, 5000mAh battery, 66W charging.",
@@ -982,6 +1033,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "32721273-c8b6-4770-be44-120b1fa00cc8",
     name: "Honor 70 5G",
     description:
       "Snapdragon 778G, 6.67-inch OLED, 120Hz, 54MP+50MP+2MP cameras, 4800mAh battery, 66W charging.",
@@ -998,6 +1050,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "7d22b8d2-d60c-4068-b800-1102a6854ea2",
     name: "Honor X9a 5G",
     description:
       "Snapdragon 695, 6.67-inch AMOLED, 120Hz, 48MP+2MP+2MP cameras, 5100mAh battery, 40W charging.",
@@ -1014,6 +1067,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "5590ae42-596a-4231-9bd0-be784f399c5c",
     name: "Honor Magic4 Pro",
     description:
       "Snapdragon 8 Gen 1, 6.81-inch OLED, 120Hz, 50MP+64MP+50MP cameras, 4600mAh battery, 100W charging.",
@@ -1030,6 +1084,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "f751438a-011f-472d-943c-7dddc9cc8244",
     name: "Honor Magic4",
     description:
       "Snapdragon 8 Gen 1, 6.81-inch OLED, 120Hz, 50MP+50MP+8MP cameras, 4600mAh battery, 66W charging.",
@@ -1046,6 +1101,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "81f75889-bf88-4bfe-9eb4-ab9c686f5edc",
     name: "Honor 50",
     description:
       "Snapdragon 778G, 6.57-inch OLED, 120Hz, 108MP+8MP+2MP+2MP cameras, 4300mAh battery, 66W charging.",
@@ -1062,6 +1118,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "b1b3db6a-80b9-438f-b173-999f56915024",
     name: "Honor X8 5G",
     description:
       "Snapdragon 480 5G, 6.5-inch IPS LCD, 90Hz, 48MP+2MP+2MP cameras, 4000mAh battery, 22.5W charging.",
@@ -1078,6 +1135,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "968867b0-431c-4c6d-97c1-a8b43b448eea",
     name: "Honor X7 5G",
     description:
       "Snapdragon 695, 6.74-inch IPS LCD, 90Hz, 48MP+5MP+2MP cameras, 5000mAh battery, 22.5W charging.",
@@ -1094,6 +1152,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "498e0cb7-9ae3-4083-88e2-d795669fe216",
     name: "Honor Magic5 Lite",
     description:
       "Snapdragon 695, 6.67-inch OLED, 120Hz, 64MP+5MP+2MP cameras, 5100mAh battery, 40W charging.",
@@ -1110,6 +1169,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "20f2a6af-61c8-45a5-b664-e6af88dcda90",
     name: "Honor 10X Lite",
     description:
       "Kirin 710A, 6.67-inch IPS LCD, 60Hz, 48MP+8MP+2MP cameras, 5000mAh battery, 22.5W charging.",
@@ -1126,6 +1186,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "306e26f6-e845-4b6a-a933-27a9457b9daf",
     name: "Honor View 20",
     description:
       "Kirin 980, 6.4-inch IPS LCD, 60Hz, 48MP+3D camera, 4000mAh battery, 40W charging.",
@@ -1142,6 +1203,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "2f99df0b-96b2-4ec8-98d4-c16cb8b3c42a",
     name: "Honor 9X Pro",
     description:
       "Kirin 810, 6.59-inch IPS LCD, 60Hz, 48MP+2MP cameras, 4000mAh battery, 10W charging.",
@@ -1158,6 +1220,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "b7d45249-0303-4549-b402-ded61e690dad",
     name: "Honor 8X",
     description:
       "Kirin 710, 6.5-inch IPS LCD, 60Hz, 20MP+2MP cameras, 3750mAh battery, 10W charging.",
@@ -1174,6 +1237,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "1c081843-3ba3-4a91-a925-22bffc87130f",
     name: "Honor 20 Pro",
     description:
       "Kirin 980, 6.26-inch IPS LCD, 60Hz, 48MP+16MP+2MP+2MP cameras, 4000mAh battery, 22.5W charging.",
@@ -1190,6 +1254,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "4a09fb19-359b-4586-b94e-984b16b820c4",
     name: "Honor Play 4 Pro",
     description:
       "Kirin 990, 6.57-inch OLED, 60Hz, 48MP+8MP cameras, 4200mAh battery, 40W charging.",
@@ -1206,6 +1271,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "3978db33-6c00-452a-b9d0-df420bf756ce",
     name: "Honor 7X",
     description:
       "Kirin 659, 5.93-inch IPS LCD, 60Hz, 16MP+2MP cameras, 3340mAh battery, 5V/2A charging.",
@@ -1221,10 +1287,8 @@ export const phones: Phone[] = [
       "public/prodcuts-imgs/Honor-products-imgs/Honor-9X-Pro-2.jpeg",
     ],
   },
-
-  //   realme phones
-
   {
+    id: "be0149a6-eacf-46e3-9f6f-09f9cea31290",
     name: "Realme GT 2 Pro",
     description:
       "Snapdragon 8 Gen 1, 6.7-inch AMOLED, 120Hz, 50MP+50MP+3MP cameras, 5000mAh battery, 65W charging.",
@@ -1241,6 +1305,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "727d3462-cdea-4413-89a4-a53f40eb48b7",
     name: "Realme GT 2",
     description:
       "Snapdragon 870, 6.62-inch AMOLED, 120Hz, 50MP+8MP+2MP cameras, 5000mAh battery, 65W charging.",
@@ -1257,6 +1322,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "24ff100e-585b-48eb-ad0c-c66f41471b77",
     name: "Realme 9 Pro+",
     description:
       "MediaTek Dimensity 920, 6.4-inch AMOLED, 90Hz, 50MP+8MP+2MP cameras, 4500mAh battery, 60W charging.",
@@ -1273,6 +1339,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "8d4c6f5d-bbac-4733-ac50-1060e5340b5d",
     name: "Realme 9 Pro",
     description:
       "Snapdragon 695, 6.6-inch IPS LCD, 120Hz, 64MP+8MP+2MP cameras, 5000mAh battery, 33W charging.",
@@ -1289,6 +1356,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "6716f57a-852b-48a8-8093-06434af8d964",
     name: "Realme GT Master Edition",
     description:
       "Snapdragon 778G, 6.43-inch AMOLED, 120Hz, 64MP+8MP+2MP cameras, 4300mAh battery, 65W charging.",
@@ -1305,6 +1373,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "4b5767b0-2621-4e38-8fea-33097dc6c229",
     name: "Realme X7 Max 5G",
     description:
       "MediaTek Dimensity 1200, 6.43-inch Super AMOLED, 120Hz, 64MP+8MP+2MP cameras, 4500mAh battery, 50W charging.",
@@ -1321,6 +1390,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "89c264b3-eecf-4db7-a15f-efa2d24a36e5",
     name: "Realme Narzo 50 Pro 5G",
     description:
       "MediaTek Dimensity 920, 6.4-inch AMOLED, 90Hz, 48MP+8MP+2MP cameras, 5000mAh battery, 33W charging.",
@@ -1337,6 +1407,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "9f13b506-041b-4fef-b28e-43a3830d5c79",
     name: "Realme 8 Pro",
     description:
       "Snapdragon 720G, 6.4-inch Super AMOLED, 60Hz, 108MP+8MP+2MP+2MP cameras, 4500mAh battery, 50W charging.",
@@ -1353,6 +1424,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "2fef6d1e-7e20-41f4-9405-327829cd753e",
     name: "Realme 8 5G",
     description:
       "MediaTek Dimensity 700, 6.5-inch IPS LCD, 90Hz, 48MP+2MP+2MP cameras, 5000mAh battery, 18W charging.",
@@ -1369,6 +1441,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "24a2353d-5d41-4f52-85a2-94018bcd2d1e",
     name: "Realme X50 Pro 5G",
     description:
       "Snapdragon 865, 6.44-inch Super AMOLED, 90Hz, 64MP+12MP+8MP+2MP cameras, 4200mAh battery, 65W charging.",
@@ -1385,6 +1458,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "a89a361b-7d6e-4236-88b4-4b308e1a221a",
     name: "Realme Narzo 30 Pro 5G",
     description:
       "MediaTek Dimensity 800U, 6.5-inch IPS LCD, 120Hz, 48MP+8MP+2MP cameras, 5000mAh battery, 30W charging.",
@@ -1401,6 +1475,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "ff55f2e8-eb52-4ad6-a271-ffec773b9e65",
     name: "Realme C25Y",
     description:
       "Unisoc T610, 6.5-inch IPS LCD, 60Hz, 50MP+2MP+2MP cameras, 5000mAh battery, 18W charging.",
@@ -1417,6 +1492,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "ad95a692-2ca6-4bae-a415-fcad6a22e601",
     name: "Realme Narzo 30A",
     description:
       "MediaTek Helio G85, 6.5-inch IPS LCD, 60Hz, 13MP+2MP cameras, 6000mAh battery, 18W charging.",
@@ -1433,6 +1509,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "3ffd49a1-a090-46d9-9580-34602d98dee1",
     name: "Realme C12",
     description:
       "MediaTek Helio G35, 6.5-inch IPS LCD, 60Hz, 13MP+2MP+2MP cameras, 6000mAh battery, 10W charging.",
@@ -1449,6 +1526,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "27a0e977-cb7d-4194-9b89-ad30035b47c0",
     name: "Realme C15",
     description:
       "MediaTek Helio G35, 6.5-inch IPS LCD, 60Hz, 13MP+8MP+2MP+2MP cameras, 6000mAh battery, 18W charging.",
@@ -1465,6 +1543,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "0cd6d7fd-bac7-43f9-b4b4-1b20dfa77db4",
     name: "Realme X2 Pro",
     description:
       "Snapdragon 855+, 6.5-inch Super AMOLED, 90Hz, 64MP+13MP+8MP+2MP cameras, 4000mAh battery, 50W charging.",
@@ -1481,6 +1560,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "b7c0b05f-5da9-4548-afb0-89b39a74b5a7",
     name: "Realme 6 Pro",
     description:
       "Snapdragon 720G, 6.6-inch IPS LCD, 90Hz, 64MP+8MP+12MP+2MP cameras, 4300mAh battery, 30W charging.",
@@ -1497,6 +1577,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "7c69afb4-441b-4831-83d5-fe02baa21610",
     name: "Realme 6",
     description:
       "MediaTek Helio G90T, 6.5-inch IPS LCD, 90Hz, 64MP+8MP+2MP+2MP cameras, 4300mAh battery, 30W charging.",
@@ -1513,6 +1594,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "91bc27a2-114b-430d-b1f0-373f0e88ec37",
     name: "Realme C3",
     description:
       "MediaTek Helio G70, 6.5-inch IPS LCD, 60Hz, 12MP+2MP+2MP cameras, 5000mAh battery, 10W charging.",
@@ -1528,10 +1610,8 @@ export const phones: Phone[] = [
       "public/prodcuts-imgs/realme-products-imgs/Realme-C3-3.jpeg",
     ],
   },
-
-  //   oppo phones
-
   {
+    id: "bf690aac-a5ef-408d-a9ad-ce19b82d45ea",
     name: "Oppo Find X5 Pro",
     description:
       "Snapdragon 8 Gen 1, 6.7-inch AMOLED, 120Hz, 50MP+50MP+13MP cameras, 5000mAh battery, 80W charging.",
@@ -1548,6 +1628,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "c6a6d1f1-91f4-47c3-a823-f9765f78d6e9",
     name: "Oppo Reno8 Pro 5G",
     description:
       "MediaTek Dimensity 8100-Max, 6.7-inch AMOLED, 120Hz, 50MP+8MP+2MP cameras, 4500mAh battery, 80W charging.",
@@ -1564,6 +1645,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "87142630-10af-4d08-b8fc-9c697e9914e6",
     name: "Oppo Find X3 Pro",
     description:
       "Snapdragon 888, 6.7-inch AMOLED, 120Hz, 50MP+50MP+13MP+3MP cameras, 4500mAh battery, 65W charging.",
@@ -1580,6 +1662,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "95f15834-dc9a-430e-b4ca-192197d72ba1",
     name: "Oppo Reno7 Pro 5G",
     description:
       "MediaTek Dimensity 1200, 6.55-inch AMOLED, 90Hz, 50MP+8MP+2MP cameras, 4500mAh battery, 65W charging.",
@@ -1596,6 +1679,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "233c2489-9bf1-411d-9715-b975c68c172e",
     name: "Oppo A95 5G",
     description:
       "Snapdragon 480, 6.43-inch AMOLED, 60Hz, 48MP+8MP+2MP cameras, 5000mAh battery, 33W charging.",
@@ -1612,6 +1696,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "a20379ca-2570-4159-ab4c-d6bd8e26bc4c",
     name: "Oppo F19 Pro+ 5G",
     description:
       "MediaTek Dimensity 800U, 6.4-inch AMOLED, 60Hz, 48MP+8MP+2MP+2MP cameras, 4310mAh battery, 50W charging.",
@@ -1628,6 +1713,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "e3159d91-25cf-4867-9154-97b6b7ec8d56",
     name: "Oppo A74 5G",
     description:
       "Snapdragon 480, 6.5-inch IPS LCD, 90Hz, 48MP+8MP+2MP cameras, 5000mAh battery, 18W charging.",
@@ -1644,6 +1730,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "baffdb31-4a4d-49eb-8c8d-9fcf148f750e",
     name: "Oppo Reno6 5G",
     description:
       "MediaTek Dimensity 900, 6.43-inch AMOLED, 90Hz, 64MP+8MP+2MP cameras, 4300mAh battery, 65W charging.",
@@ -1659,10 +1746,8 @@ export const phones: Phone[] = [
       "public/prodcuts-imgs/Oppo-products-imgs/Oppo-Reno6-5G-4.jpeg",
     ],
   },
-
-  //   vivo phones
-
   {
+    id: "5bd38cc6-7ea1-4d5c-8806-e7f2d482ab1d",
     name: "Vivo X90 Pro",
     description:
       "Snapdragon 8 Gen 2, 6.78-inch AMOLED, 120Hz, 50MP+50MP+12MP cameras, 4870mAh battery, 120W charging.",
@@ -1679,6 +1764,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "9942b550-d75b-45b8-9069-01ad31dc1ef8",
     name: "Vivo V23 Pro 5G",
     description:
       "MediaTek Dimensity 1200, 6.56-inch AMOLED, 90Hz, 108MP+8MP+2MP cameras, 4300mAh battery, 44W charging.",
@@ -1695,6 +1781,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "2ce47a92-fe08-4132-8af4-f57863d72fe4",
     name: "Vivo V21 5G",
     description:
       "MediaTek Dimensity 800U, 6.44-inch AMOLED, 90Hz, 64MP+8MP+2MP cameras, 4000mAh battery, 33W charging.",
@@ -1711,6 +1798,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "b09b80fc-783d-46e3-8fee-d335f1b942d0",
     name: "Vivo X60 Pro",
     description:
       "Snapdragon 870, 6.56-inch AMOLED, 120Hz, 48MP+13MP+13MP cameras, 4200mAh battery, 33W charging.",
@@ -1727,6 +1815,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "f96a8cbf-de03-4405-aac8-1a16313f27f1",
     name: "Vivo V20 Pro",
     description:
       "Snapdragon 765G, 6.44-inch AMOLED, 90Hz, 64MP+8MP+2MP cameras, 4000mAh battery, 33W charging.",
@@ -1743,6 +1832,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "99b4ab6e-6e03-48ab-90ae-e1fd4ed98500",
     name: "Vivo Y73",
     description:
       "MediaTek Helio G95, 6.44-inch AMOLED, 60Hz, 64MP+2MP+2MP cameras, 4000mAh battery, 33W charging.",
@@ -1759,6 +1849,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "19db15da-119e-4d84-bc92-eaa4ceea89e0",
     name: "Vivo Y53s",
     description:
       "MediaTek Helio G80, 6.58-inch IPS LCD, 60Hz, 64MP+2MP+2MP cameras, 5000mAh battery, 18W charging.",
@@ -1775,6 +1866,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "faffc1c7-4674-44b5-825e-bd09e7a29819",
     name: "Vivo T1 Pro 5G",
     description:
       "Snapdragon 695, 6.44-inch AMOLED, 90Hz, 64MP+8MP+2MP cameras, 5000mAh battery, 44W charging.",
@@ -1791,6 +1883,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "e52590a4-bc04-4779-b314-abc391d22110",
     name: "Vivo X70 Pro",
     description:
       "MediaTek Dimensity 1200, 6.56-inch AMOLED, 120Hz, 50MP+12MP+12MP cameras, 4450mAh battery, 44W charging.",
@@ -1807,6 +1900,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "dcb5d6f2-5b5e-4122-a3a9-618f802eaa41",
     name: "Vivo Y21",
     description:
       "MediaTek Helio P35, 6.51-inch IPS LCD, 60Hz, 13MP+2MP cameras, 5000mAh battery, 18W charging.",
@@ -1822,10 +1916,8 @@ export const phones: Phone[] = [
       "public/prodcuts-imgs/vivo-porducts-imgs/Vivo-Y21-4.jpeg",
     ],
   },
-
-  //   xiamoi phones
-
   {
+    id: "b73a3d69-40a4-409d-8dc7-d65a2b9332da",
     name: "Xiaomi 13 Pro",
     description:
       "Snapdragon 8 Gen 2, 6.73-inch AMOLED, 120Hz, 50MP+50MP+50MP cameras, 4820mAh battery, 120W charging.",
@@ -1842,6 +1934,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "e3e07e31-3849-4347-a3dd-cd7b7e9ac01d",
     name: "Xiaomi 12 Pro",
     description:
       "Snapdragon 8 Gen 1, 6.73-inch AMOLED, 120Hz, 50MP+50MP+50MP cameras, 4600mAh battery, 120W charging.",
@@ -1858,6 +1951,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "0f804c74-7584-41da-9062-b13924861627",
     name: "Xiaomi Redmi Note 12 Pro+",
     description:
       "MediaTek Dimensity 1080, 6.67-inch AMOLED, 120Hz, 200MP+8MP+2MP cameras, 5000mAh battery, 120W charging.",
@@ -1874,6 +1968,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "d54491cc-a96f-4cf2-b5a3-62fdc0a8e3bf",
     name: "Xiaomi Mi 11 Ultra",
     description:
       "Snapdragon 888, 6.81-inch AMOLED, 120Hz, 50MP+48MP+48MP cameras, 5000mAh battery, 67W charging.",
@@ -1890,6 +1985,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "373f9590-8adf-47ba-99ae-d56719524c9d",
     name: "Xiaomi Redmi Note 11 Pro 5G",
     description:
       "Snapdragon 695, 6.67-inch AMOLED, 120Hz, 108MP+8MP+2MP cameras, 5000mAh battery, 67W charging.",
@@ -1906,6 +2002,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "966d50eb-4280-4e38-8d30-8c4a538f35a4",
     name: "Xiaomi Mi 11X Pro",
     description:
       "Snapdragon 888, 6.67-inch AMOLED, 120Hz, 108MP+8MP+5MP cameras, 4520mAh battery, 33W charging.",
@@ -1922,6 +2019,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "82387f21-3bb3-404f-a149-0c0dc7df16cc",
     name: "Xiaomi Redmi K40 Pro",
     description:
       "Snapdragon 888, 6.67-inch AMOLED, 120Hz, 64MP+8MP+5MP cameras, 4520mAh battery, 33W charging.",
@@ -1938,6 +2036,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "0e9e2aff-2bc9-464e-a857-a3be47c0cb5b",
     name: "Xiaomi Redmi Note 10 Pro",
     description:
       "Snapdragon 732G, 6.67-inch AMOLED, 120Hz, 108MP+8MP+5MP+2MP cameras, 5020mAh battery, 33W charging.",
@@ -1954,6 +2053,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "0e6a991e-7955-4402-b2fc-6a67a7bb4dee",
     name: "Xiaomi 11T Pro",
     description:
       "Snapdragon 888, 6.67-inch AMOLED, 120Hz, 108MP+8MP+5MP cameras, 5000mAh battery, 120W charging.",
@@ -1970,6 +2070,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "86503ae8-89fe-47e5-bebf-bcaadac180dd",
     name: "Xiaomi Mi 10T Pro",
     description:
       "Snapdragon 865, 6.67-inch IPS LCD, 144Hz, 108MP+13MP+5MP cameras, 5000mAh battery, 33W charging.",
@@ -1986,6 +2087,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "2037b6dc-128c-4602-b5f1-eb0783bd376e",
     name: "Xiaomi Mi 10 5G",
     description:
       "Snapdragon 865, 6.67-inch AMOLED, 90Hz, 108MP+13MP+2MP+2MP cameras, 4780mAh battery, 30W charging.",
@@ -2002,6 +2104,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "e20d48b2-4202-4672-a418-89a07b9f4394",
     name: "Xiaomi Redmi Note 9 Pro",
     description:
       "Snapdragon 720G, 6.67-inch IPS LCD, 60Hz, 48MP+8MP+5MP+2MP cameras, 5020mAh battery, 30W charging.",
@@ -2018,6 +2121,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "5795c9c7-9a2b-4dad-9a58-526e37ae859e",
     name: "Xiaomi Redmi Note 8 Pro",
     description:
       "Helio G90T, 6.53-inch IPS LCD, 60Hz, 64MP+8MP+2MP+2MP cameras, 4500mAh battery, 18W charging.",
@@ -2034,6 +2138,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "2b74ca45-cab4-410c-af28-eb3f3c0ab6d4",
     name: "Xiaomi Mi A3",
     description:
       "Snapdragon 665, 6.088-inch AMOLED, 60Hz, 48MP+8MP+2MP cameras, 4030mAh battery, 18W charging.",
@@ -2049,10 +2154,8 @@ export const phones: Phone[] = [
       "public/prodcuts-imgs/xiamoi-products-imgs/Xiaomi-Mi-A3-3.jpeg",
     ],
   },
-
-  //   tecno phones
-
   {
+    id: "c0452e9e-720e-4eb8-8c97-c1fe0a11dd31",
     name: "Tecno Phantom X2 Pro",
     description:
       "Dimensity 9000, 6.8-inch AMOLED, 120Hz, 50MP+50MP+13MP cameras, 5160mAh battery, 45W charging.",
@@ -2069,6 +2172,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "24fb6545-e367-49a5-95bf-357d09087df0",
     name: "Tecno Spark 9 Pro",
     description:
       "MediaTek Helio G85, 6.6-inch IPS LCD, 90Hz, 48MP+2MP+AI cameras, 5000mAh battery, 18W charging.",
@@ -2085,6 +2189,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "ac6a6d44-aafc-447e-81c3-abc856a417e6",
     name: "Tecno Camon 18 Pro",
     description:
       "MediaTek Helio G95, 6.8-inch AMOLED, 90Hz, 64MP+8MP+2MP cameras, 4750mAh battery, 33W charging.",
@@ -2101,6 +2206,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "99e30009-1066-45b8-a396-a3db8c3f1223",
     name: "Tecno Pova 4 Pro",
     description:
       "MediaTek Helio G99, 6.66-inch AMOLED, 120Hz, 50MP+2MP cameras, 4500mAh battery, 45W charging.",
@@ -2117,6 +2223,7 @@ export const phones: Phone[] = [
     ],
   },
   {
+    id: "72ca00c9-d71e-4cf2-9b4e-37a65bc43a30",
     name: "Tecno Phantom X",
     description:
       "MediaTek Helio G95, 6.7-inch AMOLED, 90Hz, 50MP+13MP+8MP cameras, 4700mAh battery, 33W charging.",
