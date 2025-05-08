@@ -3,7 +3,7 @@ import AddToCartElement from "./AddToCartElement";
 import { productDetailsContext } from "./ProductDetailsState";
 import { useContext, useState } from "react";
 import { useEffect } from "react";
-export default function MoreDetails() {
+export default function ProductMoreDetails() {
   const { productDetails } = useContext(productDetailsContext);
 
   const [imagesState, setImagesState] = useState(

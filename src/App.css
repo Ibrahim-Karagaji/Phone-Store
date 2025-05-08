@@ -385,3 +385,7 @@ display: none;
 .heart:hover + .favoritesCounter{
   top:8px;
 }
+
+.shopping:hover + .shoppingCartCounter{
+    top:8px;
+}

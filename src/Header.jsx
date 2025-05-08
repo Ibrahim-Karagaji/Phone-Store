@@ -1,11 +1,14 @@
 import { SearchStateContext } from "./SearchState";
 import { favoritesProductsContext } from "./FavoritesProductsState";
 import SearchCards from "./SearchCards";
+import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 export default function Header() {
   const search = useContext(SearchStateContext);
   const favorites = useContext(favoritesProductsContext);
+  const shoppingCart = useContext(shoppingCartProductsContext);
+
   return (
     <div className="flex items-center gap-[10px] text-[#eeeeeed1] !p-[3px]">
       <img
@@ -28,6 +31,13 @@ export default function Header() {
           </Link>
           <Link to="/shopping-cart">
             <i className="fa-solid shopping fa-cart-shopping !p-[3px] text-[16px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[4px] duration-300 hover:-translate-y-1 relative"></i>
+            <span
+              className={`shoppingCartCounter w-[10px] h-[10px] absolute ${
+                shoppingCart.shoppingCartState.length != 0
+                  ? "bg-red-600"
+                  : "bg-[transparent]"
+              } text-[#063447] right-[60px] top-[12px] z-40 text-[20px] rounded-[50%] duration-150`}
+            ></span>
           </Link>
           <Link to="/favorites">
             <i className="fa-solid heart fa-heart !p-[3px] text-[16px] hover:text-[#063447] hover:bg-[#eeeeeed1] rounded-[4px] duration-300 hover:-translate-y-1 relative"></i>
