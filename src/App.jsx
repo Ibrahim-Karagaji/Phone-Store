@@ -6,6 +6,7 @@ import Favorites from "./Favorites";
 import Layout from "./Layout";
 import ShoppingCart from "./ShoppingCart";
 import ListPhones from "./ListPhones";
+import Chekout from "./Chekout";
 import ProductMoreDetails from "./ProductMoreDetails";
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/shopping-cart" element={<ShoppingCart />} />
           <Route path="/List-Phones" element={<ListPhones />} />
           <Route path="/More-Details" element={<ProductMoreDetails />} />
+          <Route path="/Chekout" element={<Chekout />} />
         </Route>
         <Route path="/Login" element={<LogIn />} />
       </Routes>
