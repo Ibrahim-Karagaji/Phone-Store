@@ -254,6 +254,12 @@
     width:100%
   }
 }
+@media(max-width:550px){
+  .shoppingCartImg{
+    width: fit-content;
+    margin: auto;
+  }
+}
 
 @media(max-width:650px){
   .ShoppingCartCardDescription{
@@ -386,16 +392,18 @@ display: none;
   top:8px;
 }
 
-@media(max-width:650px){
-  .favoritesCounter{display: none;}
+@media(max-width:800px){
+  .favoritesCounter{display: none;
+  }
 }
 
-.shopping:hover + .shoppingCartCounter{
+.shopping:hover + .shoppingCartCounter {
     top:8px;
 }
 
-@media(max-width:650px){
-  .shoppingCartCounter{display: none;}
+@media(max-width:800px){
+  .shoppingCartCounter {display: none;
+  }
 }
 
 

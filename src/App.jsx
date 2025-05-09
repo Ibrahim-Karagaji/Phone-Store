@@ -18,8 +18,8 @@ export default function App() {
           <Route path="/shopping-cart" element={<ShoppingCart />} />
           <Route path="/List-Phones" element={<ListPhones />} />
           <Route path="/More-Details" element={<ProductMoreDetails />} />
-          <Route path="/Chekout" element={<Chekout />} />
         </Route>
+        <Route path="/Chekout" element={<Chekout />} />
         <Route path="/Login" element={<LogIn />} />
       </Routes>
     </BrowserRouter>
