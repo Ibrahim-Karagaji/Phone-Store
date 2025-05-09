@@ -1,8 +1,10 @@
 import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
-import { useContext } from "react";
+import { useContext, useRef, useEffect } from "react";
 import ShoppingCartCard from "./ShoppingCartCard";
+import { Link } from "react-router-dom";
 export default function ShoppingCart() {
   const shoppingCart = useContext(shoppingCartProductsContext);
+  const massge = useRef(null);
 
   function calculateTheTotle() {
     let total = 0;
@@ -21,7 +23,7 @@ export default function ShoppingCart() {
       <img src="images-folder\empty.png" className="h-[400px] w-[500px] " />
     </div>
   ) : (
-    <div className="shoppingCart flex gap-4 !mt-[10px] !mb-[10px] !ml-[15px] justify-center leading-[1.8]">
+    <div className="shoppingCart flex gap-4 !mt-[10px] !mb-[10px] !ml-[5px] justify-center leading-[1.8]">
       <div className="grid !p-[5px] text-[#eeeeeed1] shadow-[0px_0px_2px_0px_black] font-medium rounded-[5px] h-[fit-content]">
         <h1 className="!-p[3px] !m-[4px] border-b-[1px] border-b-[#eeeeee40] text-[23px]">
           Summary
@@ -49,10 +51,34 @@ export default function ShoppingCart() {
             </p>
           </div>
         </div>
-        <button className="!mt-[3px] !mb-[3px] flex gap-2 items-center justify-center !p-[5px] rounded-[5px] bg-[#00141c] text-[#eeeeee40]">
-          <i className="fa-solid fa-credit-card"></i>
-          <p>CHEKOUT</p>
-        </button>
+        {window.localStorage.getItem("user") == null ? (
+          <button
+            onClick={() => {
+              massge.current.style.opacity = "100%";
+              setTimeout(() => {
+                massge.current.style.opacity = "0%";
+              }, 1500);
+            }}
+            className="relative !mt-[3px] !mb-[3px] flex gap-2 items-center justify-center !p-[5px] rounded-[5px] bg-[#00141c] text-[#eeeeee40]"
+          >
+            <i className="fa-solid fa-credit-card"></i>
+            <p>CHEKOUT</p>
+            <div
+              className="absolute bottom-[-50px] flex gap-2 items-center bg-[#002737] !p-[3px] border-amber-400 text-amber-300 border-[2px] rounded-[5px] duration-300 opacity-0"
+              ref={massge}
+            >
+              <p>You have to log in first</p>
+              <i className="fa-solid fa-triangle-exclamation"></i>
+            </div>
+          </button>
+        ) : (
+          <Link to="/Chekout">
+            <button className="w-full !mt-[3px] !mb-[3px] flex gap-2 items-center justify-center !p-[5px] rounded-[5px] bg-[#eeeeeed1] text-[#063447] duration-300 hover:bg-[#eeeeeeb4]">
+              <i className="fa-solid fa-credit-card"></i>
+              <p>CHEKOUT</p>
+            </button>
+          </Link>
+        )}
       </div>
       <div className="grid gap-3 !p-[5px] text-[#eeeeeed1] font-medium rounded-[5px]">
         <div className="flex items-center justify-between !p-[5px] h-[fit-content] rounded-[5px] shadow-[0px_0px_2px_0px_black]">
