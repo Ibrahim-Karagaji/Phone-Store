@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { shoppingCartProductsContext } from "./ShoppingCartProductsState";
 import { Link } from "react-router-dom";
-import React from "react";
 export default function AddToCartElement({ product }) {
   const shoppingCart = useContext(shoppingCartProductsContext);
 
@@ -20,7 +19,7 @@ export default function AddToCartElement({ product }) {
           shoppingCart.shoppingCartState.some(
             (shop) => shop.name == product.name
           ) == true
-            ? `!bg-[#002737] text-[#00b2ff] hover:bg-[#194d63]`
+            ? `!bg-[#002737] text-[#00b2ff] hover:bg-[#194d63] border-[#00b2ff] border-[1px]`
             : `bg-[#eeeeeed4] hover:bg-[#eeeeee96] text-[#063447]`
         }`}
       >
