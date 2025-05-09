@@ -5,7 +5,6 @@ import useProducts from "./useProducts";
 import Footer from "./Footer";
 import { Outlet } from "react-router-dom";
 import FavoritesProductsState from "./FavoritesProductsState";
-import ShoppingCartProductsState from "./ShoppingCartProductsState";
 import FiltersState from "./FiltersState";
 import ProductDetailsState from "./ProductDetailsState";
 export const products = createContext();
@@ -24,21 +23,19 @@ export default function Layout() {
       <SearchState>
         <ProductDetailsState>
           <FiltersState>
-            <ShoppingCartProductsState>
-              <FavoritesProductsState>
-                <div id="App" className="h-screen">
-                  {waiting == true ? (
-                    <WelcomeMassage />
-                  ) : (
-                    <>
-                      <Header />
-                      <Outlet />
-                      <Footer />
-                    </>
-                  )}
-                </div>
-              </FavoritesProductsState>
-            </ShoppingCartProductsState>
+            <FavoritesProductsState>
+              <div id="App" className="h-screen">
+                {waiting == true ? (
+                  <WelcomeMassage />
+                ) : (
+                  <>
+                    <Header />
+                    <Outlet />
+                    <Footer />
+                  </>
+                )}
+              </div>
+            </FavoritesProductsState>
           </FiltersState>
         </ProductDetailsState>
       </SearchState>
