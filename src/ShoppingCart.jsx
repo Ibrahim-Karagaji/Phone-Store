@@ -57,7 +57,7 @@ export default function ShoppingCart() {
               massge.current.style.opacity = "100%";
               setTimeout(() => {
                 massge.current.style.opacity = "0%";
-              }, 1500);
+              }, 2000);
             }}
             className="relative !mt-[3px] !mb-[3px] flex gap-2 items-center justify-center !p-[5px] rounded-[5px] bg-[#00141c] text-[#eeeeee40]"
           >
