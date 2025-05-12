@@ -448,3 +448,26 @@ display: none;
     display:none
   }
 }
+
+@media(max-width:1001px){
+  .chekout{
+    display: grid;
+  }
+  .productDescription{
+    max-width: none;
+  }
+}
+ 
+input::placeholder{
+  color:#063447;
+}
+
+@media(max-width:500px){
+  .locationInfo{
+    display: grid;
+    gap:20px;
+   }
+  .locationInfoPareant{
+    gap:20px;
+  }
+}
