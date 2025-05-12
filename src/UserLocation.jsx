@@ -171,7 +171,11 @@ export default function UserLocation({ dialogRef, userLocation }) {
               handleInputs(countryInput);
               handleInputs(cityInput);
               handleInputs(adressInput);
+              userLocation.setUserLocation((prev) => {
+                return { ...prev, isInfoComplte: false };
+              });
             } else {
+              dialogRef.current.close();
               userLocation.setUserLocation((prev) => {
                 return { ...prev, isInfoComplte: true };
               });
