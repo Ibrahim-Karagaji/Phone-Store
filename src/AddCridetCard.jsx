@@ -6,14 +6,30 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
   const date = useRef(null);
 
   const handleNameInput = () => {
-    if (cardInfo.cardInfo.name < 3) {
+    if (cardInfo.cardInfo.name.length < 3) {
       nameInput.current.style.color = "red";
       nameInput.current.style.borderBottomColor = "red";
       nameInput.current.children[3].style.display = "block";
+      return true;
     } else {
       nameInput.current.style.color = "#eeeeeed1";
       nameInput.current.style.borderBottomColor = "#eeeeeed1";
       nameInput.current.children[3].style.display = "none";
+      return false;
+    }
+  };
+
+  const handlecardNumber = () => {
+    if (cardInfo.cardInfo.cardNumber.length < 10) {
+      cardNumber.current.style.color = "red";
+      cardNumber.current.style.borderBottomColor = "red";
+      cardNumber.current.children[3].style.display = "block";
+      return true;
+    } else {
+      cardNumber.current.style.color = "#eeeeeed1";
+      cardNumber.current.style.borderBottomColor = "#eeeeeed1";
+      cardNumber.current.children[3].style.display = "none";
+      return false;
     }
   };
 
@@ -116,6 +132,7 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
         <div
           onClick={() => {
             handleNameInput(nameInput);
+            handlecardNumber(cardNumber);
           }}
           className="flex items-center !pl-[5px] !pr-[5px] !pt-[3px] !pb-[3px] gap-1 rounded-[3px] bg-[#eeeeeed1] text-[#063447] w-fit !mt-[-10px] duration-300 hover:bg-[#eeeeeeb4]"
         >
