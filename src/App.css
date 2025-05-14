@@ -471,3 +471,42 @@ input::placeholder{
     gap:20px;
   }
 }
+
+input[type="radio"] {
+    accent-color: #063447
+  }
+
+@media(max-width:550px){
+  .exclamation{
+    width: 23px;
+    height: 23px;
+  }
+}
+
+.cardInfo input::placeholder{
+  color:#eeeeeed1
+}
+
+input[type=number] {
+  -moz-appearance: textfield;  
+  appearance: textfield;       
+}
+
+ input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+ input[type=number]:focus::-webkit-outer-spin-button,
+input[type=number]:focus::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media(max-width:470px){
+  .AddCridetCardInputs{
+    display:grid;
+    gap:40px
+  }
+}
