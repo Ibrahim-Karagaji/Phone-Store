@@ -10,12 +10,12 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
       nameInput.current.style.color = "red";
       nameInput.current.style.borderBottomColor = "red";
       nameInput.current.children[3].style.display = "block";
-      return true;
+      return false;
     } else {
       nameInput.current.style.color = "#eeeeeed1";
       nameInput.current.style.borderBottomColor = "#eeeeeed1";
       nameInput.current.children[3].style.display = "none";
-      return false;
+      return true;
     }
   };
 
@@ -24,12 +24,12 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
       cardNumberInput.current.style.color = "red";
       cardNumberInput.current.style.borderBottomColor = "red";
       cardNumberInput.current.children[3].style.display = "block";
-      return true;
+      return false;
     } else {
       cardNumberInput.current.style.color = "#eeeeeed1";
       cardNumberInput.current.style.borderBottomColor = "#eeeeeed1";
       cardNumberInput.current.children[3].style.display = "none";
-      return false;
+      return true;
     }
   };
 
@@ -87,7 +87,7 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
             placeholder="The Name"
           />
           <p className="absolute text-[12px] bottom-[-20px] left-[0px] hidden">
-            The name should consist of 5 letters at least
+            The name should consist of 3 letters at least
           </p>
         </label>
         <label
@@ -159,10 +159,23 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
         </div>
         <div
           onClick={() => {
-            handleNameInput();
-            handleCardNumberInput();
-            handleDateInput();
-            handleCVVInout();
+            const name = handleNameInput();
+            const cardNumber = handleCardNumberInput();
+            const cvv = handleCVVInout();
+            const date = handleDateInput();
+            if (
+              name == true &&
+              cardNumber == true &&
+              cvv == true &&
+              date == true
+            )
+              cardInfo.setCardInfo((prev) => {
+                return { ...prev, complete: true };
+              });
+            else
+              cardInfo.setCardInfo((prev) => {
+                return { ...prev, complete: false };
+              });
           }}
           className="flex items-center !pl-[5px] !pr-[5px] !pt-[3px] !pb-[3px] gap-1 rounded-[3px] bg-[#eeeeeed1] text-[#063447] w-fit !mt-[-10px] duration-300 hover:bg-[#eeeeeeb4]"
         >
