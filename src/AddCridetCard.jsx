@@ -1,9 +1,9 @@
 import { useRef } from "react";
 export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
   const nameInput = useRef(null);
-  const cardNumber = useRef(null);
-  const cvv = useRef(null);
-  const date = useRef(null);
+  const cardNumberInput = useRef(null);
+  const cvvInput = useRef(null);
+  const dateInput = useRef(null);
 
   const handleNameInput = () => {
     if (cardInfo.cardInfo.name.length < 3) {
@@ -19,17 +19,31 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
     }
   };
 
-  const handlecardNumber = () => {
+  const handleCardNumber = () => {
     if (cardInfo.cardInfo.cardNumber.length < 10) {
-      cardNumber.current.style.color = "red";
-      cardNumber.current.style.borderBottomColor = "red";
-      cardNumber.current.children[3].style.display = "block";
+      cardNumberInput.current.style.color = "red";
+      cardNumberInput.current.style.borderBottomColor = "red";
+      cardNumberInput.current.children[3].style.display = "block";
       return true;
     } else {
-      cardNumber.current.style.color = "#eeeeeed1";
-      cardNumber.current.style.borderBottomColor = "#eeeeeed1";
-      cardNumber.current.children[3].style.display = "none";
+      cardNumberInput.current.style.color = "#eeeeeed1";
+      cardNumberInput.current.style.borderBottomColor = "#eeeeeed1";
+      cardNumberInput.current.children[3].style.display = "none";
       return false;
+    }
+  };
+
+  const handleDate = () => {
+    if (cardInfo.cardInfo.expirationDate.length < 9) {
+      dateInput.current.style.color = "red";
+      dateInput.current.style.borderBottomColor = "red";
+      dateInput.current.children[3].style.display = "block";
+      return false;
+    } else {
+      dateInput.current.style.color = "#eeeeeed1";
+      dateInput.current.style.borderBottomColor = "#eeeeeed1";
+      dateInput.current.children[3].style.display = "none";
+      return true;
     }
   };
 
@@ -63,7 +77,7 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
           </p>
         </label>
         <label
-          ref={cardNumber}
+          ref={cardNumberInput}
           className="relative border-b-1 border-b-[#eeeeeed1] !p-[8px] flex gap-2 items-center text-[#eeeeeed1] bg-[#002737] rounded-[3px]"
         >
           <p className="absolute text-[13px] top-[-18px] left-[0px]">
@@ -86,7 +100,7 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
         </label>
         <div className="flex gap-2 AddCridetCardInputs">
           <label
-            ref={date}
+            ref={dateInput}
             className="w-fit relative border-b-1 border-b-[#eeeeeed1] !p-[8px] flex gap-2 items-center text-[#eeeeeed1] bg-[#002737] rounded-[3px]"
           >
             <p className="absolute text-[13px] top-[-18px] left-[0px]">
@@ -108,7 +122,7 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
             </p>
           </label>
           <label
-            ref={cvv}
+            ref={cvvInput}
             className="w-full relative border-b-1 border-b-[#eeeeeed1] !p-[8px] flex gap-2 items-center text-[#eeeeeed1] bg-[#002737] rounded-[3px]"
           >
             <p className="absolute text-[13px] top-[-18px] left-[0px]">CVV</p>
@@ -132,7 +146,8 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
         <div
           onClick={() => {
             handleNameInput(nameInput);
-            handlecardNumber(cardNumber);
+            handleCardNumber(cardNumberInput);
+            handleDate(cvvInput);
           }}
           className="flex items-center !pl-[5px] !pr-[5px] !pt-[3px] !pb-[3px] gap-1 rounded-[3px] bg-[#eeeeeed1] text-[#063447] w-fit !mt-[-10px] duration-300 hover:bg-[#eeeeeeb4]"
         >
