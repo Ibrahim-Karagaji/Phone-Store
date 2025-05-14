@@ -19,7 +19,7 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
     }
   };
 
-  const handleCardNumber = () => {
+  const handleCardNumberInput = () => {
     if (cardInfo.cardInfo.cardNumber.length < 10) {
       cardNumberInput.current.style.color = "red";
       cardNumberInput.current.style.borderBottomColor = "red";
@@ -33,7 +33,7 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
     }
   };
 
-  const handleDate = () => {
+  const handleDateInput = () => {
     if (cardInfo.cardInfo.expirationDate.length < 9) {
       dateInput.current.style.color = "red";
       dateInput.current.style.borderBottomColor = "red";
@@ -43,6 +43,20 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
       dateInput.current.style.color = "#eeeeeed1";
       dateInput.current.style.borderBottomColor = "#eeeeeed1";
       dateInput.current.children[3].style.display = "none";
+      return true;
+    }
+  };
+
+  const handleCVVInout = () => {
+    if (cardInfo.cardInfo.CVV.length != 3) {
+      cvvInput.current.style.color = "red";
+      cvvInput.current.style.borderBottomColor = "red";
+      cvvInput.current.children[3].style.display = "block";
+      return false;
+    } else {
+      cvvInput.current.style.color = "#eeeeeed1";
+      cvvInput.current.style.borderBottomColor = "#eeeeeed1";
+      cvvInput.current.children[3].style.display = "none";
       return true;
     }
   };
@@ -101,7 +115,7 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
         <div className="flex gap-2 AddCridetCardInputs">
           <label
             ref={dateInput}
-            className="w-fit relative border-b-1 border-b-[#eeeeeed1] !p-[8px] flex gap-2 items-center text-[#eeeeeed1] bg-[#002737] rounded-[3px]"
+            className=" relative border-b-1 border-b-[#eeeeeed1] !p-[8px] flex gap-2 items-center text-[#eeeeeed1] bg-[#002737] rounded-[3px]"
           >
             <p className="absolute text-[13px] top-[-18px] left-[0px]">
               Expiration Date
@@ -145,9 +159,10 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
         </div>
         <div
           onClick={() => {
-            handleNameInput(nameInput);
-            handleCardNumber(cardNumberInput);
-            handleDate(cvvInput);
+            handleNameInput();
+            handleCardNumberInput();
+            handleDateInput();
+            handleCVVInout();
           }}
           className="flex items-center !pl-[5px] !pr-[5px] !pt-[3px] !pb-[3px] gap-1 rounded-[3px] bg-[#eeeeeed1] text-[#063447] w-fit !mt-[-10px] duration-300 hover:bg-[#eeeeeeb4]"
         >
