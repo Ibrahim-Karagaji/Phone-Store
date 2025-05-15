@@ -65,7 +65,7 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
     <div
       className={`${
         payByCardOrCash == "card" ? "grid" : "hidden"
-      } !p-[5px] gap-5 cardInfo`}
+      } !p-[5px] gap-5 cardInfo shadow`}
     >
       <h1 className="text-[18px] font-semibold">Add a Cridet Card</h1>
       <form className="grid gap-11">
@@ -85,7 +85,7 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
             }}
             required
             placeholder="The Name"
-          />
+          ></input>
           <p className="absolute text-[12px] bottom-[-20px] left-[0px] hidden">
             The name should consist of 3 letters at least
           </p>
@@ -108,7 +108,7 @@ export default function AddCridetCard({ cardInfo, payByCardOrCash }) {
             placeholder="**** **** ****"
             type="number"
           />
-          <p className="absolute text-[12px] bottom-[-20px] left-[0px] hidden">
+          <p className="absolute text-[11px] bottom-[-20px] left-[0px] hidden">
             Card number should consist between 10 and 19 digits
           </p>
         </label>
