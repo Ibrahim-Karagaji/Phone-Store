@@ -6,19 +6,12 @@ export default function UserLocation({ dialogRef, userLocation }) {
   const cityInput = useRef();
   const adressInput = useRef();
 
-  const handleInputs = (inputRef) => {
-    if (inputRef.current.children[1].value.length <= 3) {
-      inputRef.current.children[1].style.borderBottomColor = "red";
-      inputRef.current.children[0].style.color = "red";
-      inputRef.current.children[1].style.color = "red";
-      inputRef.current.children[2].style.color = "red";
-      inputRef.current.children[2].style.opacity = "100%";
-    } else {
-      inputRef.current.children[1].style.color = "#063447";
-      inputRef.current.children[1].style.borderBottomColor = "#063447";
-      inputRef.current.children[0].style.color = "#063447";
-      inputRef.current.children[2].style.opacity = "0%";
-    }
+  const clearInputsValue = () => {
+    NameInput.current.children[1].value = "";
+    phoneNumberInput.current.children[1].value = "";
+    countryInput.current.children[1].value = "";
+    cityInput.current.children[1].value = "";
+    adressInput.current.children[1].value = "";
   };
 
   return (
@@ -47,7 +40,6 @@ export default function UserLocation({ dialogRef, userLocation }) {
                 userLocation.setUserLocation((prev) => {
                   return { ...prev, name: e.target.value };
                 });
-                handleInputs(NameInput);
               }}
               className="relative flex items-center gap-2 text-[16px] w-full !p-[4px]"
             >
@@ -66,7 +58,6 @@ export default function UserLocation({ dialogRef, userLocation }) {
                 userLocation.setUserLocation((prev) => {
                   return { ...prev, phoneNumber: e.target.value };
                 });
-                handleInputs(phoneNumberInput);
               }}
               className="relative flex items-center gap-2 text-[16px] w-full !p-[4px]"
             >
@@ -76,8 +67,8 @@ export default function UserLocation({ dialogRef, userLocation }) {
                 className="w-full border-b-[1px] border-b-[#063447]"
                 placeholder="Phone Number"
               />
-              <p className="absolute text-[13px] bottom-[-20px] left-[35px] text-[red] opacity-0 duration-200">
-                Phone number should consist of digits
+              <p className="absolute text-[12px] bottom-[-20px] left-[35px] text-[red] opacity-0 duration-200">
+                Phone number should consist of 10 digits or more
               </p>
             </div>
           </div>
@@ -88,7 +79,6 @@ export default function UserLocation({ dialogRef, userLocation }) {
                 userLocation.setUserLocation((prev) => {
                   return { ...prev, country: e.target.value };
                 });
-                handleInputs(countryInput);
               }}
               className="relative flex items-center gap-2 text-[16px] w-full !p-[4px]"
             >
@@ -107,7 +97,6 @@ export default function UserLocation({ dialogRef, userLocation }) {
                 userLocation.setUserLocation((prev) => {
                   return { ...prev, city: e.target.value };
                 });
-                handleInputs(cityInput);
               }}
               className="relative flex items-center gap-2 text-[16px] w-full !p-[4px]"
             >
@@ -128,7 +117,6 @@ export default function UserLocation({ dialogRef, userLocation }) {
                 userLocation.setUserLocation((prev) => {
                   return { ...prev, address: e.target.value };
                 });
-                handleInputs(adressInput);
               }}
               className="relative flex items-center gap-2 text-[16px] w-full !p-[4px]"
             >
@@ -160,30 +148,25 @@ export default function UserLocation({ dialogRef, userLocation }) {
         <button
           onClick={() => {
             if (
-              userLocation.userLocation.name.length < 3 ||
-              userLocation.userLocation.phoneNumber.length < 9 ||
-              userLocation.userLocation.country.length < 3 ||
-              userLocation.userLocation.city.length < 3 ||
-              userLocation.userLocation.address.length < 3
+              handleNameInput() == true &&
+              handlePhoneNumberInput() == true &&
+              handleCountryInput() == true &&
+              handleCityInput() == true &&
+              handleAdressInput() == true
             ) {
-              handleInputs(NameInput);
-              handleInputs(phoneNumberInput);
-              handleInputs(countryInput);
-              handleInputs(cityInput);
-              handleInputs(adressInput);
-              userLocation.setUserLocation((prev) => {
-                return { ...prev, isInfoComplte: false };
-              });
-            } else {
               dialogRef.current.close();
+              clearInputsValue();
               userLocation.setUserLocation((prev) => {
                 return { ...prev, isInfoComplte: true };
               });
-            }
+            } else
+              userLocation.setUserLocation((prev) => {
+                return { ...prev, isInfoComplte: false };
+              });
           }}
           className="!p-[5px] flex gap-2 items-center text-[#eeeeeed1] bg-[#063447] hover:bg-[#002737] rounded-[5px] w-fit translate-x-2 !mt-[30px] duration-200"
         >
-          <i className="fa-solid fa-location-dot"></i> <p>ADD ADDRESS</p>
+          <i className="fa-solid fa-location-dot"></i> <p>ADD LOCATION</p>
         </button>
       </div>
     </dialog>
