@@ -82,6 +82,23 @@ export default function UserLocation({ dialogRef, userLocation }) {
     }
   };
 
+  const handleAdressInput = () => {
+    if (userLocation.userLocation.address.length < 3) {
+      adressInput.current.children[1].style.borderBottomColor = "red";
+      adressInput.current.children[0].style.color = "red";
+      adressInput.current.children[1].style.color = "red";
+      adressInput.current.children[2].style.color = "red";
+      adressInput.current.children[2].style.opacity = "100%";
+      return false;
+    } else {
+      adressInput.current.children[1].style.color = "#063447";
+      adressInput.current.children[1].style.borderBottomColor = "#063447";
+      adressInput.current.children[0].style.color = "#063447";
+      adressInput.current.children[2].style.opacity = "0%";
+      return true;
+    }
+  };
+
   return (
     <dialog
       className="h-[100%] w-[100%] border-none bg-[#00000066] top-[20px] left-[20px] !p-[2px] rounded-[3px]"
