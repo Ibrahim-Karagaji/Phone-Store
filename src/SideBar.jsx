@@ -11,10 +11,12 @@ export default function SideBar() {
       {window.localStorage.getItem("user") == null ? (
         <i className="fa-solid fa-circle-user profileIcon !p-[3px] hover:text-[#063447] hover:bg-[#eeeeeed1] duration-300 rounded-[4px] !flex w-[fit-content] !ml-[auto] text-[30px]"></i>
       ) : (
-        <img
-          src="images-folder/avatar.png"
-          className="w-[35px] !ml-[auto] profileImage"
-        />
+        <Link to="User-Profile">
+          <img
+            src="images-folder/avatar.png"
+            className="w-[35px] !ml-[auto] profileImage"
+          />
+        </Link>
       )}
 
       {window.localStorage.getItem("user") == null ? (
