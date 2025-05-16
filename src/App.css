@@ -183,6 +183,16 @@
   }
 }
 
+@media(max-width:780px){
+  .displayPeoducts{
+    font-size: 13px;
+  }
+  .homePageProductsImg{
+    max-width: 160px;
+    max-height: 160px;
+  }
+}
+
 *::-webkit-scrollbar {
   background-color: #ffffff;
   border-radius:5px;
