@@ -207,6 +207,9 @@
     max-width: 180px;
     max-height: 180px;
   }
+  .SideBar{
+    font-size: 15px;
+  }
 }
 
 *::-webkit-scrollbar {

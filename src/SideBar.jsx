@@ -53,7 +53,7 @@ export default function SideBar() {
             onMouseEnter={() => {
               setDescriptionOptions("phones List");
               option.current.style.opacity = "100%";
-              option.current.style.top = "88px";
+              option.current.style.top = "85px";
               option.current.style.right = "-95px";
             }}
             onMouseLeave={() => {
@@ -70,7 +70,7 @@ export default function SideBar() {
           onMouseEnter={() => {
             setDescriptionOptions("Flagship");
             option.current.style.opacity = "100%";
-            option.current.style.top = "132px";
+            option.current.style.top = "125px";
             option.current.style.right = "-75px";
           }}
           onMouseLeave={() => {
@@ -90,7 +90,7 @@ export default function SideBar() {
             onMouseEnter={() => {
               setDescriptionOptions("Mid-range");
               option.current.style.opacity = "100%";
-              option.current.style.top = "173px";
+              option.current.style.top = "165px";
               option.current.style.right = "-90px";
             }}
             onMouseLeave={() => {
@@ -109,7 +109,7 @@ export default function SideBar() {
             onMouseEnter={() => {
               setDescriptionOptions("Budget");
               option.current.style.opacity = "100%";
-              option.current.style.top = "215px";
+              option.current.style.top = "200px";
               option.current.style.right = "-65px";
             }}
             onMouseLeave={() => {
