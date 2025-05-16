@@ -9,6 +9,7 @@ import ListPhones from "./ListPhones";
 import Chekout from "./Chekout";
 import ProductMoreDetails from "./ProductMoreDetails";
 import ShoppingCartProductsState from "./ShoppingCartProductsState";
+import UserProfile from "./UserProfile";
 
 export default function App() {
   return (
@@ -18,9 +19,10 @@ export default function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Content />} />
             <Route path="/favorites" element={<Favorites />} />
-            <Route path="/shopping-cart" element={<ShoppingCart />} />
+            <Route path="/shopping-Cart" element={<ShoppingCart />} />
             <Route path="/List-Phones" element={<ListPhones />} />
             <Route path="/More-Details" element={<ProductMoreDetails />} />
+            <Route path="/User-Profile" element={<UserProfile />} />
           </Route>
           <Route path="/Chekout" element={<Chekout />} />
           <Route path="/Login" element={<LogIn />} />
