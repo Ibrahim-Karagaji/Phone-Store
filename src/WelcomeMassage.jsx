@@ -47,12 +47,12 @@ export default function WelcomeMassage() {
     >
       <img
         src="images-folder/site-Logo.png"
-        className="w-[400px] h-[300px] rounded-2xl"
+        className="w-[300px] h-[200px] rounded-2xl"
       />
-      <h1 className="text-[#eeeeeed1] flex gap-1 font-bold">
+      <h1 className="text-[#eeeeeed1] flex gap-1 font-semibold">
         WELCOME TO <p className="text-[#0a6288]">MOBLIE PHONE</p>
       </h1>
-      <p className="text-[#eeeeeed1] font-bold text-center">
+      <p className="text-[#eeeeeed1] font-semibold text-center">
         Your go-to destination for the latest smartphones, accessories, and
         expert reviews. We're passionate about keeping you connected with the
         best mobile technology at unbeatable prices. Shop smart, stay connected.
