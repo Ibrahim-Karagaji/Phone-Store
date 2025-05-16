@@ -15,12 +15,15 @@ export default function ShoppingCartCard({ product, index, shoppingCart }) {
         }}
         to="/More-Details"
       >
-        <div className="more-details shoppingCartImg w-[250px] h-[230px]">
-          <img className="w-[100%] h-[100%]" src={product.images[0]} />
+        <div className="more-details shoppingCartImg w-[100%] h-[100%] ">
+          <img
+            className="max-w-[250px] max-h-[230px]"
+            src={product.images[0]}
+          />
         </div>
       </Link>
       <div className="grid gap-1 !p-[3px] ">
-        <p className="text-[19px]">{product.name}</p>
+        <p>{product.name}</p>
         <p className="ShoppingCartCardDescription !p-[5px] w-[350px] h-[fit-content] text-[#063447] bg-[#eeeeeed1] leading-[1.8] rounded-[3px]">
           {product.description}
         </p>

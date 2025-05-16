@@ -191,6 +191,22 @@
     max-width: 180px;
     max-height: 180px;
   }
+  .Summary{
+    font-size: 17px;
+  }
+  .SummaryDetails{
+    gap:10px
+  }
+  .clearProducts{
+    font-size: 14px;
+  }
+  .ShoppingCartCard{
+    font-size: 13px;
+  }
+  .ShoppingCartCard img{
+    max-width: 180px;
+    max-height: 180px;
+  }
 }
 
 *::-webkit-scrollbar {

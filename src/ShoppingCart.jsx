@@ -23,17 +23,17 @@ export default function ShoppingCart() {
       <img src="images-folder\empty.png" className="h-[400px] w-[500px] " />
     </div>
   ) : (
-    <div className="shoppingCart flex gap-4 !mt-[10px] !mb-[10px] !ml-[5px] justify-center leading-[1.8]">
+    <div className="shoppingCart flex gap-4 !mt-[10px]  !mb-[10px] !ml-[5px] justify-center leading-[1.8]">
       <div className="grid !p-[5px] text-[#eeeeeed1] shadow-[0px_0px_2px_0px_black] font-medium rounded-[5px] h-[fit-content]">
-        <h1 className="!-p[3px] !m-[4px] border-b-[1px] border-b-[#eeeeee40] text-[23px]">
+        <h1 className="!p-[3px] !m-[4px] border-b-[1px] border-b-[#eeeeee40] text-[21px]">
           Summary
         </h1>
-        <div className="!-p[3px] !m-[4px] border-b-[1px] border-b-[#eeeeee40] grid gap-3">
-          <div className="!mt-[5px] !mb-[5px] flex justify-between items-center gap-30 text-[20px]">
+        <div className="!p-[3px] !m-[4px] border-b-[1px] border-b-[#eeeeee40] grid gap-3 text-[19px] Summary">
+          <div className="!mt-[5px] !mb-[5px] flex justify-between items-center gap-40 SummaryDetails">
             <p>items ({shoppingCart.shoppingCartState.length})</p>
             <p>${calculateTheTotle()}</p>
           </div>
-          <div className="flex justify-between items-center gap-45 text-[20px]">
+          <div className="flex justify-between items-center gap-40 SummaryDetails">
             <p>Delivery:</p>
             {shoppingCart.shoppingCartState.length >= 3 ? (
               <p className="text-[green]">Free</p>
@@ -41,7 +41,7 @@ export default function ShoppingCart() {
               <p>$+5.00</p>
             )}
           </div>
-          <div className="text-[red] !mt-[5px] !mb-[5px] flex justify-between items-center gap-30 text-[20px]">
+          <div className="text-[red] !mt-[5px] !mb-[5px] gap-40 flex justify-between items-center SummaryDetails">
             <p>Totle:</p>
             <p>
               $
@@ -81,11 +81,11 @@ export default function ShoppingCart() {
         )}
       </div>
       <div className="grid gap-3 !p-[5px] text-[#eeeeeed1] font-medium rounded-[5px]">
-        <div className="flex items-center justify-between !p-[5px] h-[fit-content] rounded-[5px] shadow-[0px_0px_2px_0px_black]">
-          <h1 className="font-bold text-[20px]">Products In Cart</h1>
+        <div className="clearProducts flex gap-3 items-center text-[18px] justify-between !p-[5px] h-[fit-content] rounded-[5px] shadow-[0px_0px_2px_0px_black]">
+          <h1 className="font-bold ">Products In Cart</h1>
           <button
             onClick={shoppingCart.handleClearShoppingCart}
-            className="flex items-center gap-1 text-[15px] rounded-[3px] !p-[4px] bg-[#ff0000bf] hover:bg-[#d50000bf] duration-300 "
+            className="flex items-center gap-1 rounded-[3px] !p-[4px] bg-[#ff0000bf] hover:bg-[#d50000bf] duration-300 "
           >
             <i className="fa-solid fa-ban"></i>
             <p>CLEAR CART</p>
