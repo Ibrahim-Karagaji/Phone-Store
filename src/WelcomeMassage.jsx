@@ -43,7 +43,7 @@ export default function WelcomeMassage() {
   return (
     <div
       ref={welcomeMassage}
-      className="shadow opacity-0 duration-300 grid gap-3 !ml-[auto] !mr-[auto] !mt-[55px] max-w-[500px] justify-items-center !p-[5px]"
+      className="shadow opacity-0 duration-300 grid gap-3 !ml-[auto] !mr-[auto] !mt-[100px] max-w-[500px] justify-items-center !p-[5px]"
     >
       <img
         src="images-folder/site-Logo.png"

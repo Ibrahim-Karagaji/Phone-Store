@@ -19,7 +19,7 @@ export default function FiltersCards({ products, index, visabilState }) {
       >
         <div className="more-details">
           <img
-            className="min-w-[180px] max-w-[220px]  min-h-[180px] max-h-[190px] rounded-[4px]"
+            className="min-w-[180px] max-w-[220px] !ml-[auto] !mr-[auto] min-h-[180px] max-h-[190px] rounded-[4px]"
             src={products.images[0]}
           />
         </div>

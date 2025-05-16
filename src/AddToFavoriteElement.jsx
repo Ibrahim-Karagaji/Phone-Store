@@ -8,7 +8,7 @@ export default function AddToFavoriteElement({ product }) {
   return (
     <>
       <img
-        className={`w-[30px] rounded-[3px] !p-[3px] ${
+        className={`w-[25px] rounded-[3px] !p-[3px] ${
           favorites.favoritesState.some((fav) => fav.name == product.name) ==
           true
             ? `bg-[red]`
