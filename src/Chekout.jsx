@@ -87,16 +87,16 @@ export default function Chekout() {
       </div>
       <div className="chekout flex w-fit gap-3 !mr-[auto] !ml-[auto] !mt-[10px] !mb-[20px] !p-[3px] shadow">
         <div className="grid gap-3 h-fit text-[#eeeeeed1] shadow">
-          <div className="grid !p-[5px] shadow-[0px_0px_2px_0px_black] font-medium rounded-[5px] h-[fit-content]">
-            <h1 className="!-p[3px] !m-[4px] border-b-[1px] border-b-[#eeeeee40] text-[20px]">
+          <div className="grid !p-[5px] text-[#eeeeeed1] shadow-[0px_0px_2px_0px_black] font-medium rounded-[5px] h-[fit-content]">
+            <h1 className="!p-[3px] !m-[4px] border-b-[1px] border-b-[#eeeeee40] text-[21px]">
               Summary
             </h1>
-            <div className="!-p[3px] !m-[4px] border-b-[1px] border-b-[#eeeeee40] grid gap-3">
-              <div className="!mt-[5px] !mb-[5px] flex justify-between items-center gap-30 text-[18px]">
+            <div className="!p-[3px] !m-[4px] border-b-[1px] border-b-[#eeeeee40] grid gap-3 text-[19px] Summary">
+              <div className="!mt-[5px] !mb-[5px] flex justify-between items-center gap-40 SummaryDetails">
                 <p>items ({shoppingCart.length})</p>
                 <p>${calculateTheTotle()}</p>
               </div>
-              <div className="flex justify-between items-center gap-45 text-[18px]">
+              <div className="flex justify-between items-center gap-40 SummaryDetails">
                 <p>Delivery:</p>
                 {shoppingCart.length >= 3 ? (
                   <p className="text-[green]">Free</p>
@@ -104,7 +104,7 @@ export default function Chekout() {
                   <p>$+5.00</p>
                 )}
               </div>
-              <div className="text-[red] !mt-[5px] !mb-[5px] flex justify-between items-center gap-30 text-[18px]">
+              <div className="text-[red] !mt-[5px] !mb-[5px] gap-40 flex justify-between items-center SummaryDetails">
                 <p>Totle:</p>
                 <p>
                   $
@@ -211,7 +211,7 @@ export default function Chekout() {
                 className="flex gap-2 h-fit rounded-[5px] shadow-[0px_0px_2px_0px_black] !p-[3px]"
               >
                 <img src={product.images[0]} className="w-[65px] h-[65px]" />
-                <div className="grid text-[12px]">
+                <div className="grid text-[13px]">
                   <h1 className="font-semibold text-[14px]">{product.name}</h1>
                   <p className="leading-5.0 max-w-[350px] productDescription">
                     {product.description}

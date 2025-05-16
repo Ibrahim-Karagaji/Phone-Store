@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { favoritesProductsContext } from "./FavoritesProductsState";
-import React from "react";
 
 export default function AddToFavoriteElement({ product }) {
   const favorites = useContext(favoritesProductsContext);
