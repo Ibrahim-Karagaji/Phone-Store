@@ -5,9 +5,11 @@ import UserLocation from "./UserLocation";
 import AddCridetCard from "./AddCridetCard";
 
 export default function Chekout() {
-  const getShoppingcartProducts = window.localStorage.getItem("shoppingCart");
-  const shoppingCart = JSON.parse(getShoppingcartProducts);
+  const shoppingCart = JSON.parse(window.localStorage.getItem("shoppingCart"));
   const dialogRef = useRef(null);
+  const locationMassge = useRef(null);
+  const payMassge = useRef(null);
+  const completeOrder = useRef(null);
   const [userLocation, setUserLocation] = useState({
     name: "",
     phoneNumber: "",
@@ -37,13 +39,53 @@ export default function Chekout() {
 
   return (
     <div className=" text-[#eeeeeed1] !p-[4px]">
+      <div
+        ref={locationMassge}
+        className="flex gap-1 fixed top-[92%] min-w-[80px] overflow-hidden left-[-220px] !p-[10px] text-[#eeeeeed1] bg-red-600 rounded-[3px] items-center duration-200"
+      >
+        <svg
+          viewBox="0 0 24 24"
+          focusable="false"
+          className="w-[16px] h-[16px] rounded-[50%] bg-[#eeeeeed1]"
+        >
+          <path
+            className="rounded-[50%]"
+            d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,
+             6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,
+             13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z"
+            fill="red"
+          ></path>
+        </svg>
+        <p className="font-semibold text-[14px]">Select Your location please</p>
+      </div>
+      <div
+        ref={payMassge}
+        className="flex gap-1 fixed top-[84.5%] min-w-[80px] overflow-hidden left-[-280px] !p-[10px] text-[#eeeeeed1] bg-red-600 rounded-[3px] items-center duration-200"
+      >
+        <svg
+          viewBox="0 0 24 24"
+          focusable="false"
+          className="w-[16px] h-[16px] rounded-[50%] bg-[#eeeeeed1]"
+        >
+          <path
+            className="rounded-[50%]"
+            d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,
+             6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,
+             13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z"
+            fill="red"
+          ></path>
+        </svg>
+        <p className="font-semibold text-[14px]">
+          Select Your Payment Method Please
+        </p>
+      </div>
       <div className="flex justify-between items-center shadow bg-[#eeeeeed1] text-[#063447] rounded-[5px] !p-[3px]">
         <h1 className="text-[25px] !p-[3px] font-semibold">Chekout</h1>
         <Link to="/">
           <i className="fa-solid fa-house-user text-[20px] duration-200 hover:-translate-y-1 !p-[3px]"></i>
         </Link>
       </div>
-      <div className="chekout flex w-fit gap-3 !mr-[auto] !ml-[auto] !mt-[5px] !p-[3px] shadow">
+      <div className="chekout flex w-fit gap-3 !mr-[auto] !ml-[auto] !mt-[10px] !mb-[20px] !p-[3px] shadow">
         <div className="grid gap-3 h-fit text-[#eeeeeed1] shadow">
           <div className="grid !p-[5px] shadow-[0px_0px_2px_0px_black] font-medium rounded-[5px] h-[fit-content]">
             <h1 className="!-p[3px] !m-[4px] border-b-[1px] border-b-[#eeeeee40] text-[20px]">
@@ -72,16 +114,31 @@ export default function Chekout() {
                 </p>
               </div>
             </div>
-            <button className="w-full !mt-[3px] !mb-[3px] flex gap-2 items-center justify-center !p-[5px] rounded-[5px] bg-[#eeeeeed1] text-[#063447] duration-300 hover:bg-[#eeeeeeb4] text-[15px]">
+            <button
+              onClick={() => {
+                if (!userLocation.isInfoComplte)
+                  locationMassge.current.style.left = "10px";
+                setTimeout(() => {
+                  locationMassge.current.style.left = "-220px";
+                }, 3000);
+
+                if (payByCardOrCash == "card" && cardInfo.complete == false)
+                  payMassge.current.style.left = "10px";
+                setTimeout(() => {
+                  payMassge.current.style.left = "-280px";
+                }, 3000);
+              }}
+              className="w-full !mt-[3px] !mb-[3px] flex gap-2 items-center justify-center !p-[5px] rounded-[5px] bg-[#eeeeeed1] text-[#063447] duration-300 hover:bg-[#eeeeeeb4] text-[15px]"
+            >
               <i className="fa-solid fa-credit-card"></i>
               <p>COMPLATE</p>
             </button>
           </div>
-          <div className="grid gap-2 h-[280px] overflow-auto">
+          <div className="grid h-fit gap-2 max-h-[280px] overflow-auto">
             {shoppingCart.map((product, index) => (
               <div
                 key={index}
-                className="flex gap-2 rounded-[5px] shadow-[0px_0px_2px_0px_black] !p-[3px]"
+                className="flex gap-2 h-fit rounded-[5px] shadow-[0px_0px_2px_0px_black] !p-[3px]"
               >
                 <img src={product.images[0]} className="w-[65px] h-[65px]" />
                 <div className="grid text-[12px]">
