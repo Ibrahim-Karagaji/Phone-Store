@@ -510,3 +510,10 @@ input[type=number]:focus::-webkit-inner-spin-button {
     gap:40px
   }
 }
+
+.warning-text{
+  display:-webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}

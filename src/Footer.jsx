@@ -45,13 +45,19 @@ export default function Footer() {
         </div>
       </div>
       <div className="text-[14px] leading-[2] flex justify-between border-t-[#eeeeee7a] border-t-[1px] text-[#eeeeeed1]">
-        <p className="flex gap-1">
+        <p className="flex gap-1 warning-text">
           ©2025 <span className="text-[#00b2ff]">Mobile Phone Store</span>
         </p>
         <div className="flex gap-2">
-          <p className="hover:underline hover:text-[#00b2ff]">Terms of Use</p>
-          <p className="hover:underline hover:text-[#00b2ff]">Privacy Policy</p>
-          <p className="hover:underline hover:text-[#00b2ff]">Cookies Policy</p>
+          <p className="hover:underline hover:text-[#00b2ff] warning-text">
+            Terms of Use
+          </p>
+          <p className="hover:underline hover:text-[#00b2ff] warning-text">
+            Privacy Policy
+          </p>
+          <p className="hover:underline hover:text-[#00b2ff] warning-text">
+            Cookies Policy
+          </p>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import { useRef } from "react";
-export default function UserLocation({ dialogRef, userLocation }) {
+export default function UserLocation({ locationRef, userLocation }) {
   const NameInput = useRef();
   const phoneNumberInput = useRef();
   const countryInput = useRef();
@@ -102,7 +102,7 @@ export default function UserLocation({ dialogRef, userLocation }) {
   return (
     <dialog
       className="h-[100%] w-[100%] border-none bg-[#00000066] top-[20px] left-[20px] !p-[2px] rounded-[3px]"
-      ref={dialogRef}
+      ref={locationRef}
     >
       <div className="grid bg-[#eee] text-[#063447] !p-[5px] rounded-[3px] max-w-[800px] !ml-[auto] !mr-[auto] !mt-[50px]">
         <div className="shadow flex justify-between items-center border-b-[1px] border-b-[#063447] !mb-[40px] text-[23px]">
@@ -113,7 +113,7 @@ export default function UserLocation({ dialogRef, userLocation }) {
           <i
             className="fa-solid fa-xmark"
             onClick={() => {
-              dialogRef.current.close();
+              locationRef.current.close();
             }}
           ></i>
         </div>
@@ -133,7 +133,7 @@ export default function UserLocation({ dialogRef, userLocation }) {
                 className="w-full border-b-[1px] border-b-[#063447]"
                 placeholder="The Name"
               />
-              <p className="absolute text-[13px] bottom-[-20px] left-[35px] text-[red] opacity-0 duration-200">
+              <p className="warning-text absolute text-[13px] bottom-[-20px] left-[35px] text-[red] opacity-0 duration-200">
                 the name should consist of 4 litters at least
               </p>
             </div>
@@ -152,7 +152,7 @@ export default function UserLocation({ dialogRef, userLocation }) {
                 className="w-full border-b-[1px] border-b-[#063447]"
                 placeholder="Phone Number"
               />
-              <p className="absolute text-[12px] bottom-[-20px] left-[35px] text-[red] opacity-0 duration-200">
+              <p className="absolute warning-text text-[12px] bottom-[-20px] left-[35px] text-[red] opacity-0 duration-200">
                 Phone number should consist of 10 digits or more
               </p>
             </div>
@@ -172,7 +172,7 @@ export default function UserLocation({ dialogRef, userLocation }) {
                 className="w-full border-b-[1px] border-b-[#063447]"
                 placeholder="Country"
               />
-              <p className="absolute text-[13px] bottom-[-20px] left-[35px] text-[red] opacity-0 duration-200">
+              <p className="absolute warning-text text-[13px] bottom-[-20px] left-[35px] text-[red] opacity-0 duration-200">
                 the counrty should consist of 3 litters at least
               </p>
             </div>
@@ -190,7 +190,7 @@ export default function UserLocation({ dialogRef, userLocation }) {
                 className="w-full border-b-[1px] border-b-[#063447]"
                 placeholder="City"
               />
-              <p className="absolute text-[13px] bottom-[-20px] left-[35px] text-[red] opacity-0 duration-200">
+              <p className="absolute warning-text text-[13px] bottom-[-20px] left-[35px] text-[red] opacity-0 duration-200">
                 the city should consist of 3 litters at least
               </p>
             </div>
@@ -210,7 +210,7 @@ export default function UserLocation({ dialogRef, userLocation }) {
                 className="w-full border-b-[1px] border-b-[#063447]"
                 placeholder="Street Address"
               />
-              <p className="absolute text-[13px] bottom-[-20px] left-[35px] text-[red] opacity-0 duration-200">
+              <p className="absolute warning-text text-[13px] bottom-[-20px] left-[35px] text-[red] opacity-0 duration-200">
                 the addres should consist of 3 litters at least
               </p>
             </div>
@@ -239,7 +239,7 @@ export default function UserLocation({ dialogRef, userLocation }) {
               handleCityInput() == true &&
               handleAdressInput() == true
             ) {
-              dialogRef.current.close();
+              locationRef.current.close();
               clearInputsValue();
               userLocation.setUserLocation((prev) => {
                 return { ...prev, isInfoComplte: true };
