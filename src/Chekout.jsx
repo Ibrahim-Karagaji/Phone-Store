@@ -6,7 +6,7 @@ import AddCridetCard from "./AddCridetCard";
 
 export default function Chekout() {
   const shoppingCart = JSON.parse(window.localStorage.getItem("shoppingCart"));
-  const dialogRef = useRef(null);
+  const locationRef = useRef(null);
   const locationMassge = useRef(null);
   const payMassge = useRef(null);
   const completeOrder = useRef(null);
@@ -127,12 +127,82 @@ export default function Chekout() {
                 setTimeout(() => {
                   payMassge.current.style.left = "-280px";
                 }, 3000);
+
+                if (userLocation.isInfoComplte == true) {
+                  if (cardInfo.complete == true || payByCardOrCash == "cash") {
+                    completeOrder.current.showModal();
+                  }
+                }
               }}
               className="w-full !mt-[3px] !mb-[3px] flex gap-2 items-center justify-center !p-[5px] rounded-[5px] bg-[#eeeeeed1] text-[#063447] duration-300 hover:bg-[#eeeeeeb4] text-[15px]"
             >
               <i className="fa-solid fa-credit-card"></i>
               <p>COMPLATE</p>
             </button>
+            <dialog
+              ref={completeOrder}
+              className="h-[100%] w-[100%] border-none bg-[#00000066] top-[20px] left-[20px] !p-[2px] rounded-[3px]"
+            >
+              <div className="!p-[15px] grid gap-2 rounded-[5px] border-[2px] border-[#063447] outline-1 outline-[#eeeeeed1] bg-[#eeeeeed1] w-fit !ml-[auto] !mr-[auto] !mt-[200px] text-[#063447]">
+                <h1 className="text-start text-[23px]">
+                  Are you sure to continue?
+                </h1>
+                <p className="font-semibold text-[14px]">
+                  You have in your shoppnig cart {shoppingCart.length} products
+                  and they costs ${calculateTheTotle()} dolars
+                </p>
+                <div className="flex justify-end gap-2 !mt-[10px]">
+                  <button
+                    onClick={() => {
+                      completeOrder.current.close();
+                    }}
+                    className="!p-[5px] rounded-[5px] duration-200 hover:bg-[#0633472d]"
+                  >
+                    CANCLE
+                  </button>
+                  <Link to="/">
+                    <button
+                      onClick={() => {
+                        const date = new Date().toLocaleDateString();
+                        if (
+                          window.localStorage.getItem("orderComplete") == null
+                        ) {
+                          const addDateToShoppingCartProducts =
+                            shoppingCart.map((p) => {
+                              return { ...p, dateOrder: date };
+                            });
+                          window.localStorage.setItem(
+                            "orderComplete",
+                            JSON.stringify(addDateToShoppingCartProducts)
+                          );
+                        } else {
+                          const orderComplete = JSON.parse(
+                            window.localStorage.getItem("orderComplete")
+                          );
+                          const addDateToShoppingCartProducts =
+                            shoppingCart.map((p) => {
+                              return { ...p, dateOrder: date };
+                            });
+
+                          const addProductTOorderComplete = [
+                            ...orderComplete,
+                            ...addDateToShoppingCartProducts,
+                          ];
+
+                          window.localStorage.setItem(
+                            "orderComplete",
+                            JSON.stringify(addProductTOorderComplete)
+                          );
+                        }
+                      }}
+                      className="!p-[5px] w-[50px] rounded-[5px] bg-[#063447] text-[#eeeeeed1] shadow"
+                    >
+                      OK
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </dialog>
           </div>
           <div className="grid h-fit gap-2 max-h-[280px] overflow-auto">
             {shoppingCart.map((product, index) => (
@@ -203,7 +273,7 @@ export default function Chekout() {
                   <i className="fa-solid fa-location-dot "></i>
                   <p
                     className="font-normal"
-                    onClick={() => dialogRef.current.showModal()}
+                    onClick={() => locationRef.current.showModal()}
                   >
                     OPEN LOCATION MANEGEMENT
                   </p>
@@ -211,7 +281,7 @@ export default function Chekout() {
               </div>
             )}
             <UserLocation
-              dialogRef={dialogRef}
+              locationRef={locationRef}
               userLocation={{ userLocation, setUserLocation }}
             />
           </div>
