@@ -8,7 +8,7 @@ export default function FiltersCards({ products, index, visabilState }) {
   return (
     <div
       ref={index + 1 == visabilState.productsCounter ? visabilState.ref : null}
-      className="filter-card DisplayPeoducts flex gap-2 text-[#eeeeeed1] shadow-[0px_0px_5px_0px_black] !p-[3px] rounded-[4px] duration-500 hover:shadow-[0px_0px_10px_0px_black] hover:-translate-y-1"
+      className="filter-card DisplayPeoducts w-fit flex gap-2 text-[#eeeeeed1] shadow-[0px_0px_5px_0px_black] !p-[3px] rounded-[4px] duration-500 hover:shadow-[0px_0px_10px_0px_black] hover:-translate-y-1"
       key={index}
     >
       <Link
@@ -25,7 +25,9 @@ export default function FiltersCards({ products, index, visabilState }) {
         </div>
       </Link>
       <div className="grid gap-2">
-        <h1 className="text-[20px] font-normal">{products.name}</h1>
+        <h1 className="text-[20px] font-normal productNameOfFiltersCard">
+          {products.name}
+        </h1>
         <p className="text-[#063447] bg-[#eeeeeed1] rounded-[4px] !p-[5px] min-w-[190px] max-w-[220px]">
           {products.description}
         </p>

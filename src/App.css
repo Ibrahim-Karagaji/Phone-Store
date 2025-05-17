@@ -546,3 +546,21 @@ input[type=number]:focus::-webkit-inner-spin-button {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
 }
+
+.productNameOfFiltersCard{  
+  display:-webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  max-width: 225px;
+}
+
+@media(max-width:550px){
+  .userprofile{
+    display: grid;
+    gap:15px;
+   }
+  .userprofile img{
+    margin: 0px auto;
+  }
+}
