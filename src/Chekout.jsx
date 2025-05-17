@@ -149,7 +149,11 @@ export default function Chekout() {
                 </h1>
                 <p className="font-semibold text-[14px]">
                   You have in your shoppnig cart {shoppingCart.length} products
-                  and they costs ${calculateTheTotle()} dolars
+                  and they costs $
+                  {shoppingCart.length > 3
+                    ? calculateTheTotle()
+                    : calculateTheTotle() + 5}{" "}
+                  dolars
                 </p>
                 <div className="flex justify-end gap-2 !mt-[10px]">
                   <button
