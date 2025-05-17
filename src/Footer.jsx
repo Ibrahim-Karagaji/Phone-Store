@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="rounded-[5px] !m-[5px] !p-[5px] shadow-[0px_0px_3px_0px_black] bg-[#002737]">
+    <div className="rounded-[5px] !mt-[20px] !mr-[10px] !ml-[10px] !p-[10px] shadow-[0px_0px_3px_0px_black] bg-[#002737]">
       <div className="text-[#eeeeeed1]">
         <div className="grid gap-3 justify-center text-center">
           <img
