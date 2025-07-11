@@ -7,7 +7,7 @@ export default function useProducts() {
     error: false,
   });
   useEffect(() => {
-    fetch("http://localhost:7777/phones")
+    fetch("https://ibrahimkara-phones.deno.dev/phones")
       .then((response) => {
         if (response.ok) {
           return response.json();

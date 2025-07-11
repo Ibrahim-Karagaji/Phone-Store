@@ -10,7 +10,7 @@ export default function SearchState({ children }) {
   });
 
   useEffect(() => {
-    fetch("http://localhost:7777/phones")
+    fetch("https://ibrahimkara-phones.deno.dev/phones")
       .then((response) => {
         if (response.ok) return response.json();
         else throw new Error("the response is not good");

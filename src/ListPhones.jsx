@@ -53,7 +53,7 @@ export default function ListPhones() {
 
   useEffect(() => {
     fetch(
-      `http://localhost:7777/phones?brand=${filters.filtersState.brand}&storage=${filters.filtersState.storage}&category=${filters.filtersState.category}&ram=${filters.filtersState.ram}&minPrice=${filters.filtersState.minPrice}&maxPrice=${filters.filtersState.maxPrice}`
+      `https://ibrahimkara-phones.deno.dev/phones?brand=${filters.filtersState.brand}&storage=${filters.filtersState.storage}&category=${filters.filtersState.category}&ram=${filters.filtersState.ram}&minPrice=${filters.filtersState.minPrice}&maxPrice=${filters.filtersState.maxPrice}`
     )
       .then((response) => {
         if (response.ok) return response.json();
